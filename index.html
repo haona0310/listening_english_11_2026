@@ -115,16 +115,34 @@ function markNow(t){
 // ---------- Views ----------
 async function init(){
   try {
-    DATA = await (await fetch('data/videos.json', { cache: 'no-store' })).json();
-  } catch(e) { $('#app').innerHTML = '<div class="card">Không tải được dữ liệu.</div>'; return; }
+    const r = await fetch('data/index.json', { cache: 'no-cache' });
+    if (!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+  } catch(e) { $('#app').innerHTML = '<div class="card">Không tải được danh sách video.</div>'; return; }
   window.addEventListener('hashchange', route); route();
 }
-function route(){
+const videoCache = {};
+async function loadVideo(id){
+  if (!videoCache[id]) {
+    videoCache[id] = fetch(`data/videos/${encodeURIComponent(id)}.json`, { cache: 'no-cache' })
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+      .catch(e => { delete videoCache[id]; throw e; });
+  }
+  return videoCache[id];
+}
+async function route(){
   const m = location.hash.match(/^#v\/([^/]+)(?:\/(\d+))?/);
   clearInterval(ticker); stopAt = null;
-  if (m) {
-    const v = DATA.videos.find(x => x.id === m[1]);
-    if (v) { openVideo(v, m[2] ? +m[2] - 1 : 0); return; }
+  if (m && DATA.videos.some(x => x.id === m[1])) {
+    if (!(state.video && state.video.id === m[1])) $('#app').innerHTML = '<div class="card">Đang tải video…</div>';
+    try {
+      const v = await loadVideo(m[1]);
+      if (location.hash.match(/^#v\/([^/]+)/)?.[1] !== m[1]) return; // người dùng đã chuyển trang
+      openVideo(v, m[2] ? +m[2] - 1 : 0); return;
+    } catch(e) {
+      $('#back').hidden = false;
+      $('#app').innerHTML = '<div class="card">Không tải được video này. Các video khác vẫn dùng bình thường.</div>'; return;
+    }
   }
   state.video = null; player = null; renderLibrary();
 }
@@ -137,9 +155,9 @@ function renderLibrary(){
     if (!vs.length) continue;
     html += `<div class="topic"><h2>${esc(tp.name)}</h2>`;
     for (const v of vs) {
-      const done = Object.keys(p[v.id] || {}).length, n = v.segments.length;
+      const done = Object.keys(p[v.id] || {}).length, n = v.segments;
       const pts = Object.values(p[v.id] || {}).reduce((a, s) => a + s.score, 0);
-      const tot = v.segments.reduce((a, s) => a + s.questions.length, 0);
+      const tot = v.questions;
       html += `<div class="card vrow" onclick="location.hash='#v/${v.id}'">
         <img src="https://i.ytimg.com/vi/${v.youtubeId}/mqdefault.jpg" alt="" loading="lazy">
         <div class="meta"><b>${esc(v.title)}</b>

@@ -1,0 +1,867 @@
+{
+  "id": "break-a-bad-habit-brewer",
+  "topic": "tam-ly-thoi-quen",
+  "youtubeId": "-moW9jvvMr4",
+  "title": "A Simple Way to Break a Bad Habit — Judson Brewer (TED)",
+  "duration": "9:21",
+  "level": "B2",
+  "segments": [
+    {
+      "id": 1,
+      "title": "Vì sao khó tập trung? Vòng lặp phần thưởng",
+      "start": 12.5,
+      "end": 105.0,
+      "lines": [
+        {
+          "t": 12.76,
+          "en": "When I was first learning to meditate, the instruction was to simply pay attention to my breath, and when my mind wandered, to bring it back.",
+          "vi": "Khi tôi mới học thiền, hướng dẫn chỉ là chú ý vào hơi thở, và khi tâm trí lang thang thì kéo nó trở lại."
+        },
+        {
+          "t": 19.7,
+          "en": "Sounded simple enough. Yet I'd sit on these silent retreats, sweating through T-shirts in the middle of winter.",
+          "vi": "Nghe có vẻ đơn giản. Vậy mà tôi ngồi trong những khóa tu im lặng, mồ hôi ướt đẫm áo dù đang giữa mùa đông."
+        },
+        {
+          "t": 29.24,
+          "en": "I'd take naps every chance I got because it was really hard work. Actually, it was exhausting.",
+          "vi": "Có cơ hội là tôi ngủ trưa, vì nó thực sự rất vất vả. Thật ra là kiệt sức."
+        },
+        {
+          "t": 36.56,
+          "en": "The instruction was simple enough, but I was missing something really important.",
+          "vi": "Hướng dẫn thì đơn giản, nhưng tôi đã bỏ lỡ một điều rất quan trọng."
+        },
+        {
+          "t": 39.32,
+          "en": "So why is it so hard to pay attention?",
+          "vi": "Vậy tại sao tập trung lại khó đến thế?"
+        },
+        {
+          "t": 42.08,
+          "en": "Well, studies show that even when we're really trying to pay attention to something — like maybe this talk — at some point, about half of us will drift off into a daydream or have this urge to check our Twitter feed.",
+          "vi": "Nghiên cứu cho thấy ngay cả khi ta cố tập trung vào điều gì, chẳng hạn bài nói này, thì đến một lúc nào đó khoảng một nửa chúng ta sẽ mơ màng hoặc thấy thôi thúc muốn lướt Twitter."
+        },
+        {
+          "t": 55.32,
+          "en": "So what's going on here?",
+          "vi": "Vậy chuyện gì đang xảy ra?"
+        },
+        {
+          "t": 58.04,
+          "en": "It turns out that we're fighting one of the most evolutionarily conserved learning processes currently known in science, one that's conserved back to the most basic nervous systems known to man.",
+          "vi": "Hóa ra ta đang chống lại một trong những quá trình học tập được bảo tồn lâu đời nhất qua tiến hóa mà khoa học biết, tồn tại cả ở những hệ thần kinh đơn giản nhất."
+        },
+        {
+          "t": 69.84,
+          "en": "This reward-based learning process is called positive and negative reinforcement, and basically goes like this.",
+          "vi": "Quá trình học dựa trên phần thưởng này gọi là củng cố tích cực và tiêu cực, đại loại diễn ra như sau."
+        },
+        {
+          "t": 75.16,
+          "en": "We see some food that looks good, our brain says, \"Calories! Survival!\" We eat the food, we taste it — it tastes good.",
+          "vi": "Ta thấy món ăn trông ngon, não nói: \"Calo! Sống còn!\" Ta ăn, nếm thử, và thấy ngon."
+        },
+        {
+          "t": 83.52,
+          "en": "And especially with sugar, our body sends a signal to our brain that says, \"Remember what you're eating and where you found it.\"",
+          "vi": "Đặc biệt với đường, cơ thể gửi tín hiệu lên não: \"Hãy nhớ mình đang ăn gì và tìm thấy nó ở đâu.\""
+        },
+        {
+          "t": 91.28,
+          "en": "We lay down this context-dependent memory and learn to repeat the process next time.",
+          "vi": "Ta tạo ra một ký ức gắn với bối cảnh và học cách lặp lại quá trình đó lần sau."
+        },
+        {
+          "t": 95.44,
+          "en": "See food, eat food, feel good, repeat. Trigger, behavior, reward. Simple, right?",
+          "vi": "Thấy đồ ăn, ăn, thấy dễ chịu, lặp lại. Tác nhân, hành vi, phần thưởng. Đơn giản, đúng không?"
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "How does the speaker describe his early experience with meditation?",
+          "options": [
+            "The instruction was simple, but the practice was hard and exhausting.",
+            "It was so boring that he quit.",
+            "The retreats were too noisy to focus.",
+            "It was relaxing and easy from the start."
+          ],
+          "answer": 0,
+          "explain": "\"Sounded simple enough… it was really hard work. Actually, it was exhausting.\" Đáp án D là bẫy: chỉ có hướng dẫn là nghe đơn giản, còn việc thực hành thì không.",
+          "clue": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "According to studies, how many of us drift off even when we're trying to pay attention?",
+          "options": [
+            "Very few people",
+            "About half of us",
+            "About a quarter of us",
+            "Almost everyone"
+          ],
+          "answer": 1,
+          "explain": "\"At some point, about half of us will drift off into a daydream or have this urge to check our Twitter feed.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "An \"evolutionarily conserved\" learning process is one that…",
+          "options": [
+            "only humans have developed recently",
+            "disappears as we grow older",
+            "is very old and has been kept through evolution, even in basic nervous systems",
+            "is protected by scientists in the lab"
+          ],
+          "answer": 2,
+          "explain": "\"Conserved\" ở đây nghĩa là được giữ lại qua tiến hóa. Câu sau giải thích rõ: \"conserved back to the most basic nervous systems known to man\".",
+          "clue": [
+            7
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "In the food example, what does the body's signal tell the brain?",
+          "options": [
+            "Look for more sugar immediately.",
+            "Remember what you're eating and where you found it.",
+            "Calories are dangerous.",
+            "Stop eating now."
+          ],
+          "answer": 1,
+          "explain": "\"Our body sends a signal to our brain that says, 'Remember what you're eating and where you found it.'\" Đáp án C là bẫy: \"Calories! Survival!\" là câu não nói khi nhìn thấy đồ ăn, mang nghĩa tích cực.",
+          "clue": [
+            10
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What are the three steps of reward-based learning?",
+          "options": [
+            "Trigger, behavior, reward",
+            "Attention, memory, repetition",
+            "Hunger, food, sleep",
+            "Thinking, planning, acting"
+          ],
+          "answer": 0,
+          "explain": "\"Trigger, behavior, reward.\" Câu này được nhắc lại nhiều lần trong bài và là khung chính của cả bài nói.",
+          "clue": [
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Từ đồ ăn đến thuốc lá: thói quen hình thành thế nào",
+      "start": 104.9,
+      "end": 188.3,
+      "lines": [
+        {
+          "t": 104.96,
+          "en": "Well, after a while, our creative brains say, \"You know what? You can use this for more than just remembering where food is.\"",
+          "vi": "Một thời gian sau, bộ não sáng tạo của ta nói: \"Biết gì không? Cái này dùng được cho nhiều việc hơn là nhớ đồ ăn ở đâu.\""
+        },
+        {
+          "t": 113.68,
+          "en": "\"You know, next time you feel bad, why don't you try eating something good so you'll feel better?\"",
+          "vi": "\"Lần tới khi thấy buồn, sao không thử ăn gì đó ngon để thấy dễ chịu hơn?\""
+        },
+        {
+          "t": 120.0,
+          "en": "We thank our brains for the great idea, try this and quickly learn that if we eat chocolate or ice cream when we're mad or sad, we feel better.",
+          "vi": "Ta cảm ơn não vì ý tưởng hay, thử làm và nhanh chóng học được rằng ăn sô-cô-la hay kem khi tức giận hay buồn bã thì thấy dễ chịu hơn."
+        },
+        {
+          "t": 127.76,
+          "en": "Same process, just a different trigger.",
+          "vi": "Cùng một quá trình, chỉ khác tác nhân."
+        },
+        {
+          "t": 130.84,
+          "en": "Instead of this hunger signal coming from our stomach, this emotional signal — feeling sad — triggers that urge to eat.",
+          "vi": "Thay vì tín hiệu đói từ dạ dày, giờ là tín hiệu cảm xúc, cảm giác buồn, kích hoạt thôi thúc muốn ăn."
+        },
+        {
+          "t": 138.08,
+          "en": "Maybe in our teenage years, we were a nerd at school, and we see those rebel kids outside smoking, and we think, \"Hey, I want to be cool.\" So we start smoking.",
+          "vi": "Có thể hồi tuổi teen ta là đứa mọt sách, thấy mấy đứa nổi loạn hút thuốc ngoài sân và nghĩ: \"Mình cũng muốn ngầu.\" Thế là ta bắt đầu hút."
+        },
+        {
+          "t": 148.84,
+          "en": "The Marlboro Man wasn't a dork, and that was no accident.",
+          "vi": "Anh chàng Marlboro (hình quảng cáo thuốc lá) đâu phải kẻ khờ khạo, và đó không phải tình cờ."
+        },
+        {
+          "t": 152.6,
+          "en": "See cool, smoke to be cool, feel good. Repeat. Trigger, behavior, reward.",
+          "vi": "Thấy ngầu, hút để được ngầu, thấy vui. Lặp lại. Tác nhân, hành vi, phần thưởng."
+        },
+        {
+          "t": 160.0,
+          "en": "And each time we do this, we learn to repeat the process, and it becomes a habit.",
+          "vi": "Mỗi lần làm vậy, ta học cách lặp lại quá trình, và nó trở thành thói quen."
+        },
+        {
+          "t": 165.0,
+          "en": "So later, feeling stressed out triggers that urge to smoke a cigarette or to eat something sweet.",
+          "vi": "Nên về sau, cảm giác căng thẳng sẽ kích hoạt thôi thúc hút một điếu thuốc hay ăn gì đó ngọt."
+        },
+        {
+          "t": 172.32,
+          "en": "Now, with these same brain processes, we've gone from learning to survive to literally killing ourselves with these habits.",
+          "vi": "Với cùng những quá trình trong não đó, ta đã đi từ học cách sinh tồn đến tự giết mình bằng chính những thói quen này."
+        },
+        {
+          "t": 180.0,
+          "en": "Obesity and smoking are among the leading preventable causes of morbidity and mortality in the world.",
+          "vi": "Béo phì và hút thuốc nằm trong số những nguyên nhân hàng đầu có thể phòng tránh gây bệnh tật và tử vong trên thế giới."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "\"Same process, just a different trigger.\" What is the different trigger?",
+          "options": [
+            "Advertising on TV",
+            "The sight of sugar",
+            "An emotional signal, like feeling sad",
+            "A hunger signal from the stomach"
+          ],
+          "answer": 2,
+          "explain": "\"Instead of this hunger signal coming from our stomach, this emotional signal — feeling sad — triggers that urge to eat.\" Đáp án D là bẫy: tín hiệu đói là tác nhân cũ mà người nói đem ra so sánh.",
+          "clue": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does he say \"The Marlboro Man wasn't a dork, and that was no accident\"?",
+          "options": [
+            "The Marlboro Man was a famous doctor.",
+            "Nerds at school didn't like smoking.",
+            "The Marlboro Man quit smoking.",
+            "Cigarette ads deliberately made smoking look cool."
+          ],
+          "answer": 3,
+          "explain": "\"No accident\" nghĩa là có chủ đích: quảng cáo cố tình gắn hút thuốc với hình ảnh \"cool\". Ý này khớp với câu \"See cool, smoke to be cool\".",
+          "clue": [
+            5,
+            6,
+            7
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Later in life, what triggers the urge to smoke or eat something sweet?",
+          "options": [
+            "Peer pressure",
+            "Feeling stressed out",
+            "Hunger",
+            "Boredom"
+          ],
+          "answer": 1,
+          "explain": "\"So later, feeling stressed out triggers that urge to smoke a cigarette or to eat something sweet.\" Đáp án A là bẫy: muốn \"ngầu\" trước bạn bè là chuyện hồi tuổi teen, lúc mới bắt đầu hút.",
+          "clue": [
+            9
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Leading preventable causes of morbidity and mortality\" means…",
+          "options": [
+            "main causes of illness and death that could be avoided",
+            "the most expensive medical treatments",
+            "habits that only affect old people",
+            "rare diseases that cannot be cured"
+          ],
+          "answer": 0,
+          "explain": "Morbidity là tỷ lệ mắc bệnh, mortality là tỷ lệ tử vong, preventable là có thể phòng tránh được.",
+          "clue": [
+            11
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Thí nghiệm: hút thuốc trong chánh niệm",
+      "start": 188.0,
+      "end": 265.4,
+      "lines": [
+        {
+          "t": 188.0,
+          "en": "So back to my breath.",
+          "vi": "Quay lại với hơi thở của tôi."
+        },
+        {
+          "t": 189.5,
+          "en": "What if instead of fighting our brains, or trying to force ourselves to pay attention, we instead tapped into this natural reward-based learning process — but added a twist?",
+          "vi": "Sẽ ra sao nếu thay vì chống lại bộ não hay ép mình tập trung, ta tận dụng chính quá trình học dựa trên phần thưởng tự nhiên này, nhưng thêm một chút biến tấu?"
+        },
+        {
+          "t": 200.88,
+          "en": "What if instead we just got really curious about what was happening in our momentary experience?",
+          "vi": "Sẽ ra sao nếu ta thật sự tò mò về những gì đang diễn ra trong trải nghiệm ở từng khoảnh khắc?"
+        },
+        {
+          "t": 206.84,
+          "en": "I'll give you an example. In my lab, we studied whether mindfulness training could help people quit smoking.",
+          "vi": "Tôi lấy ví dụ. Trong phòng thí nghiệm, chúng tôi nghiên cứu xem luyện tập chánh niệm có giúp người ta bỏ thuốc lá không."
+        },
+        {
+          "t": 213.04,
+          "en": "Now, just like trying to force myself to pay attention to my breath, they could try to force themselves to quit smoking.",
+          "vi": "Giống như tôi ép mình chú ý vào hơi thở, họ cũng có thể ép mình bỏ thuốc."
+        },
+        {
+          "t": 219.32,
+          "en": "And the majority of them had tried this before and failed — on average, six times.",
+          "vi": "Và phần lớn họ đã thử trước đó và thất bại, trung bình sáu lần."
+        },
+        {
+          "t": 224.68,
+          "en": "Now, with mindfulness training, we dropped the bit about forcing and instead focused on being curious.",
+          "vi": "Với luyện tập chánh niệm, chúng tôi bỏ phần ép buộc và tập trung vào sự tò mò."
+        },
+        {
+          "t": 231.1,
+          "en": "In fact, we even told them to smoke. What? Yeah, we said, \"Go ahead and smoke, just be really curious about what it's like when you do.\"",
+          "vi": "Thậm chí chúng tôi còn bảo họ cứ hút đi. Gì cơ? Đúng vậy: \"Cứ hút đi, chỉ cần thật tò mò xem cảm giác lúc hút ra sao.\""
+        },
+        {
+          "t": 240.28,
+          "en": "And what did they notice? Well, here's an example from one of our smokers. She said, \"Mindful smoking smells like stinky cheese and tastes like chemicals. Yuck!\"",
+          "vi": "Họ nhận thấy gì? Đây là ví dụ từ một người tham gia. Cô ấy nói: \"Hút thuốc trong chánh niệm có mùi như phô mai thối và vị như hóa chất. Kinh!\""
+        },
+        {
+          "t": 251.56,
+          "en": "Now, she knew cognitively that smoking was bad for her; that's why she joined our program.",
+          "vi": "Về lý trí, cô ấy biết hút thuốc có hại, đó là lý do cô tham gia chương trình."
+        },
+        {
+          "t": 257.08,
+          "en": "What she discovered just by being curiously aware when she smoked was that smoking tastes like… [bleep].",
+          "vi": "Điều cô phát hiện ra chỉ nhờ tò mò quan sát khi hút là: thuốc lá có vị như… (từ thô tục)."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "What is the \"twist\" he suggests adding to the reward-based learning process?",
+          "options": [
+            "Forcing ourselves to focus harder",
+            "Getting really curious about our moment-to-moment experience",
+            "Punishing ourselves for bad habits",
+            "Replacing cigarettes with food"
+          ],
+          "answer": 1,
+          "explain": "\"What if instead we just got really curious about what was happening in our momentary experience?\" Đáp án A chính là cách cũ mà người nói muốn từ bỏ.",
+          "clue": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "On average, how many times had the participants tried to quit and failed?",
+          "options": [
+            "Two times",
+            "Four times",
+            "Six times",
+            "Ten times"
+          ],
+          "answer": 2,
+          "explain": "\"The majority of them had tried this before and failed — on average, six times.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What surprising instruction did the researchers give the smokers?",
+          "options": [
+            "Go ahead and smoke, but be really curious about it.",
+            "Stop smoking immediately.",
+            "Smoke one less cigarette every day.",
+            "Chew gum whenever they want to smoke."
+          ],
+          "answer": 0,
+          "explain": "\"We even told them to smoke… 'Go ahead and smoke, just be really curious about what it's like when you do.'\"",
+          "clue": [
+            7
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How did one participant describe mindful smoking?",
+          "options": [
+            "Sweet like chocolate",
+            "Relaxing and calming",
+            "Like coffee in the morning",
+            "Like stinky cheese and chemicals"
+          ],
+          "answer": 3,
+          "explain": "\"Mindful smoking smells like stinky cheese and tastes like chemicals. Yuck!\"",
+          "clue": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Biết bằng đầu và thấm vào xương: vì sao ý chí thất bại",
+      "start": 265.3,
+      "end": 346.7,
+      "lines": [
+        {
+          "t": 265.44,
+          "en": "Now, she moved from knowledge to wisdom.",
+          "vi": "Cô ấy đã chuyển từ hiểu biết sang thấu hiểu."
+        },
+        {
+          "t": 269.9,
+          "en": "She moved from knowing in her head that smoking was bad for her to knowing it in her bones.",
+          "vi": "Từ chỗ biết trong đầu rằng thuốc lá có hại, cô đã cảm nhận điều đó thấm vào tận xương tủy."
+        },
+        {
+          "t": 276.8,
+          "en": "And the spell of smoking was broken. She started to become disenchanted with her behavior.",
+          "vi": "Và \"bùa mê\" của thuốc lá bị phá vỡ. Cô bắt đầu vỡ mộng với hành vi của chính mình."
+        },
+        {
+          "t": 282.12,
+          "en": "Now, the prefrontal cortex, that youngest part of our brain from an evolutionary perspective, understands on an intellectual level that we shouldn't smoke.",
+          "vi": "Vỏ não trước trán, phần non trẻ nhất của não xét theo tiến hóa, hiểu ở mức lý trí rằng ta không nên hút thuốc."
+        },
+        {
+          "t": 292.0,
+          "en": "And it tries its hardest to help us change our behavior, to help us stop smoking, to help us stop eating that second, that third, that fourth cookie.",
+          "vi": "Nó cố hết sức giúp ta thay đổi hành vi, giúp ta bỏ thuốc, giúp ta dừng lại trước chiếc bánh quy thứ hai, thứ ba, thứ tư."
+        },
+        {
+          "t": 301.96,
+          "en": "We call this cognitive control. We're using cognition to control our behavior.",
+          "vi": "Ta gọi đây là kiểm soát nhận thức: dùng lý trí để kiểm soát hành vi."
+        },
+        {
+          "t": 307.04,
+          "en": "Unfortunately, this is also the first part of our brain that goes offline when we get stressed out, which isn't that helpful.",
+          "vi": "Đáng tiếc, đây cũng là phần não đầu tiên \"ngừng hoạt động\" khi ta căng thẳng, điều chẳng có ích gì."
+        },
+        {
+          "t": 315.28,
+          "en": "Now, we can all relate to this in our own experience. We're much more likely to do things like yell at our spouse or kids when we're stressed out or tired, even though we know it's not going to be helpful. We just can't help ourselves.",
+          "vi": "Ai cũng từng trải qua: khi căng thẳng hay mệt, ta dễ quát vợ chồng con cái hơn, dù biết chẳng ích gì. Ta không kìm được."
+        },
+        {
+          "t": 326.24,
+          "en": "When the prefrontal cortex goes offline, we fall back into our old habits, which is why this disenchantment is so important.",
+          "vi": "Khi vỏ não trước trán ngừng hoạt động, ta rơi lại vào thói quen cũ. Vì thế sự vỡ mộng này rất quan trọng."
+        },
+        {
+          "t": 335.44,
+          "en": "Seeing what we get from our habits helps us understand them at a deeper level — to know it in our bones — so we don't have to force ourselves to hold back or restrain ourselves from behavior. We're just less interested in doing it in the first place.",
+          "vi": "Thấy rõ ta nhận được gì từ thói quen giúp ta hiểu chúng sâu hơn, thấm vào xương tủy, nên không cần ép mình kìm nén. Đơn giản là ta không còn mấy hứng thú làm điều đó nữa."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "What does it mean to move from \"knowing in her head\" to \"knowing it in her bones\"?",
+          "options": [
+            "She forgot why smoking was bad.",
+            "She started to feel physical pain.",
+            "She went from intellectual knowledge to a deep, felt understanding.",
+            "She learned more facts from books."
+          ],
+          "answer": 2,
+          "explain": "\"From knowledge to wisdom\": biết bằng lý trí so với cảm nhận sâu sắc bằng trải nghiệm. \"Know something in your bones\" nghĩa là biết chắc, cảm nhận sâu sắc.",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What is \"cognitive control\"?",
+          "options": [
+            "Letting habits control us",
+            "Using thinking (cognition) to control our behavior",
+            "Controlling other people's behavior",
+            "Using medicine to control cravings"
+          ],
+          "answer": 1,
+          "explain": "\"We call this cognitive control. We're using cognition to control our behavior.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What is the problem with the prefrontal cortex?",
+          "options": [
+            "It creates cravings for sugar.",
+            "It only works when we sleep.",
+            "It is the first part of the brain to go offline when we're stressed.",
+            "It is too young to understand bad habits."
+          ],
+          "answer": 2,
+          "explain": "\"This is also the first part of our brain that goes offline when we get stressed out.\" Đáp án D là bẫy: \"youngest\" chỉ nói về mặt tiến hóa, và vùng này vẫn hiểu là không nên hút thuốc.",
+          "clue": [
+            3,
+            6
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is disenchantment more effective than willpower?",
+          "options": [
+            "We simply become less interested in the behavior, so we don't need to restrain ourselves.",
+            "It makes the prefrontal cortex stronger under stress.",
+            "It helps us force ourselves harder.",
+            "It removes all stress from our lives."
+          ],
+          "answer": 0,
+          "explain": "\"We don't have to force ourselves to hold back… We're just less interested in doing it in the first place.\" Ý chí (cognitive control) sụp khi căng thẳng, còn sự vỡ mộng thì không phụ thuộc vào ý chí.",
+          "clue": [
+            8,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chánh niệm và sự tò mò",
+      "start": 346.6,
+      "end": 438.7,
+      "lines": [
+        {
+          "t": 346.6,
+          "en": "And this is what mindfulness is all about: seeing really clearly what we get when we get caught up in our behaviors, becoming disenchanted on a visceral level, and from this disenchanted stance, naturally letting go.",
+          "vi": "Chánh niệm là như vậy: thấy thật rõ ta nhận được gì khi bị cuốn vào hành vi, vỡ mộng ở tầng cảm nhận sâu, và từ đó buông bỏ một cách tự nhiên."
+        },
+        {
+          "t": 360.0,
+          "en": "This isn't to say that, poof, magically we quit smoking. But over time, as we learn to see more and more clearly the results of our actions, we let go of old habits and form new ones.",
+          "vi": "Không phải \"bùm\" một cái là ta bỏ thuốc như phép màu. Nhưng theo thời gian, khi thấy ngày càng rõ hậu quả của hành động, ta buông bỏ thói quen cũ và hình thành thói quen mới."
+        },
+        {
+          "t": 371.2,
+          "en": "The paradox here is that mindfulness is just about being really interested in getting close and personal with what's actually happening in our bodies and minds from moment to moment.",
+          "vi": "Nghịch lý là chánh niệm chỉ đơn giản là thật sự quan tâm, đến thật gần với những gì đang diễn ra trong cơ thể và tâm trí ở từng khoảnh khắc."
+        },
+        {
+          "t": 382.0,
+          "en": "This willingness to turn toward our experience rather than trying to make unpleasant cravings go away as quickly as possible.",
+          "vi": "Đó là sự sẵn lòng hướng về trải nghiệm của mình, thay vì cố xua cơn thèm khó chịu đi càng nhanh càng tốt."
+        },
+        {
+          "t": 387.2,
+          "en": "And this willingness to turn toward our experience is supported by curiosity, which is naturally rewarding. What does curiosity feel like? It feels good.",
+          "vi": "Sự sẵn lòng đó được nuôi dưỡng bởi sự tò mò, thứ tự nó đã là phần thưởng. Tò mò cảm thấy thế nào? Dễ chịu."
+        },
+        {
+          "t": 398.04,
+          "en": "And what happens when we get curious? We start to notice that cravings are simply made up of body sensations — oh, there's tightness, there's tension, there's restlessness — and that these body sensations come and go.",
+          "vi": "Khi tò mò, chuyện gì xảy ra? Ta bắt đầu nhận ra cơn thèm chỉ là tập hợp các cảm giác cơ thể: căng cứng, căng thẳng, bồn chồn, và chúng đến rồi đi."
+        },
+        {
+          "t": 412.32,
+          "en": "These are bite-sized pieces of experiences that we can manage from moment to moment rather than getting clobbered by this huge, scary craving that we choke on.",
+          "vi": "Đó là những mẩu trải nghiệm nhỏ mà ta xử lý được từng lúc, thay vì bị đè bẹp bởi một cơn thèm khổng lồ, đáng sợ đến nghẹt thở."
+        },
+        {
+          "t": 422.92,
+          "en": "In other words, when we get curious, we step out of our old, fear-based, reactive habit patterns, and we step into being.",
+          "vi": "Nói cách khác, khi tò mò, ta bước ra khỏi những khuôn mẫu thói quen phản ứng theo nỗi sợ, và bước vào trạng thái hiện diện."
+        },
+        {
+          "t": 432.24,
+          "en": "We become this inner scientist where we're eagerly awaiting that next data point.",
+          "vi": "Ta trở thành một nhà khoa học bên trong, háo hức chờ dữ liệu tiếp theo."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Does mindfulness make people quit smoking instantly?",
+          "options": [
+            "Yes, it works like magic.",
+            "Only after six attempts.",
+            "No — over time, as we see the results of our actions more clearly, we let go.",
+            "Only when combined with medicine."
+          ],
+          "answer": 2,
+          "explain": "\"This isn't to say that, poof, magically we quit smoking. But over time…\" Đáp án B là bẫy: sáu lần là số lần người tham gia đã bỏ thuốc thất bại trước đó, ở đoạn 3.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is curiosity so useful for changing habits?",
+          "options": [
+            "It makes cravings disappear immediately.",
+            "It distracts us from our cravings.",
+            "It increases our willpower.",
+            "It is naturally rewarding — it feels good."
+          ],
+          "answer": 3,
+          "explain": "\"Curiosity, which is naturally rewarding… It feels good.\" Tò mò thay thế phần thưởng cũ, nên tận dụng được chính cơ chế phần thưởng của não. Lưu ý đây không phải là đánh lạc hướng (A): người nói bảo phải \"turn toward\", tức là hướng thẳng vào trải nghiệm.",
+          "clue": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "When we get curious, what do we notice cravings are made of?",
+          "options": [
+            "Old memories",
+            "Body sensations like tightness, tension and restlessness",
+            "Signals from other people",
+            "Thoughts about food"
+          ],
+          "answer": 1,
+          "explain": "\"Cravings are simply made up of body sensations — oh, there's tightness, there's tension, there's restlessness.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"We become this inner scientist… eagerly awaiting that next data point.\" This means we…",
+          "options": [
+            "start doing research in a laboratory",
+            "observe our own experience with curiosity, like collecting data",
+            "track our habits in a mobile app",
+            "read scientific articles about addiction"
+          ],
+          "answer": 1,
+          "explain": "Đây là phép ẩn dụ: ta quan sát cảm giác của chính mình một cách khách quan, tò mò như nhà khoa học chờ kết quả, chứ không phản ứng theo nỗi sợ.",
+          "clue": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Bằng chứng khoa học",
+      "start": 438.4,
+      "end": 482.6,
+      "lines": [
+        {
+          "t": 438.56,
+          "en": "Now, this might sound too simplistic to affect behavior.",
+          "vi": "Nghe có vẻ quá đơn giản để thay đổi được hành vi."
+        },
+        {
+          "t": 441.3,
+          "en": "But in one study, we found that mindfulness training was twice as good as gold standard therapy at helping people quit smoking. So it works.",
+          "vi": "Nhưng trong một nghiên cứu, chúng tôi thấy luyện tập chánh niệm hiệu quả gấp đôi liệu pháp tiêu chuẩn vàng trong việc giúp người ta bỏ thuốc. Vậy là nó có tác dụng."
+        },
+        {
+          "t": 450.8,
+          "en": "And when we studied the brains of experienced meditators, we found that parts of a neural network of self-referential processing called the default mode network were at play.",
+          "vi": "Khi nghiên cứu não của những người thiền lâu năm, chúng tôi thấy một số phần của mạng thần kinh xử lý thông tin về bản thân, gọi là mạng mặc định (default mode network), có liên quan."
+        },
+        {
+          "t": 461.36,
+          "en": "Now, one current hypothesis is that a region of this network, called the posterior cingulate cortex, is activated not necessarily by craving itself but when we get caught up in it, when we get sucked in, and it takes us for a ride.",
+          "vi": "Một giả thuyết hiện nay là một vùng của mạng này, vỏ não đai sau, được kích hoạt không hẳn bởi cơn thèm, mà khi ta bị cuốn vào nó, bị hút vào và để nó dắt đi."
+        },
+        {
+          "t": 473.88,
+          "en": "In contrast, when we let go — step out of the process just by being curiously aware of what's happening — this same brain region quiets down.",
+          "vi": "Ngược lại, khi ta buông, bước ra khỏi quá trình chỉ bằng cách tò mò nhận biết điều đang diễn ra, thì chính vùng não đó lắng xuống."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "How did mindfulness training compare with gold standard therapy?",
+          "options": [
+            "About the same",
+            "Half as effective",
+            "Three times as good",
+            "Twice as good"
+          ],
+          "answer": 3,
+          "explain": "\"Mindfulness training was twice as good as gold standard therapy at helping people quit smoking.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "According to the hypothesis, when is the posterior cingulate cortex activated?",
+          "options": [
+            "When we get caught up in the craving and sucked in",
+            "When we are sleeping",
+            "By the craving itself",
+            "When we meditate for a long time"
+          ],
+          "answer": 0,
+          "explain": "\"Activated not necessarily by craving itself but when we get caught up in it.\" Đáp án C là bẫy vì có cụm \"craving itself\", nhưng cụm này nằm trong vế phủ định.",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What happens to that brain region when we're curiously aware?",
+          "options": [
+            "It stops working forever.",
+            "It becomes more active.",
+            "It quiets down.",
+            "It grows bigger."
+          ],
+          "answer": 2,
+          "explain": "\"When we let go… just by being curiously aware of what's happening — this same brain region quiets down.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "A craving that \"takes us for a ride\" is one that…",
+          "options": [
+            "carries us away so we lose control",
+            "helps us travel somewhere new",
+            "makes us feel relaxed",
+            "goes away quickly by itself"
+          ],
+          "answer": 0,
+          "explain": "\"Take someone for a ride\" ở đây nghĩa là cuốn ta đi, dắt mũi ta. Nó đi cùng ý với \"get caught up\" và \"get sucked in\" trong cùng câu.",
+          "clue": [
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Áp dụng vào đời sống: vòng lặp mới",
+      "start": 482.4,
+      "end": 561.0,
+      "lines": [
+        {
+          "t": 482.4,
+          "en": "Now, we're testing app and online-based mindfulness training programs that target these core mechanisms and, ironically, use the same technology that's driving us to distraction to help us step out of our unhealthy habit patterns of smoking, of stress eating and other addictive behaviors.",
+          "vi": "Chúng tôi đang thử nghiệm các chương trình luyện chánh niệm qua ứng dụng và trực tuyến nhắm vào những cơ chế cốt lõi này. Trớ trêu thay, chúng dùng chính công nghệ đang khiến ta xao nhãng để giúp ta thoát khỏi thói quen hút thuốc, ăn vì căng thẳng và các hành vi gây nghiện khác."
+        },
+        {
+          "t": 502.7,
+          "en": "Now, remember that bit about context-dependent memory? We can deliver these tools to people's fingertips in the contexts that matter most.",
+          "vi": "Còn nhớ chuyện ký ức gắn với bối cảnh chứ? Chúng tôi có thể đưa những công cụ này đến tận tay mọi người trong đúng những bối cảnh quan trọng nhất."
+        },
+        {
+          "t": 509.9,
+          "en": "So we can help them tap into their inherent capacity to be curiously aware right when that urge to smoke or stress eat or whatever arises.",
+          "vi": "Nhờ vậy giúp họ khai thác khả năng vốn có là tò mò nhận biết, ngay đúng lúc thôi thúc hút thuốc hay ăn vì căng thẳng trỗi dậy."
+        },
+        {
+          "t": 520.0,
+          "en": "So if you don't smoke or stress eat, maybe the next time you feel this urge to check your email when you're bored, or you're trying to distract yourself from work, or maybe to compulsively respond to that text message when you're driving, see if you can tap into this natural capacity.",
+          "vi": "Nếu bạn không hút thuốc hay ăn vì căng thẳng, thì lần tới khi thấy thôi thúc kiểm tra email lúc chán, lúc muốn trốn việc, hay muốn trả lời tin nhắn khi đang lái xe, hãy thử dùng khả năng tự nhiên này."
+        },
+        {
+          "t": 534.9,
+          "en": "Just be curiously aware of what's happening in your body and mind in that moment.",
+          "vi": "Chỉ cần tò mò nhận biết điều đang diễn ra trong cơ thể và tâm trí bạn lúc đó."
+        },
+        {
+          "t": 538.3,
+          "en": "It will either be another chance to perpetuate one of our endless and exhaustive habit loops, or step out of it.",
+          "vi": "Đó sẽ hoặc là thêm một lần duy trì vòng lặp thói quen bất tận và mệt mỏi, hoặc là cơ hội để bước ra khỏi nó."
+        },
+        {
+          "t": 545.2,
+          "en": "Instead of see text message, compulsively text back, feel a little bit better — notice the urge, get curious, feel the joy of letting go, and repeat.",
+          "vi": "Thay vì thấy tin nhắn, trả lời ngay theo phản xạ, thấy dễ chịu hơn một chút, thì hãy nhận ra thôi thúc, tò mò, cảm nhận niềm vui khi buông bỏ, và lặp lại."
+        },
+        {
+          "t": 557.0,
+          "en": "Thank you.",
+          "vi": "Xin cảm ơn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Suy luận",
+          "q": "Why does he say the apps \"ironically\" help us?",
+          "options": [
+            "Because they use the same technology that distracts us to help us break habits.",
+            "Because the apps are very expensive.",
+            "Because nobody uses mindfulness apps.",
+            "Because the apps were designed for smokers only."
+          ],
+          "answer": 0,
+          "explain": "\"Ironically, use the same technology that's driving us to distraction to help us step out of our unhealthy habit patterns.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Why is it useful to deliver these tools through phones?",
+          "options": [
+            "People trust phones more than doctors.",
+            "Phones can block cigarettes.",
+            "Phones are cheaper than therapists.",
+            "They reach people in the contexts that matter, right when the urge arises."
+          ],
+          "answer": 3,
+          "explain": "Người nói quay lại ý \"context-dependent memory\": thói quen gắn với bối cảnh, nên công cụ cần có mặt \"right when that urge… arises\".",
+          "clue": [
+            1,
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which examples does he give for people who don't smoke?",
+          "options": [
+            "Shopping online",
+            "Drinking coffee and eating fast food",
+            "Watching TV late at night",
+            "Checking email when bored and texting while driving"
+          ],
+          "answer": 3,
+          "explain": "\"The urge to check your email when you're bored… or to compulsively respond to that text message when you're driving.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What new loop does he suggest at the end?",
+          "options": [
+            "Force yourself to focus, take a nap, repeat",
+            "See text message, text back, feel a little better",
+            "Feel stressed, eat something sweet, repeat",
+            "Notice the urge, get curious, feel the joy of letting go, repeat"
+          ],
+          "answer": 3,
+          "explain": "Đáp án B là bẫy: đó chính là vòng lặp cũ (\"instead of…\"). Vòng lặp mới là: \"notice the urge, get curious, feel the joy of letting go, and repeat\".",
+          "clue": [
+            6
+          ]
+        }
+      ]
+    }
+  ]
+}
