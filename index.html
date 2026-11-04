@@ -90,20 +90,39 @@ function mountPlayer(){
   player = new YT.Player('yt', {
     videoId: state.video.youtubeId,
     playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0, modestbranding: 1, iv_load_policy: 3 },
-    events: { onReady: () => player.setPlaybackRate(state.rate) }
+    events: {
+      onReady: () => {
+        player.setPlaybackRate(state.rate);
+        if (pendingPlay) { const p = pendingPlay; pendingPlay = null; playRange(p[0], p[1]); }
+      },
+      onStateChange: e => {
+        // Phát bằng bất kỳ cách nào (kể cả nút play của YouTube): nếu đang ở trong đoạn hiện tại thì tự dừng ở cuối đoạn
+        if (e.data === YT.PlayerState.PLAYING) {
+          if (stopAt == null && state.video) {
+            const s = curSeg(), t = player.getCurrentTime();
+            if (t >= s.start - 1 && t < s.end - 0.3) stopAt = s.end;
+          }
+          startTicker();
+        }
+      }
+    }
   });
 }
-function playRange(from, to){
-  if (!player || !player.seekTo) return;
-  stopAt = to;
-  player.seekTo(from, true); player.playVideo();
+let pendingPlay = null;
+function startTicker(){
   clearInterval(ticker);
   ticker = setInterval(() => {
-    if (!player.getCurrentTime) return;
+    if (!player || !player.getCurrentTime) return;
     const t = player.getCurrentTime();
     if (stopAt != null && t >= stopAt) { player.pauseVideo(); stopAt = null; }
     markNow(t);
   }, 200);
+}
+function playRange(from, to){
+  if (!player || !player.seekTo) { pendingPlay = [from, to]; return; } // player chưa sẵn sàng: phát ngay khi sẵn sàng
+  stopAt = to;
+  player.seekTo(from, true); player.playVideo();
+  startTicker();
 }
 function markNow(t){
   document.querySelectorAll('.tr .ln').forEach(el => {
@@ -186,7 +205,7 @@ function openVideo(v, segIdx){
       </div>
       <div class="tabs" id="tabs"></div>
       <div id="seg"></div>`;
-    player = null; mountPlayer();
+    player = null; pendingPlay = null; mountPlayer();
     $('#bPlay').onclick = () => { const s = curSeg(); playRange(s.start, s.end); };
     $('#bBack').onclick = () => { if (player && player.getCurrentTime) { const s = curSeg(); playRange(Math.max(s.start, player.getCurrentTime() - 5), s.end); } };
     $('#bPause').onclick = () => { if (player && player.pauseVideo) { player.pauseVideo(); stopAt = null; } };
