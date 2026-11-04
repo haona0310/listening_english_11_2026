@@ -4,7 +4,7 @@
   "youtubeId": "ZL6MrXlgZx4",
   "title": "Stop Watching Videos About How to Learn",
   "duration": "6:31",
-  "level": "B1–B2",
+  "level": "B",
   "segments": [
     {
       "id": 1,
@@ -666,5 +666,10 @@
         }
       ]
     }
-  ]
+  ],
+  "levelStats": {
+    "wpm": 182,
+    "rarePct": 3.9,
+    "avgSent": 14.2
+  }
 }

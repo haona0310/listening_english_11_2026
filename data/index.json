@@ -16,9 +16,14 @@
       "youtubeId": "ZL6MrXlgZx4",
       "title": "Stop Watching Videos About How to Learn",
       "duration": "6:31",
-      "level": "B1–B2",
+      "level": "B",
       "segments": 5,
-      "questions": 21
+      "questions": 21,
+      "levelStats": {
+        "wpm": 182,
+        "rarePct": 3.9,
+        "avgSent": 14.2
+      }
     },
     {
       "id": "break-a-bad-habit-brewer",
@@ -26,9 +31,14 @@
       "youtubeId": "-moW9jvvMr4",
       "title": "A Simple Way to Break a Bad Habit — Judson Brewer (TED)",
       "duration": "9:21",
-      "level": "B2",
+      "level": "B",
       "segments": 7,
-      "questions": 29
+      "questions": 29,
+      "levelStats": {
+        "wpm": 164,
+        "rarePct": 8.7,
+        "avgSent": 15.8
+      }
     }
   ]
 }

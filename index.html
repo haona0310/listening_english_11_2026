@@ -54,6 +54,13 @@ button:disabled{opacity:.45;cursor:default}
 .tr .vi{color:var(--mute);font-size:14px}
 .tr.novi .vi{display:none}
 .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.lvbar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.lvbar button{padding:7px 14px;font-size:14px}
+.lvbar button.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+.lvbar button span{opacity:.7;font-size:12px;margin-left:4px}
+.lvhint{font-size:13px;color:var(--mute);margin:0 0 4px}
+.badge{display:inline-block;min-width:22px;text-align:center;font-size:12px;font-weight:700;border-radius:6px;padding:1px 6px;margin-right:6px;vertical-align:1px;color:#fff}
+.badge.A{background:#1e8a4c}.badge.B{background:#c27a12}.badge.C{background:#c23b3b}
 .spacer{flex:1}
 @media (max-width:560px){.vrow img{width:110px}.wrap{padding:12px}}
 </style>
@@ -168,9 +175,16 @@ async function route(){
 function renderLibrary(){
   $('#back').hidden = true; $('#h1').textContent = 'Luyện nghe YouTube';
   const p = store.get();
-  let html = '';
+  const LV = { A: 'Cơ bản', B: 'Trung cấp', C: 'Nâng cao' };
+  const cnt = l => DATA.videos.filter(v => !l || v.level === l).length;
+  const cur = getLevel();
+  let html = `<div class="lvbar">${[['', 'Tất cả'], ['A', 'A · ' + LV.A], ['B', 'B · ' + LV.B], ['C', 'C · ' + LV.C]]
+    .map(([k, n]) => `<button class="${cur === k ? 'on' : ''}" onclick="setLevel('${k}')">${n}<span>${cnt(k)}</span></button>`).join('')}</div>
+    <p class="lvhint">Trình độ tương đối, chấm theo tốc độ nói, độ hiếm của từ vựng và độ dài câu.</p>`;
+  let shown = 0;
   for (const tp of DATA.topics) {
-    const vs = DATA.videos.filter(v => v.topic === tp.id);
+    const vs = DATA.videos.filter(v => v.topic === tp.id && (!cur || v.level === cur));
+    shown += vs.length;
     if (!vs.length) continue;
     html += `<div class="topic"><h2>${esc(tp.name)}</h2>`;
     for (const v of vs) {
@@ -179,15 +193,18 @@ function renderLibrary(){
       const tot = v.questions;
       html += `<div class="card vrow" onclick="location.hash='#v/${v.id}'">
         <img src="https://i.ytimg.com/vi/${v.youtubeId}/mqdefault.jpg" alt="" loading="lazy">
-        <div class="meta"><b>${esc(v.title)}</b>
-        <div class="small">${esc(v.duration || '')} · ${n} đoạn · ${esc(v.level || '')}</div>
+        <div class="meta"><b>${v.level ? `<span class="badge ${esc(v.level)}">${esc(v.level)}</span>` : ''}${esc(v.title)}</b>
+        <div class="small">${esc(v.duration || '')} · ${n} đoạn${v.levelStats ? ` · ${v.levelStats.wpm} từ/phút` : ''}</div>
         <div class="small">Đã làm ${done}/${n} đoạn${done ? ` · ${pts}/${tot} câu đúng` : ''}</div>
         <div class="bar"><i style="width:${n ? done / n * 100 : 0}%"></i></div></div></div>`;
     }
     html += '</div>';
   }
-  $('#app').innerHTML = html || '<div class="card">Chưa có video.</div>';
+  if (!shown) html += `<div class="card">Chưa có video ở trình độ ${esc(cur)}. Chọn mức khác hoặc "Tất cả".</div>`;
+  $('#app').innerHTML = html;
 }
+function getLevel(){ try { return localStorage.getItem('ytl-level') || ''; } catch(e){ return ''; } }
+window.setLevel = l => { try { localStorage.setItem('ytl-level', l); } catch(e){} renderLibrary(); };
 function openVideo(v, segIdx){
   const same = state.video && state.video.id === v.id;
   state.video = v; state.seg = Math.min(segIdx, v.segments.length - 1);
