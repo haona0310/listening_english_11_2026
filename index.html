@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luyện nghe YouTube</title>
+<style>
+:root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--mute:#6b6b70;--line:#e4e2dc;--acc:#2f5bd3;--acc-soft:#e8eefc;--ok:#1e8a4c;--ok-soft:#e3f4ea;--bad:#c23b3b;--bad-soft:#fbe7e7;--mark:#fff1b8}
+@media (prefers-color-scheme:dark){:root{--bg:#141416;--card:#1e1e21;--ink:#ececef;--mute:#9a9aa2;--line:#2e2e33;--acc:#7c9cff;--acc-soft:#22294a;--ok:#4fc483;--ok-soft:#173226;--bad:#f07b7b;--bad-soft:#3a1d1d;--mark:#4a3f12}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:16px}
+header{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+header h1{font-size:20px;margin:0;flex:1}
+button{font:inherit;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 14px}
+button.pri{background:var(--acc);color:#fff;border-color:var(--acc)}
+button:disabled{opacity:.45;cursor:default}
+.opt:disabled{opacity:1}
+.back{padding:6px 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-bottom:14px}
+.topic h2{font-size:15px;color:var(--mute);text-transform:uppercase;letter-spacing:.04em;margin:18px 0 8px}
+.vrow{display:flex;gap:14px;align-items:center;cursor:pointer}
+.vrow img{width:140px;aspect-ratio:16/9;object-fit:cover;border-radius:8px;flex:none;background:var(--line)}
+.vrow .meta{flex:1;min-width:0}
+.vrow b{display:block}
+.small{font-size:13px;color:var(--mute)}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden;margin-top:8px}
+.bar i{display:block;height:100%;background:var(--ok)}
+.player{position:relative;aspect-ratio:16/9;background:#000;border-radius:12px;overflow:hidden}
+.player #yt,.player iframe{position:absolute;inset:0;width:100%;height:100%}
+.cover{position:absolute;inset:0;background:#111;color:#bbb;display:none;align-items:center;justify-content:center;font-size:15px;text-align:center;padding:20px}
+.cover.on{display:flex}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;margin-bottom:12px}
+.tabs button{flex:none;padding:6px 12px;font-size:14px}
+.tabs button.on{background:var(--acc-soft);border-color:var(--acc);color:var(--acc);font-weight:600}
+.tabs .done::after{content:" ✓";color:var(--ok)}
+.seg-title{font-size:18px;margin:0 0 4px}
+.q{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
+.q .type{font-size:12px;font-weight:600;color:var(--acc);text-transform:uppercase;letter-spacing:.04em}
+.q p{margin:4px 0 10px;font-weight:600}
+.opt{display:block;width:100%;text-align:left;margin:6px 0;padding:10px 12px}
+.opt.sel{border-color:var(--acc);background:var(--acc-soft)}
+.opt.ok{border-color:var(--ok);background:var(--ok-soft)}
+.opt.bad{border-color:var(--bad);background:var(--bad-soft)}
+.exp{margin-top:8px;font-size:14px;background:var(--bg);border-radius:10px;padding:10px 12px}
+.exp .cl{color:var(--acc);text-decoration:underline;cursor:pointer}
+.score{font-size:18px;font-weight:700}
+.tr .ln{padding:8px 10px;border-radius:8px;cursor:pointer;display:flex;gap:10px}
+.tr .ln:hover{background:var(--bg)}
+.tr .ln.hl{background:var(--mark)}
+.tr .ln.now{outline:2px solid var(--acc)}
+.tr .ts{font-size:12px;color:var(--mute);font-variant-numeric:tabular-nums;flex:none;padding-top:3px}
+.tr .vi{color:var(--mute);font-size:14px}
+.tr.novi .vi{display:none}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.spacer{flex:1}
+@media (max-width:560px){.vrow img{width:110px}.wrap{padding:12px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><button class="back" id="back" hidden>←</button><h1 id="h1">Luyện nghe YouTube</h1></header>
+  <div id="app"></div>
+</div>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt = t => { t = Math.max(0, Math.floor(t)); return Math.floor(t/60) + ':' + String(t%60).padStart(2,'0'); };
+let DATA, player, ytReady = false, stopAt = null, ticker = null;
+let state = { video: null, seg: 0, answers: {}, submitted: false, showTr: false, showVi: true, cover: false, rate: 1 };
+
+const store = {
+  get(){ try { return JSON.parse(localStorage.getItem('ytl-progress') || '{}'); } catch(e){ return {}; } },
+  set(v){ try { localStorage.setItem('ytl-progress', JSON.stringify(v)); } catch(e){} }
+};
+function saveScore(vid, segId, score, total){
+  const p = store.get(); p[vid] = p[vid] || {};
+  const prev = p[vid][segId];
+  if (!prev || score >= prev.score) p[vid][segId] = { score, total };
+  store.set(p);
+}
+
+// ---------- YouTube ----------
+window.onYouTubeIframeAPIReady = () => { ytReady = true; if (state.video) mountPlayer(); };
+(function(){ const s = document.createElement('script'); s.src = 'https://www.youtube.com/iframe_api'; document.head.appendChild(s); })();
+
+function mountPlayer(){
+  if (!ytReady || !document.getElementById('yt')) return;
+  player = new YT.Player('yt', {
+    videoId: state.video.youtubeId,
+    playerVars: { playsinline: 1, rel: 0, cc_load_policy: 0, modestbranding: 1, iv_load_policy: 3 },
+    events: { onReady: () => player.setPlaybackRate(state.rate) }
+  });
+}
+function playRange(from, to){
+  if (!player || !player.seekTo) return;
+  stopAt = to;
+  player.seekTo(from, true); player.playVideo();
+  clearInterval(ticker);
+  ticker = setInterval(() => {
+    if (!player.getCurrentTime) return;
+    const t = player.getCurrentTime();
+    if (stopAt != null && t >= stopAt) { player.pauseVideo(); stopAt = null; }
+    markNow(t);
+  }, 200);
+}
+function markNow(t){
+  document.querySelectorAll('.tr .ln').forEach(el => {
+    const a = +el.dataset.t, b = +el.dataset.e;
+    el.classList.toggle('now', t >= a && t < b);
+  });
+}
+
+// ---------- Views ----------
+async function init(){
+  try {
+    DATA = await (await fetch('data/videos.json', { cache: 'no-store' })).json();
+  } catch(e) { $('#app').innerHTML = '<div class="card">Không tải được dữ liệu.</div>'; return; }
+  window.addEventListener('hashchange', route); route();
+}
+function route(){
+  const m = location.hash.match(/^#v\/([^/]+)(?:\/(\d+))?/);
+  clearInterval(ticker); stopAt = null;
+  if (m) {
+    const v = DATA.videos.find(x => x.id === m[1]);
+    if (v) { openVideo(v, m[2] ? +m[2] - 1 : 0); return; }
+  }
+  state.video = null; player = null; renderLibrary();
+}
+function renderLibrary(){
+  $('#back').hidden = true; $('#h1').textContent = 'Luyện nghe YouTube';
+  const p = store.get();
+  let html = '';
+  for (const tp of DATA.topics) {
+    const vs = DATA.videos.filter(v => v.topic === tp.id);
+    if (!vs.length) continue;
+    html += `<div class="topic"><h2>${esc(tp.name)}</h2>`;
+    for (const v of vs) {
+      const done = Object.keys(p[v.id] || {}).length, n = v.segments.length;
+      const pts = Object.values(p[v.id] || {}).reduce((a, s) => a + s.score, 0);
+      const tot = v.segments.reduce((a, s) => a + s.questions.length, 0);
+      html += `<div class="card vrow" onclick="location.hash='#v/${v.id}'">
+        <img src="https://i.ytimg.com/vi/${v.youtubeId}/mqdefault.jpg" alt="" loading="lazy">
+        <div class="meta"><b>${esc(v.title)}</b>
+        <div class="small">${esc(v.duration || '')} · ${n} đoạn · ${esc(v.level || '')}</div>
+        <div class="small">Đã làm ${done}/${n} đoạn${done ? ` · ${pts}/${tot} câu đúng` : ''}</div>
+        <div class="bar"><i style="width:${n ? done / n * 100 : 0}%"></i></div></div></div>`;
+    }
+    html += '</div>';
+  }
+  $('#app').innerHTML = html || '<div class="card">Chưa có video.</div>';
+}
+function openVideo(v, segIdx){
+  const same = state.video && state.video.id === v.id;
+  state.video = v; state.seg = Math.min(segIdx, v.segments.length - 1);
+  state.answers = {}; state.submitted = false; state.showTr = false;
+  $('#back').hidden = false; $('#h1').textContent = v.title;
+  if (!same || !document.getElementById('yt')) {
+    $('#app').innerHTML = `
+      <div class="player"><div id="yt"></div><div class="cover" id="cover">Đang ẩn hình — chỉ nghe.<br>Bấm "Hiện hình" để xem lại.</div></div>
+      <div class="controls">
+        <button class="pri" id="bPlay">▶ Nghe đoạn này</button>
+        <button id="bBack">⟲ Lùi 5s</button>
+        <button id="bPause">❚❚ Dừng</button>
+        <button id="bRate">Tốc độ ${state.rate}x</button>
+        <button id="bCover">${state.cover ? 'Hiện hình' : 'Ẩn hình'}</button>
+      </div>
+      <div class="tabs" id="tabs"></div>
+      <div id="seg"></div>`;
+    player = null; mountPlayer();
+    $('#bPlay').onclick = () => { const s = curSeg(); playRange(s.start, s.end); };
+    $('#bBack').onclick = () => { if (player && player.getCurrentTime) { const s = curSeg(); playRange(Math.max(s.start, player.getCurrentTime() - 5), s.end); } };
+    $('#bPause').onclick = () => { if (player && player.pauseVideo) { player.pauseVideo(); stopAt = null; } };
+    $('#bRate').onclick = e => { const r = [1, 0.75, 0.9]; state.rate = r[(r.indexOf(state.rate) + 1) % r.length]; e.target.textContent = `Tốc độ ${state.rate}x`; if (player && player.setPlaybackRate) player.setPlaybackRate(state.rate); };
+    $('#bCover').onclick = e => { state.cover = !state.cover; $('#cover').classList.toggle('on', state.cover); e.target.textContent = state.cover ? 'Hiện hình' : 'Ẩn hình'; };
+    $('#cover').classList.toggle('on', state.cover);
+  } else if (player && player.pauseVideo) player.pauseVideo();
+  renderSeg();
+}
+const curSeg = () => state.video.segments[state.seg];
+function renderTabs(){
+  const p = store.get()[state.video.id] || {};
+  $('#tabs').innerHTML = state.video.segments.map((s, i) =>
+    `<button class="${i === state.seg ? 'on' : ''} ${p[s.id] ? 'done' : ''}" onclick="location.hash='#v/${state.video.id}/${i + 1}'">Đoạn ${i + 1}</button>`).join('');
+}
+function renderSeg(){
+  renderTabs();
+  const s = curSeg(), sub = state.submitted;
+  const clueSet = new Set();
+  let correct = 0;
+  const qs = s.questions.map((q, qi) => {
+    const a = state.answers[qi];
+    if (sub && a === q.answer) correct++;
+    if (sub) q.clue.forEach(c => clueSet.add(c));
+    const opts = q.options.map((o, oi) => {
+      let cls = 'opt';
+      if (sub) { if (oi === q.answer) cls += ' ok'; else if (oi === a) cls += ' bad'; }
+      else if (oi === a) cls += ' sel';
+      return `<button class="${cls}" ${sub ? 'disabled' : ''} onclick="pick(${qi},${oi})">${'ABCD'[oi]}. ${esc(o)}</button>`;
+    }).join('');
+    const clues = q.clue.map(c => `<span class="cl" onclick="playLine(${c})">${fmt(s.lines[c].t)}</span>`).join(', ');
+    return `<div class="q"><div class="type">Câu ${qi + 1} · ${esc(q.type)}</div><p>${esc(q.q)}</p>${opts}
+      ${sub ? `<div class="exp">${a === q.answer ? '✅ Đúng.' : a == null ? '⚪ Chưa chọn.' : '❌ Sai.'} ${esc(q.explain)}<br><span class="small">Manh mối: ${clues}</span></div>` : ''}</div>`;
+  }).join('');
+  const answered = Object.keys(state.answers).length;
+  const lines = s.lines.map((l, i) => {
+    const e = i + 1 < s.lines.length ? s.lines[i + 1].t : s.end;
+    return `<div class="ln ${clueSet.has(i) ? 'hl' : ''}" data-t="${l.t}" data-e="${e}" onclick="playLine(${i})">
+      <span class="ts">${fmt(l.t)}</span><div><div>${esc(l.en)}</div><div class="vi">${esc(l.vi)}</div></div></div>`;
+  }).join('');
+  $('#seg').innerHTML = `
+    <div class="card">
+      <h2 class="seg-title">Đoạn ${state.seg + 1}: ${esc(s.title)}</h2>
+      <div class="small">${fmt(s.start)} – ${fmt(s.end)} · Nghe trước, rồi trả lời. Transcript mở sau khi nộp bài.</div>
+      ${qs}
+      <div class="row" style="margin-top:14px">
+        ${sub ? `<span class="score">${correct}/${s.questions.length} đúng</span><span class="spacer"></span>
+                 <button onclick="retry()">Làm lại</button>
+                 ${state.seg + 1 < state.video.segments.length ? `<button class="pri" onclick="location.hash='#v/${state.video.id}/${state.seg + 2}'">Đoạn tiếp →</button>` : ''}`
+              : `<span class="small">Đã chọn ${answered}/${s.questions.length}</span><span class="spacer"></span>
+                 <button class="pri" ${answered ? '' : 'disabled'} onclick="submit()">Nộp bài</button>`}
+      </div>
+    </div>
+    <div class="card">
+      <div class="row"><b>Transcript</b><span class="spacer"></span>
+        ${state.showTr || sub ? `<button onclick="toggleVi()">${state.showVi ? 'Ẩn' : 'Hiện'} tiếng Việt</button>` : `<button onclick="showTr()">Xem trước (gợi ý)</button>`}
+      </div>
+      ${state.showTr || sub ? `<div class="tr ${state.showVi ? '' : 'novi'}" style="margin-top:10px">${lines}</div>` : `<div class="small" style="margin-top:6px">Đang ẩn để bạn luyện nghe.</div>`}
+    </div>`;
+  if (sub) saveScore(state.video.id, s.id, correct, s.questions.length), renderTabs();
+}
+window.pick = (qi, oi) => { state.answers[qi] = oi; renderSeg(); };
+window.submit = () => { state.submitted = true; renderSeg(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
+window.retry = () => { state.answers = {}; state.submitted = false; state.showTr = false; renderSeg(); };
+window.showTr = () => { state.showTr = true; renderSeg(); };
+window.toggleVi = () => { state.showVi = !state.showVi; renderSeg(); };
+window.playLine = i => { const s = curSeg(); const e = i + 1 < s.lines.length ? s.lines[i + 1].t : s.end; playRange(s.lines[i].t, e + 0.3); };
+$('#back').onclick = () => { location.hash = ''; };
+init();
+</script>
+</body>
+</html>

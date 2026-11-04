@@ -1,0 +1,372 @@
+{
+  "topics": [
+    { "id": "hoc-tap", "name": "Học tập & Tập trung" }
+  ],
+  "videos": [
+    {
+      "id": "stop-watching-how-to-learn",
+      "topic": "hoc-tap",
+      "youtubeId": "ZL6MrXlgZx4",
+      "title": "Stop Watching Videos About How to Learn",
+      "duration": "6:31",
+      "level": "B1–B2",
+      "segments": [
+        {
+          "id": 1,
+          "title": "Thông tin \"second-hand\" và thói quen lưu mà không làm",
+          "start": 0,
+          "end": 82,
+          "lines": [
+            { "t": 0, "en": "Think about it. Nowadays, we have quick access to everything, to all kinds of different knowledge.", "vi": "Hãy nghĩ xem. Ngày nay chúng ta tiếp cận mọi thứ rất nhanh, đủ loại kiến thức khác nhau." },
+            { "t": 5.5, "en": "Everybody has access to everything, everywhere, even the most professional sources for any skills, right?", "vi": "Ai cũng tiếp cận được mọi thứ, ở mọi nơi, kể cả những nguồn chuyên nghiệp nhất cho bất kỳ kỹ năng nào, đúng không?" },
+            { "t": 10.5, "en": "But somehow, it's getting harder for us to teach ourselves something, actually learn something, and focus on something, or we say get our attention back, right?", "vi": "Nhưng không hiểu sao, việc tự học, thực sự học được điều gì đó và tập trung vào điều gì đó, hay nói cách khác là lấy lại sự chú ý, lại ngày càng khó hơn." },
+            { "t": 19.8, "en": "Last week, I just watched a video by one of my favorite vloggers, and she said, \"We're not lacking methodologies. What we lack is the courage to actually get our hands dirty.\"", "vi": "Tuần trước mình xem video của một vlogger mình thích, cô ấy nói: \"Chúng ta không thiếu phương pháp. Thứ ta thiếu là can đảm để thực sự bắt tay vào làm.\"" },
+            { "t": 29.0, "en": "I totally agree with that.", "vi": "Mình hoàn toàn đồng ý." },
+            { "t": 30.5, "en": "Now you can see a lot of different people doing summaries of other people's videos, and then people will let AI off the platform to help them summarize the video again, again, and again.", "vi": "Giờ bạn thấy rất nhiều người làm video tóm tắt video của người khác, rồi người ta lại nhờ AI tóm tắt video đó thêm lần nữa, lần nữa, lần nữa." },
+            { "t": 42.4, "en": "That's a circle, which means what you get now is secondhand. The information is secondhand or even third or fourth hand.", "vi": "Đó là một vòng lặp, nghĩa là thứ bạn nhận được là hàng \"second-hand\". Thông tin là đồ cũ, thậm chí qua tay thứ ba, thứ tư." },
+            { "t": 48.5, "en": "I'm a content creator. I share a lot of language learning strategies on platform, but very, very few people actually put them into practice.", "vi": "Mình là người làm nội dung. Mình chia sẻ rất nhiều chiến lược học ngôn ngữ, nhưng rất, rất ít người thực sự áp dụng." },
+            { "t": 56.2, "en": "They just put them in their favorite folders, and they do the same thing to other videos, too.", "vi": "Họ chỉ cho vào thư mục yêu thích, và cũng làm y như vậy với các video khác." },
+            { "t": 61.0, "en": "And honestly, I do that, too. I save so many tutorials. I watch other people showing me how to do it, but I will never actually start.", "vi": "Thật lòng thì mình cũng vậy. Mình lưu rất nhiều video hướng dẫn, xem người khác chỉ cách làm, nhưng chẳng bao giờ thực sự bắt đầu." },
+            { "t": 69.4, "en": "It's for my language learning or even like the new contents on my channel.", "vi": "Dù là việc học ngôn ngữ hay cả nội dung mới cho kênh của mình." },
+            { "t": 74.4, "en": "So, I can't even get excited about learning something, but actually, I did something right before, and I have solution for this problem.", "vi": "Nên mình thậm chí không còn hào hứng học gì cả. Nhưng thật ra trước đây mình đã từng làm đúng, và mình có giải pháp cho vấn đề này." }
+          ],
+          "questions": [
+            {
+              "type": "Ý chính",
+              "q": "What problem does the speaker describe at the beginning?",
+              "options": [
+                "People don't have access to professional learning sources.",
+                "Even with easy access to knowledge, it's harder to actually learn and focus.",
+                "Online courses have become too expensive.",
+                "Most vloggers give the wrong advice."
+              ],
+              "answer": 1,
+              "explain": "Cô ấy nói ai cũng tiếp cận được mọi thứ, \"but somehow, it's getting harder… to actually learn… and focus\". Đáp án A là bẫy ngược nghĩa: cô nói có nguồn chuyên nghiệp, chứ không phải thiếu.",
+              "clue": [1, 2]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "According to the vlogger she quotes, what do we lack?",
+              "options": [
+                "Methodologies",
+                "Good teachers",
+                "The courage to actually get our hands dirty",
+                "Free time"
+              ],
+              "answer": 2,
+              "explain": "\"We're not lacking methodologies. What we lack is the courage to actually get our hands dirty.\" Đáp án A là bẫy: \"methodologies\" có xuất hiện trong câu, nhưng ở vế phủ định.",
+              "clue": [3]
+            },
+            {
+              "type": "Từ trong ngữ cảnh",
+              "q": "In this context, \"get our hands dirty\" means…",
+              "options": [
+                "do dirty or dishonest work",
+                "actually start doing the practical work",
+                "clean up our study space",
+                "copy other people's methods"
+              ],
+              "answer": 1,
+              "explain": "\"Get one's hands dirty\" là thành ngữ, nghĩa là bắt tay vào làm thực tế, chịu khó làm phần việc vất vả. Nó đối lập với chỉ xem và lưu phương pháp.",
+              "clue": [3]
+            },
+            {
+              "type": "Suy luận",
+              "q": "Why does she say the information we get is \"secondhand\"?",
+              "options": [
+                "Because it comes from old books.",
+                "Because people summarize summaries again and again, so it's far from the original.",
+                "Because other creators copy her videos.",
+                "Because AI makes up false information."
+              ],
+              "answer": 1,
+              "explain": "Người ta tóm tắt video của người khác, rồi lại nhờ AI tóm tắt tiếp \"again, again, and again\". Vì vậy thông tin đã qua tay thứ hai, thứ ba, thứ tư. Cô không nói AI bịa thông tin.",
+              "clue": [5, 6]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "What do most viewers do with her language learning strategies?",
+              "options": [
+                "They practice them every day.",
+                "They save them in their favorites folders and don't practice.",
+                "They share them with friends.",
+                "They turn them into summary videos."
+              ],
+              "answer": 1,
+              "explain": "\"Very few people actually put them into practice. They just put them in their favorite folders.\" Cô còn thừa nhận chính mình cũng như vậy.",
+              "clue": [7, 8]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Câu chuyện tự học dựng video",
+          "start": 81.6,
+          "end": 183.6,
+          "lines": [
+            { "t": 81.6, "en": "I started this channel like 2 years ago, 2 and 1/2 years ago.", "vi": "Mình bắt đầu kênh này khoảng 2 năm, 2 năm rưỡi trước." },
+            { "t": 84.9, "en": "When I first started sharing English content online, I edited all the videos myself because I love editing, literally.", "vi": "Khi mới bắt đầu chia sẻ nội dung tiếng Anh, mình tự dựng toàn bộ video vì mình thực sự thích dựng video." },
+            { "t": 91.6, "en": "I watched a lot of YouTubers' videos even before I start my channel. So, I have a exact answer in my mind which kind of video style I like.", "vi": "Mình đã xem rất nhiều video của các YouTuber từ trước khi lập kênh, nên trong đầu đã biết chính xác mình thích phong cách video nào." },
+            { "t": 100.5, "en": "But at that time, I didn't even know what kind of plugins I should use or I needed.", "vi": "Nhưng lúc đó mình thậm chí không biết nên dùng hay cần plugin gì." },
+            { "t": 106.0, "en": "I don't know any advanced editing skills, but I have very basic ones.", "vi": "Mình không biết kỹ năng dựng nâng cao nào, chỉ có kỹ năng rất cơ bản." },
+            { "t": 110.8, "en": "But I didn't search for tutorials. I never watched a single one before my first video.", "vi": "Nhưng mình không tìm video hướng dẫn. Mình chưa xem một cái nào trước video đầu tiên." },
+            { "t": 115.5, "en": "I just used a very clumsy, very dumb, very silly method to get it out.", "vi": "Mình chỉ dùng một cách rất vụng về, rất ngốc nghếch để làm ra nó." },
+            { "t": 120.7, "en": "I think I did the right thing because I spent like 10 hours or even more on that video, but I made it.", "vi": "Mình nghĩ mình đã làm đúng, vì mình mất khoảng 10 tiếng hoặc hơn cho video đó, nhưng mình đã làm được." },
+            { "t": 128.4, "en": "I think it worth the time cuz looking back, now I know a lot of shortcuts to make those effects, but back then I had no skills, no tricks.", "vi": "Mình thấy xứng đáng, vì nhìn lại, giờ mình biết nhiều cách tắt để làm những hiệu ứng đó, còn hồi ấy mình chẳng có kỹ năng hay mẹo gì." },
+            { "t": 135.5, "en": "What I need is to like figure it out by myself. I was trying to copy others' effect.", "vi": "Mình phải tự mày mò. Mình đã thử bắt chước hiệu ứng của người khác." },
+            { "t": 141.5, "en": "What I have is a tool kit, a very basic tool kit, and I need to put them together like pieces of Lego, put them together to deliver what I want.", "vi": "Thứ mình có là một bộ công cụ rất cơ bản, và mình phải ghép chúng lại như những mảnh Lego để tạo ra thứ mình muốn." },
+            { "t": 151.9, "en": "So, I was getting to the root of the problem. I think people call this first principles.", "vi": "Tức là mình đi đến gốc rễ vấn đề. Mình nghĩ người ta gọi đó là \"tư duy nguyên lý gốc\" (first principles)." },
+            { "t": 155.9, "en": "Like you have different skill sets and you're trying to deliver a new thing by using all kinds of different skill sets.", "vi": "Bạn có các bộ kỹ năng khác nhau và bạn cố tạo ra thứ mới bằng cách kết hợp chúng." },
+            { "t": 162.9, "en": "In this process, I encountered a lot of problems. For example, I don't know how to make or realize this kind of visual effect.", "vi": "Trong quá trình đó mình gặp nhiều vấn đề. Ví dụ, mình không biết cách làm một hiệu ứng hình ảnh nào đó." },
+            { "t": 172.9, "en": "I will search for tutorials for the exact problem. I don't watch those general tutorials. I only watch those tutorials that give me the answer I need.", "vi": "Mình sẽ tìm hướng dẫn cho đúng vấn đề đó. Mình không xem các hướng dẫn chung chung, chỉ xem những cái cho mình câu trả lời mình cần." },
+            { "t": 180.5, "en": "So, that's the first story. That's how I start.", "vi": "Đó là câu chuyện thứ nhất. Mình đã bắt đầu như thế." }
+          ],
+          "questions": [
+            {
+              "type": "Chi tiết",
+              "q": "How long did she spend on her first video?",
+              "options": ["About 2 hours", "10 hours or even more", "Two and a half years", "One whole week"],
+              "answer": 1,
+              "explain": "\"I spent like 10 hours or even more on that video.\" Đáp án C là bẫy: \"2 and 1/2 years\" là thời gian cô mở kênh.",
+              "clue": [7]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "How many tutorials did she watch before making her first video?",
+              "options": ["A lot of them", "A few about plugins", "None at all", "Only advanced ones"],
+              "answer": 2,
+              "explain": "\"I never watched a single one before my first video.\" Câu \"I watched a lot of YouTubers' videos\" là xem video giải trí của YouTuber, không phải xem hướng dẫn.",
+              "clue": [5]
+            },
+            {
+              "type": "Từ trong ngữ cảnh",
+              "q": "What does she mean by \"first principles\" here?",
+              "options": [
+                "Learning the rules from a teacher before practicing",
+                "Going to the root of the problem and combining basic skills to build something new",
+                "Watching the best tutorials first",
+                "Copying the most popular YouTubers"
+              ],
+              "answer": 1,
+              "explain": "Cô giải thích ngay sau đó: dùng bộ công cụ cơ bản ghép như Lego, \"getting to the root of the problem\", kết hợp nhiều kỹ năng để tạo thứ mới.",
+              "clue": [10, 11, 12]
+            },
+            {
+              "type": "Suy luận",
+              "q": "When she got stuck on a problem, how did she use tutorials?",
+              "options": [
+                "She stopped using tutorials completely.",
+                "She watched long, general tutorials.",
+                "She searched for tutorials about that exact problem only.",
+                "She asked other YouTubers to help."
+              ],
+              "answer": 2,
+              "explain": "\"I will search for tutorials for the exact problem. I don't watch those general tutorials.\" Cô không bỏ hẳn hướng dẫn mà dùng có mục đích, nên A sai.",
+              "clue": [14]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Phán đoán riêng: bạn là kiểu người nào?",
+          "start": 183.4,
+          "end": 268.3,
+          "lines": [
+            { "t": 183.4, "en": "Right now, I think that's the same thing for everything, for learning everything. It's the same thing for learning English.", "vi": "Giờ mình nghĩ điều đó đúng với mọi thứ, với việc học bất cứ gì. Học tiếng Anh cũng vậy." },
+            { "t": 188.6, "en": "You watch the video saying you need to memorize vocabulary. Another one says you don't need vocabulary at all, and you put both videos in your favorites folder and you find, oh, they both make sense, right?", "vi": "Bạn xem một video nói phải học thuộc từ vựng. Video khác bảo chẳng cần từ vựng. Rồi bạn lưu cả hai và thấy: ồ, cả hai đều có lý." },
+            { "t": 200.0, "en": "Before we start learning something, we tend to search for too many tutorials, and that's when I realized I need my own judgment.", "vi": "Trước khi học gì đó, ta có xu hướng tìm quá nhiều hướng dẫn. Đó là lúc mình nhận ra mình cần có phán đoán của riêng mình." },
+            { "t": 208.1, "en": "And honestly, my judgment can get killed after reading too many social media posts.", "vi": "Và thật lòng, khả năng phán đoán của mình có thể bị giết chết sau khi đọc quá nhiều bài trên mạng xã hội." },
+            { "t": 212.9, "en": "Every post is selling you the idea that you need to do this, including mine, I guess.", "vi": "Bài nào cũng đang \"bán\" cho bạn ý tưởng rằng bạn phải làm thế này, kể cả bài của mình." },
+            { "t": 217.4, "en": "I'm a content creator. It seems a little bit contradictory, but that's what I really want to say.", "vi": "Mình là người làm nội dung. Nghe hơi mâu thuẫn, nhưng đó là điều mình thực sự muốn nói." },
+            { "t": 222.4, "en": "You need to have your judgment because people are just sharing what worked for their own personalities, their own habits. Copy it directly and it won't work for you.", "vi": "Bạn cần phán đoán riêng, vì người ta chỉ chia sẻ cái hợp với tính cách và thói quen của họ. Sao chép y nguyên thì nó sẽ không hiệu quả với bạn." },
+            { "t": 233.6, "en": "So, you need to sit down, actually sit down and do a holistic analysis of yourself and ask yourself what kind of person am I.", "vi": "Nên bạn cần ngồi xuống, thực sự ngồi xuống, phân tích toàn diện bản thân và tự hỏi: mình là kiểu người nào?" },
+            { "t": 240.5, "en": "Am I someone who can track a habit every single day, or am I a sprinter, the kind who gets through all the school work three days before the exam, or am I a marathon runner and I can do long-term planning?", "vi": "Mình có thể duy trì thói quen mỗi ngày không, hay là kiểu \"chạy nước rút\", làm hết bài vở ba ngày trước kỳ thi, hay là kiểu \"chạy marathon\", lên kế hoạch dài hạn được?" },
+            { "t": 256.1, "en": "So, different people need different strategies.", "vi": "Người khác nhau cần chiến lược khác nhau." },
+            { "t": 257.9, "en": "So, for me, I'm definitely not a marathon runner — a sprinter. So, I have different strategies for learning different things.", "vi": "Với mình, chắc chắn mình không phải kiểu marathon mà là kiểu chạy nước rút. Nên mình có chiến lược khác nhau cho từng thứ cần học." },
+            { "t": 264.2, "en": "I will do things just before the deadline, and I think that can be a motivation for me.", "vi": "Mình sẽ làm ngay trước hạn chót, và mình nghĩ đó có thể là động lực của mình." }
+          ],
+          "questions": [
+            {
+              "type": "Chi tiết",
+              "q": "What example of conflicting advice does she give?",
+              "options": [
+                "Speaking first vs. listening first",
+                "Memorizing vocabulary vs. not needing vocabulary at all",
+                "Studying alone vs. studying with a teacher",
+                "Using AI vs. using books"
+              ],
+              "answer": 1,
+              "explain": "Một video bảo \"you need to memorize vocabulary\", video khác bảo \"you don't need vocabulary at all\", và người xem thấy cả hai đều có lý.",
+              "clue": [1]
+            },
+            {
+              "type": "Suy luận",
+              "q": "Why does she say her message seems \"contradictory\"?",
+              "options": [
+                "Because she disagrees with her favorite vlogger.",
+                "Because she is a content creator telling people not to blindly follow content creators' posts.",
+                "Because she changed her learning method recently.",
+                "Because her videos are too short."
+              ],
+              "answer": 1,
+              "explain": "\"Every post is selling you the idea… including mine… I'm a content creator. It seems a little bit contradictory.\" Cô làm nội dung nhưng lại khuyên đừng tin hết vào nội dung.",
+              "clue": [4, 5]
+            },
+            {
+              "type": "Ý chính",
+              "q": "Why won't copying other people's methods directly work for you?",
+              "options": [
+                "Because the methods are outdated.",
+                "Because they worked for those people's own personalities and habits.",
+                "Because the methods are too difficult.",
+                "Because you don't have enough time."
+              ],
+              "answer": 1,
+              "explain": "\"People are just sharing what worked for their own personalities, their own habits. Copy it directly and it won't work for you.\"",
+              "clue": [6]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "What kind of learner is the speaker?",
+              "options": [
+                "A marathon runner who plans long-term",
+                "A sprinter who does things just before the deadline",
+                "Someone who tracks a habit every day",
+                "Someone who never meets deadlines"
+              ],
+              "answer": 1,
+              "explain": "\"I'm definitely not a marathon runner… I will do things just before the deadline… that can be a motivation for me.\" Đáp án A là bẫy vì có \"marathon runner\", nhưng nằm trong câu phủ định.",
+              "clue": [10, 11]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Ai đang đánh cắp sự chú ý của bạn?",
+          "start": 268.0,
+          "end": 316.9,
+          "lines": [
+            { "t": 268.0, "en": "And the last thing is attention.", "vi": "Và điều cuối cùng là sự chú ý." },
+            { "t": 269.9, "en": "The other day I was searching for a travel guide on social media. 30 minutes later I was asking AI about some funny, juicy scandal things.", "vi": "Hôm trước mình lên mạng xã hội tìm cẩm nang du lịch. 30 phút sau mình lại đang hỏi AI về mấy vụ bê bối hài hước, giật gân." },
+            { "t": 277.4, "en": "So, look at the gap between why we picked up our phones and what we ended up doing.", "vi": "Hãy nhìn khoảng cách giữa lý do ta cầm điện thoại lên và việc ta rốt cuộc lại làm." },
+            { "t": 285.9, "en": "In just 30 minutes, way too many things got into my head. Way too many things are stealing my attention.", "vi": "Chỉ trong 30 phút, quá nhiều thứ đã lọt vào đầu mình. Quá nhiều thứ đang đánh cắp sự chú ý của mình." },
+            { "t": 294.1, "en": "So, right now the first thing that I do after getting up is pick up my phone and check social media or something. That's a bad habit, but… control myself.", "vi": "Hiện giờ việc đầu tiên mình làm khi thức dậy là cầm điện thoại lướt mạng xã hội. Đó là thói quen xấu, nhưng… mình phải kiểm soát bản thân." },
+            { "t": 303.3, "en": "So, now I give myself two hours every day for something longer. I read a book for two hours without any interruption.", "vi": "Nên giờ mỗi ngày mình dành hai tiếng cho thứ gì đó dài hơn. Mình đọc sách hai tiếng liền, không bị gián đoạn." },
+            { "t": 311.2, "en": "I will put my phone at the farthest corner in my home.", "vi": "Mình để điện thoại ở góc xa nhất trong nhà." }
+          ],
+          "questions": [
+            {
+              "type": "Chi tiết",
+              "q": "What was she originally looking for on social media?",
+              "options": ["A funny scandal", "A travel guide", "A documentary", "An editing tutorial"],
+              "answer": 1,
+              "explain": "\"I was searching for a travel guide… 30 minutes later I was asking AI about some funny juicy scandal things.\" Vụ bê bối là thứ cô sa đà vào sau đó, không phải mục đích ban đầu.",
+              "clue": [1]
+            },
+            {
+              "type": "Ý chính",
+              "q": "What is the point of the travel guide story?",
+              "options": [
+                "AI is very useful for planning trips.",
+                "There's a big gap between why we pick up our phones and what we end up doing.",
+                "Social media has the best travel tips.",
+                "Scandals are more interesting than travel."
+              ],
+              "answer": 1,
+              "explain": "\"Look at the gap between why we picked up our phones and what we ended up doing.\" Câu chuyện minh họa việc sự chú ý bị đánh cắp.",
+              "clue": [2, 3]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "How much time does she give herself every day for reading?",
+              "options": ["30 minutes", "One hour", "Two hours", "Three hours"],
+              "answer": 2,
+              "explain": "\"I give myself two hours every day… I read a book for two hours without any interruption.\" Đáp án A là bẫy: \"30 minutes\" là thời gian cô bị cuốn vào điện thoại.",
+              "clue": [5]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "What does she do with her phone while reading?",
+              "options": [
+                "She turns it off.",
+                "She switches it to airplane mode.",
+                "She puts it in the farthest corner of her home.",
+                "She gives it to a friend."
+              ],
+              "answer": 2,
+              "explain": "\"I will put my phone at the farthest corner in my home.\"",
+              "clue": [6]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Xây lại khả năng tập trung",
+          "start": 316.6,
+          "end": 391.7,
+          "lines": [
+            { "t": 316.6, "en": "Also, I have replaced all kinds of different short video time with documentary time.", "vi": "Ngoài ra, mình đã thay toàn bộ thời gian xem video ngắn bằng thời gian xem phim tài liệu." },
+            { "t": 321.2, "en": "I highly recommend that everybody who is addicted to social media or short videos watch documentaries. It will help you rebuild your attention.", "vi": "Mình rất khuyên ai nghiện mạng xã hội hay video ngắn nên xem phim tài liệu. Nó sẽ giúp bạn xây lại khả năng tập trung." },
+            { "t": 330.2, "en": "Because all kinds of different videos, um, including my videos, right, are trying to steal your attention. They want to steal your attention, and that's the secret for information distribution.", "vi": "Vì mọi loại video, kể cả video của mình, đều đang cố đánh cắp sự chú ý của bạn. Đó chính là bí mật của việc phát tán thông tin." },
+            { "t": 341.8, "en": "Whoever can attract more audience attention will get more thumbs up, will get more attention, will get more followers and more money.", "vi": "Ai thu hút được nhiều sự chú ý hơn thì sẽ có nhiều lượt thích, nhiều chú ý, nhiều người theo dõi và nhiều tiền hơn." },
+            { "t": 349.0, "en": "But short videos only give you fragmented information.", "vi": "Nhưng video ngắn chỉ cho bạn thông tin rời rạc, vụn vặt." },
+            { "t": 352.3, "en": "You need to get your attention back and sit down, really watch some long things, at least something that can help you figure things out from the very beginning, not a summary, right?", "vi": "Bạn cần lấy lại sự chú ý, ngồi xuống và thực sự xem thứ gì đó dài, ít nhất là thứ giúp bạn hiểu mọi thứ từ đầu, chứ không phải bản tóm tắt." },
+            { "t": 363.4, "en": "After watching too many short videos, you'll find it's harder and harder to get your attention back to sit down and really read a book or watch something long.", "vi": "Xem quá nhiều video ngắn, bạn sẽ thấy ngày càng khó lấy lại sự chú ý để ngồi đọc một cuốn sách hay xem thứ gì đó dài." },
+            { "t": 372.5, "en": "Because watching something long requires you to have a very long attention span.", "vi": "Vì xem thứ gì đó dài đòi hỏi bạn có khả năng tập trung rất lâu." },
+            { "t": 376.4, "en": "So basically, that's what I'm doing now: getting my attention back and learning something just from the root problem.", "vi": "Về cơ bản, đó là điều mình đang làm: lấy lại sự chú ý và học từ gốc rễ vấn đề." },
+            { "t": 383.1, "en": "I think that's also useful for some of you. If you find this video helpful, give a like and subscribe to my channel. See you next time.", "vi": "Mình nghĩ điều đó cũng có ích với một số bạn. Nếu thấy video hữu ích, hãy like và đăng ký kênh nhé. Hẹn gặp lại." }
+          ],
+          "questions": [
+            {
+              "type": "Chi tiết",
+              "q": "What has she replaced her short video time with?",
+              "options": ["Reading books", "Watching documentaries", "Listening to podcasts", "Sleeping"],
+              "answer": 1,
+              "explain": "\"I have replaced all kinds of different short video time with documentary time.\" Đọc sách là thói quen hai tiếng mỗi ngày ở đoạn trước, không phải thứ thay cho video ngắn.",
+              "clue": [0]
+            },
+            {
+              "type": "Chi tiết",
+              "q": "According to her, what is \"the secret for information distribution\"?",
+              "options": [
+                "Making content free for everyone",
+                "Stealing or attracting the audience's attention",
+                "Keeping videos under one minute",
+                "Using AI to write content"
+              ],
+              "answer": 1,
+              "explain": "\"They want to steal your attention and that's the secret for information distribution. Whoever can attract more audience attention will get more… followers and more money.\"",
+              "clue": [2, 3]
+            },
+            {
+              "type": "Từ trong ngữ cảnh",
+              "q": "\"Short videos only give you fragmented information.\" — \"fragmented\" means…",
+              "options": [
+                "false and misleading",
+                "broken into small, disconnected pieces",
+                "secret and hidden",
+                "new and up-to-date"
+              ],
+              "answer": 1,
+              "explain": "\"Fragmented\" nghĩa là rời rạc, vụn vặt, bị chia thành từng mảnh. Nó đối lập với \"figure things out from the very beginning\" ở câu sau.",
+              "clue": [4]
+            },
+            {
+              "type": "Ý chính",
+              "q": "What is her overall advice in this part?",
+              "options": [
+                "Stop watching all videos online.",
+                "Rebuild your attention with long content and learn from the root, not from summaries.",
+                "Only watch her channel because it is useful.",
+                "Use AI summaries to save time."
+              ],
+              "answer": 1,
+              "explain": "\"Really watch some long things… not a summary\" và \"getting my attention back and learning something just from the root problem\". D là bẫy vì ngược hẳn thông điệp của cả video.",
+              "clue": [5, 8]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
