@@ -1,0 +1,950 @@
+{
+  "id": "10-ways-better-conversation-headlee",
+  "topic": "giao-tiep",
+  "youtubeId": "R1vskiVDwl4",
+  "title": "10 Ways to Have a Better Conversation — Celeste Headlee (TED)",
+  "duration": "11:44",
+  "segments": [
+    {
+      "id": 1,
+      "title": "Thế giới phân cực: ta không còn lắng nghe nhau",
+      "start": 12.5,
+      "end": 90.5,
+      "lines": [
+        {
+          "t": 12.84,
+          "en": "All right, I want to see a show of hands: how many of you have unfriended someone on Facebook because they said something offensive about politics or religion, child care, food?",
+          "vi": "Nào, cho tôi xem tay: bao nhiêu người đã hủy kết bạn ai đó trên Facebook vì họ nói điều gì xúc phạm về chính trị, tôn giáo, chuyện nuôi con, đồ ăn?"
+        },
+        {
+          "t": 24.6,
+          "en": "And how many of you know at least one person that you avoid because you just don't want to talk to them?",
+          "vi": "Và bao nhiêu người biết ít nhất một người mà bạn tránh mặt chỉ vì không muốn nói chuyện với họ?"
+        },
+        {
+          "t": 33.0,
+          "en": "You know, it used to be that in order to have a polite conversation, we just had to follow the advice of Henry Higgins in My Fair Lady: stick to the weather and your health.",
+          "vi": "Trước đây, muốn có một cuộc trò chuyện lịch sự, ta chỉ cần làm theo lời khuyên của Henry Higgins trong phim My Fair Lady: chỉ nói về thời tiết và sức khỏe."
+        },
+        {
+          "t": 39.0,
+          "en": "But these days, with climate change and anti-vaxxing, those subjects are not safe either.",
+          "vi": "Nhưng ngày nay, với biến đổi khí hậu và phong trào chống vắc-xin, những chủ đề đó cũng không còn an toàn."
+        },
+        {
+          "t": 47.5,
+          "en": "So this world that we live in, this world in which every conversation has the potential to devolve into an argument, where our politicians can't speak to one another and where even the most trivial of issues have someone fighting both passionately for it and against it, it's not normal.",
+          "vi": "Thế giới ta đang sống, nơi cuộc trò chuyện nào cũng có thể biến thành cãi vã, nơi các chính trị gia không thể nói chuyện với nhau, và ngay cả chuyện vặt vãnh nhất cũng có người hăng hái ủng hộ lẫn phản đối, điều đó không bình thường."
+        },
+        {
+          "t": 63.7,
+          "en": "Pew Research did a study of 10,000 American adults, and they found that at this moment, we are more polarized, we are more divided, than we ever have been in history.",
+          "vi": "Pew Research khảo sát 10.000 người Mỹ trưởng thành và thấy rằng hiện nay chúng ta phân cực, chia rẽ hơn bất cứ lúc nào trong lịch sử."
+        },
+        {
+          "t": 75.3,
+          "en": "We're less likely to compromise, which means we're not listening to each other.",
+          "vi": "Ta ít chịu thỏa hiệp hơn, nghĩa là ta không lắng nghe nhau."
+        },
+        {
+          "t": 79.5,
+          "en": "And we make decisions about where to live, who to marry and even who our friends are going to be, based on what we already believe.",
+          "vi": "Ta quyết định sống ở đâu, cưới ai, thậm chí kết bạn với ai dựa trên những gì mình vốn đã tin."
+        },
+        {
+          "t": 86.2,
+          "en": "Again, that means we're not listening to each other.",
+          "vi": "Một lần nữa, điều đó nghĩa là ta không lắng nghe nhau."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What was the old advice from Henry Higgins for having a polite conversation?",
+          "options": [
+            "Avoid talking about food.",
+            "Always ask questions first.",
+            "Never talk about yourself.",
+            "Stick to the weather and your health."
+          ],
+          "answer": 3,
+          "explain": "\"Follow the advice of Henry Higgins in My Fair Lady: stick to the weather and your health.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why are the weather and health no longer \"safe\" topics?",
+          "options": [
+            "Doctors don't allow people to discuss health.",
+            "Climate change and anti-vaxxing have made them controversial.",
+            "People find them too boring now.",
+            "People don't know much about these topics."
+          ],
+          "answer": 1,
+          "explain": "\"These days, with climate change and anti-vaxxing, those subjects are not safe either.\" Thời tiết gắn với biến đổi khí hậu, sức khỏe gắn với vắc-xin, nên đều thành chủ đề gây tranh cãi.",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What did the Pew Research study find?",
+          "options": [
+            "Most adults avoid talking about politics.",
+            "10,000 adults had unfriended someone on Facebook.",
+            "People compromise more than before.",
+            "Americans are more polarized and divided than ever in history."
+          ],
+          "answer": 3,
+          "explain": "\"We are more polarized, we are more divided, than we ever have been in history.\" Đáp án B là bẫy: 10.000 là số người được khảo sát. Đáp án C ngược nghĩa: \"less likely to compromise\".",
+          "clue": [
+            5,
+            6
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Every conversation has the potential to devolve into an argument.\" — \"devolve into\" means…",
+          "options": [
+            "develop into something better",
+            "gradually turn into something worse",
+            "be recorded",
+            "end suddenly"
+          ],
+          "answer": 1,
+          "explain": "\"Devolve into\" nghĩa là dần trở thành một thứ tệ hơn. Ở đây là cuộc trò chuyện biến thành cãi vã.",
+          "clue": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mất cân bằng nói – nghe và vai trò của công nghệ",
+      "start": 90.5,
+      "end": 159.4,
+      "lines": [
+        {
+          "t": 90.5,
+          "en": "A conversation requires a balance between talking and listening, and somewhere along the way, we lost that balance.",
+          "vi": "Một cuộc trò chuyện cần sự cân bằng giữa nói và nghe, và ở đâu đó trên đường đi, ta đã đánh mất sự cân bằng ấy."
+        },
+        {
+          "t": 96.1,
+          "en": "Now, part of that is due to technology. The smartphones that you all either have in your hands or close enough that you could grab them really quickly.",
+          "vi": "Một phần là do công nghệ, những chiếc điện thoại mà bạn đang cầm trên tay hoặc để đủ gần để chộp lấy ngay."
+        },
+        {
+          "t": 102.8,
+          "en": "According to Pew Research, about a third of American teenagers send more than a hundred texts a day.",
+          "vi": "Theo Pew Research, khoảng một phần ba thanh thiếu niên Mỹ gửi hơn một trăm tin nhắn mỗi ngày."
+        },
+        {
+          "t": 109.4,
+          "en": "And many of them, almost most of them, are more likely to text their friends than they are to talk to them face to face.",
+          "vi": "Và nhiều em, gần như phần lớn, thích nhắn tin cho bạn bè hơn là nói chuyện trực tiếp."
+        },
+        {
+          "t": 116.6,
+          "en": "There's this great piece in The Atlantic. It was written by a high school teacher named Paul Barnwell. And he gave his kids a communication project. He wanted to teach them how to speak on a specific subject without using notes.",
+          "vi": "Có một bài viết hay trên tờ The Atlantic của thầy giáo trung học Paul Barnwell. Thầy giao cho học sinh một dự án giao tiếp: dạy các em nói về một chủ đề cụ thể mà không dùng ghi chú."
+        },
+        {
+          "t": 127.8,
+          "en": "And he said this: \"I came to realize that conversational competence might be the single most overlooked skill we fail to teach.\"",
+          "vi": "Thầy viết: \"Tôi nhận ra rằng năng lực trò chuyện có lẽ là kỹ năng bị bỏ qua nhiều nhất mà chúng ta không dạy.\""
+        },
+        {
+          "t": 138.6,
+          "en": "\"Kids spend hours each day engaging with ideas and each other through screens, but rarely do they have an opportunity to hone their interpersonal communication skills.\"",
+          "vi": "\"Trẻ dành hàng giờ mỗi ngày tiếp xúc với ý tưởng và với nhau qua màn hình, nhưng hiếm khi có cơ hội rèn giũa kỹ năng giao tiếp giữa người với người.\""
+        },
+        {
+          "t": 147.0,
+          "en": "\"It might sound like a funny question, but we have to ask ourselves: Is there any 21st-century skill more important than being able to sustain coherent, confident conversation?\"",
+          "vi": "\"Nghe có vẻ buồn cười, nhưng ta phải tự hỏi: có kỹ năng thế kỷ 21 nào quan trọng hơn khả năng duy trì một cuộc trò chuyện mạch lạc, tự tin không?\""
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "According to the speaker, what have we lost?",
+          "options": [
+            "The balance between talking and listening",
+            "The ability to write well",
+            "Our trust in research",
+            "Our interest in technology"
+          ],
+          "answer": 0,
+          "explain": "\"A conversation requires a balance between talking and listening, and somewhere along the way, we lost that balance.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What does Pew Research say about American teenagers?",
+          "options": [
+            "A hundred of them were interviewed.",
+            "Half of them prefer face-to-face talk.",
+            "Most of them don't own a smartphone.",
+            "About a third send more than a hundred texts a day."
+          ],
+          "answer": 3,
+          "explain": "\"About a third of American teenagers send more than a hundred texts a day.\" Phần lớn các em thích nhắn tin hơn nói chuyện trực tiếp, nên C ngược nghĩa.",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What was the goal of Paul Barnwell's communication project?",
+          "options": [
+            "To teach students to write for The Atlantic",
+            "To teach students to speak on a specific subject without notes",
+            "To teach students to send better text messages",
+            "To stop students from using phones"
+          ],
+          "answer": 1,
+          "explain": "\"He wanted to teach them how to speak on a specific subject without using notes.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Rarely do they have an opportunity to hone their interpersonal communication skills.\" — \"hone\" means…",
+          "options": [
+            "test",
+            "forget",
+            "sharpen and improve",
+            "hide"
+          ],
+          "answer": 2,
+          "explain": "\"Hone\" nghĩa gốc là mài dao. Nghĩa bóng là rèn giũa, trau dồi một kỹ năng.",
+          "clue": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Quên những lời khuyên cũ đi",
+      "start": 159.4,
+      "end": 268.6,
+      "lines": [
+        {
+          "t": 159.4,
+          "en": "Now, I make my living talking to people: Nobel Prize winners, truck drivers, billionaires, kindergarten teachers, heads of state, plumbers.",
+          "vi": "Tôi kiếm sống bằng việc nói chuyện với mọi người: người đoạt giải Nobel, tài xế xe tải, tỷ phú, giáo viên mầm non, nguyên thủ quốc gia, thợ sửa ống nước."
+        },
+        {
+          "t": 169.0,
+          "en": "I talk to people that I like. I talk to people that I don't like. I talk to some people that I disagree with deeply on a personal level. But I still have a great conversation with them.",
+          "vi": "Tôi nói chuyện với người tôi thích, người tôi không thích, cả những người tôi bất đồng sâu sắc. Nhưng tôi vẫn có những cuộc trò chuyện tuyệt vời với họ."
+        },
+        {
+          "t": 179.1,
+          "en": "So I'd like to spend the next 10 minutes or so teaching you how to talk and how to listen.",
+          "vi": "Vì vậy tôi muốn dành khoảng 10 phút tới để dạy bạn cách nói và cách nghe."
+        },
+        {
+          "t": 183.9,
+          "en": "Many of you have already heard a lot of advice on this, things like look the person in the eye, think of interesting topics to discuss in advance, look, nod and smile to show that you're paying attention, repeat back what you just heard or summarize it.",
+          "vi": "Nhiều bạn đã nghe vô số lời khuyên: nhìn vào mắt người đối diện, nghĩ trước những chủ đề thú vị, gật đầu và mỉm cười để cho thấy bạn đang chú ý, nhắc lại hoặc tóm tắt điều vừa nghe."
+        },
+        {
+          "t": 201.7,
+          "en": "So I want you to forget all of that. It is crap.",
+          "vi": "Tôi muốn bạn quên hết những điều đó đi. Toàn là nhảm nhí."
+        },
+        {
+          "t": 209.1,
+          "en": "There is no reason to learn how to show you're paying attention if you are in fact paying attention.",
+          "vi": "Chẳng có lý do gì phải học cách tỏ ra chú ý nếu bạn thực sự đang chú ý."
+        },
+        {
+          "t": 218.9,
+          "en": "Now, I actually use the exact same skills as a professional interviewer that I do in regular life.",
+          "vi": "Thật ra tôi dùng đúng những kỹ năng của một người phỏng vấn chuyên nghiệp trong đời sống thường ngày."
+        },
+        {
+          "t": 227.1,
+          "en": "So, I'm going to teach you how to interview people, and that's actually going to help you learn how to be better conversationalists. Learn to have a conversation without wasting your time, without getting bored, and, please God, without offending anybody.",
+          "vi": "Nên tôi sẽ dạy bạn cách phỏng vấn, và điều đó sẽ giúp bạn trò chuyện giỏi hơn: trò chuyện mà không phí thời gian, không chán, và lạy Chúa, không làm ai phật lòng."
+        },
+        {
+          "t": 241.8,
+          "en": "We've all had really great conversations. We've had them before. We know what it's like. The kind of conversation where you walk away feeling engaged and inspired, or where you feel like you've made a real connection or you've been perfectly understood.",
+          "vi": "Ai cũng từng có những cuộc trò chuyện tuyệt vời, kiểu mà khi ra về bạn thấy hứng khởi, được truyền cảm hứng, thấy mình thực sự kết nối hoặc được thấu hiểu trọn vẹn."
+        },
+        {
+          "t": 252.6,
+          "en": "There is no reason why most of your interactions can't be like that.",
+          "vi": "Không có lý do gì phần lớn các cuộc giao tiếp của bạn lại không thể như vậy."
+        },
+        {
+          "t": 258.1,
+          "en": "So I have 10 basic rules. I'm going to walk you through all of them, but honestly, if you just choose one of them and master it, you'll already enjoy better conversations.",
+          "vi": "Tôi có 10 quy tắc cơ bản. Tôi sẽ đi qua tất cả, nhưng thật lòng, chỉ cần chọn một quy tắc và làm chủ nó là bạn đã có những cuộc trò chuyện tốt hơn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does the speaker do for a living?",
+          "options": [
+            "She is a kindergarten teacher.",
+            "She is a Nobel Prize winner.",
+            "She talks to people — she is a professional interviewer.",
+            "She is a therapist."
+          ],
+          "answer": 2,
+          "explain": "\"I make my living talking to people\" và \"skills as a professional interviewer\". Các nghề khác như Nobel Prize winner hay kindergarten teacher là những người cô từng phỏng vấn.",
+          "clue": [
+            0,
+            6
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does she think of common advice like \"nod and smile to show you're paying attention\"?",
+          "options": [
+            "You should practice it every day.",
+            "It works only in job interviews.",
+            "It is the most useful advice.",
+            "Forget it — if you really pay attention, you don't need to show it."
+          ],
+          "answer": 3,
+          "explain": "\"Forget all of that… There is no reason to learn how to show you're paying attention if you are in fact paying attention.\"",
+          "clue": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Does she only have good conversations with people she likes?",
+          "options": [
+            "She doesn't say.",
+            "She only talks to famous people.",
+            "No — she still has great conversations with people she deeply disagrees with.",
+            "Yes, she avoids people she disagrees with."
+          ],
+          "answer": 2,
+          "explain": "\"I talk to some people that I disagree with deeply… But I still have a great conversation with them.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How many of the 10 rules do you need to master to enjoy better conversations?",
+          "options": [
+            "Just one",
+            "The first three",
+            "At least five",
+            "All ten"
+          ],
+          "answer": 0,
+          "explain": "\"If you just choose one of them and master it, you'll already enjoy better conversations.\" Đáp án D là bẫy: cô chỉ nói sẽ giới thiệu hết cả 10 quy tắc.",
+          "clue": [
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Quy tắc 1–2: Đừng làm nhiều việc một lúc, đừng giảng giải",
+      "start": 268.6,
+      "end": 362.6,
+      "lines": [
+        {
+          "t": 268.8,
+          "en": "Number one: Don't multitask. And I don't mean just set down your cell phone or your tablet or your car keys or whatever is in your hand. I mean, be present. Be in that moment.",
+          "vi": "Thứ nhất: Đừng làm nhiều việc cùng lúc. Ý tôi không chỉ là đặt điện thoại, máy tính bảng hay chìa khóa xe xuống, mà là hãy hiện diện, ở trọn trong khoảnh khắc đó."
+        },
+        {
+          "t": 279.4,
+          "en": "Don't think about your argument you had with your boss. Don't think about what you're going to have for dinner.",
+          "vi": "Đừng nghĩ về cuộc cãi nhau với sếp. Đừng nghĩ tối nay ăn gì."
+        },
+        {
+          "t": 285.2,
+          "en": "If you want to get out of the conversation, get out of the conversation, but don't be half in it and half out of it.",
+          "vi": "Nếu muốn rời cuộc trò chuyện thì hãy rời đi, nhưng đừng nửa ở nửa không."
+        },
+        {
+          "t": 291.4,
+          "en": "Number two: Don't pontificate. If you want to state your opinion without any opportunity for response or argument or pushback or growth, write a blog.",
+          "vi": "Thứ hai: Đừng lên giọng dạy đời. Nếu bạn muốn nêu quan điểm mà không cho ai cơ hội đáp lại, tranh luận, phản bác hay cùng phát triển, hãy viết blog."
+        },
+        {
+          "t": 304.7,
+          "en": "Now, there's a really good reason why I don't allow pundits on my show: because they're really boring.",
+          "vi": "Có lý do chính đáng để tôi không mời các \"chuyên gia bình luận\" lên chương trình: họ rất nhàm chán."
+        },
+        {
+          "t": 311.1,
+          "en": "If they're conservative, they're going to hate Obama and food stamps and abortion. If they're liberal, they're going to hate big banks and oil corporations and Dick Cheney. Totally predictable. And you don't want to be like that.",
+          "vi": "Nếu bảo thủ, họ sẽ ghét Obama, tem phiếu thực phẩm và phá thai. Nếu cấp tiến, họ sẽ ghét ngân hàng lớn, tập đoàn dầu mỏ và Dick Cheney. Hoàn toàn đoán trước được. Bạn không muốn giống vậy."
+        },
+        {
+          "t": 321.2,
+          "en": "You need to enter every conversation assuming that you have something to learn.",
+          "vi": "Hãy bước vào mọi cuộc trò chuyện với suy nghĩ rằng mình có điều gì đó để học."
+        },
+        {
+          "t": 328.0,
+          "en": "The famed therapist M. Scott Peck said that true listening requires a setting aside of oneself. And sometimes that means setting aside your personal opinion.",
+          "vi": "Nhà trị liệu nổi tiếng M. Scott Peck nói rằng lắng nghe thực sự đòi hỏi gác bản thân sang một bên, và đôi khi là gác cả quan điểm cá nhân."
+        },
+        {
+          "t": 339.5,
+          "en": "He said that sensing this acceptance, the speaker will become less and less vulnerable and more and more likely to open up the inner recesses of his or her mind to the listener.",
+          "vi": "Ông nói khi cảm nhận được sự chấp nhận đó, người nói sẽ bớt thấy mình dễ bị tổn thương và dễ mở lòng hơn với người nghe."
+        },
+        {
+          "t": 349.6,
+          "en": "Again, assume that you have something to learn. Bill Nye: \"Everyone you will ever meet knows something that you don't.\" I put it this way: Everybody is an expert in something.",
+          "vi": "Một lần nữa, hãy nghĩ rằng mình có điều để học. Bill Nye nói: \"Bất kỳ ai bạn gặp cũng biết điều bạn không biết.\" Tôi thì nói thế này: ai cũng là chuyên gia về một điều gì đó."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does \"don't multitask\" really mean, according to her?",
+          "options": [
+            "Just put your phone away.",
+            "Be fully present — don't think about your boss or your dinner.",
+            "Leave the conversation as soon as possible.",
+            "Never talk to more than one person."
+          ],
+          "answer": 1,
+          "explain": "\"I don't mean just set down your cell phone… I mean, be present.\" Đáp án A là bẫy: bỏ điện thoại xuống thôi là chưa đủ.",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Don't pontificate.\" — to \"pontificate\" means to…",
+          "options": [
+            "give your opinion as if you are always right, without listening to others",
+            "ask a lot of questions",
+            "agree with everyone",
+            "speak very quietly"
+          ],
+          "answer": 0,
+          "explain": "Cô giải thích ngay: \"state your opinion without any opportunity for response or argument or pushback\". Muốn nói kiểu đó thì nên đi viết blog.",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Why doesn't she allow pundits on her show?",
+          "options": [
+            "They are too expensive.",
+            "They are always offensive.",
+            "They don't know enough.",
+            "They are boring and totally predictable."
+          ],
+          "answer": 3,
+          "explain": "\"Because they're really boring… Totally predictable.\"",
+          "clue": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "With what attitude should you enter every conversation?",
+          "options": [
+            "Be ready to prove you are right.",
+            "Assume that you have something to learn.",
+            "Talk about your own expertise.",
+            "Prepare interesting topics in advance."
+          ],
+          "answer": 1,
+          "explain": "\"Enter every conversation assuming that you have something to learn\". Ý này được nhắc lại với câu \"Everybody is an expert in something.\"",
+          "clue": [
+            6,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Quy tắc 3–4: Câu hỏi mở và thuận theo dòng chảy",
+      "start": 362.6,
+      "end": 447.5,
+      "lines": [
+        {
+          "t": 362.6,
+          "en": "Number three: Use open-ended questions. In this case, take a cue from journalists. Start your questions with who, what, when, where, why or how.",
+          "vi": "Thứ ba: Dùng câu hỏi mở. Hãy học theo các nhà báo: bắt đầu câu hỏi bằng ai, cái gì, khi nào, ở đâu, tại sao, như thế nào."
+        },
+        {
+          "t": 373.0,
+          "en": "If you put in a complicated question, you're going to get a simple answer out.",
+          "vi": "Nếu bạn đưa ra một câu hỏi phức tạp, bạn sẽ nhận về một câu trả lời đơn giản."
+        },
+        {
+          "t": 375.3,
+          "en": "If I ask you, \"Were you terrified?\" you're going to respond to the most powerful word in that sentence, which is \"terrified,\" and the answer is \"Yes, I was\" or \"No, I wasn't.\"",
+          "vi": "Nếu tôi hỏi \"Bạn có sợ hãi không?\", bạn sẽ phản ứng với từ mạnh nhất trong câu là \"sợ hãi\", và câu trả lời chỉ là \"Có\" hoặc \"Không\"."
+        },
+        {
+          "t": 383.2,
+          "en": "\"Were you angry?\" \"Yes, I was very angry.\" Let them describe it. They're the ones that know.",
+          "vi": "\"Bạn có giận không?\" \"Có, tôi rất giận.\" Hãy để họ tự mô tả. Họ mới là người biết."
+        },
+        {
+          "t": 389.0,
+          "en": "Try asking them things like, \"What was that like?\" \"How did that feel?\" Because then they might have to stop for a moment and think about it, and you're going to get a much more interesting response.",
+          "vi": "Hãy thử hỏi: \"Lúc đó thế nào?\", \"Bạn cảm thấy ra sao?\" Khi đó họ phải dừng lại suy nghĩ, và bạn sẽ nhận được câu trả lời thú vị hơn nhiều."
+        },
+        {
+          "t": 401.1,
+          "en": "Number four: Go with the flow. That means thoughts will come into your mind and you need to let them go out of your mind.",
+          "vi": "Thứ tư: Thuận theo dòng chảy. Nghĩa là ý nghĩ sẽ đến trong đầu bạn và bạn cần để chúng đi."
+        },
+        {
+          "t": 409.6,
+          "en": "We've heard interviews often in which a guest is talking for several minutes and then the host comes back in and asks a question which seems like it comes out of nowhere, or it's already been answered.",
+          "vi": "Ta thường nghe những cuộc phỏng vấn mà khách nói vài phút, rồi người dẫn chen vào hỏi một câu chẳng liên quan, hoặc khách đã trả lời rồi."
+        },
+        {
+          "t": 419.8,
+          "en": "That means the host probably stopped listening two minutes ago because he thought of this really clever question, and he was just bound and determined to say that.",
+          "vi": "Nghĩa là người dẫn có lẽ đã ngừng nghe từ hai phút trước, vì nghĩ ra một câu hỏi rất hay và nhất quyết phải nói ra."
+        },
+        {
+          "t": 429.0,
+          "en": "And we do the exact same thing. We're sitting there having a conversation with someone, and then we remember that time that we met Hugh Jackman in a coffee shop. And we stop listening.",
+          "vi": "Và ta cũng y như vậy. Đang ngồi nói chuyện thì chợt nhớ lần gặp Hugh Jackman ở quán cà phê, và thế là ta ngừng nghe."
+        },
+        {
+          "t": 439.0,
+          "en": "Stories and ideas are going to come to you. You need to let them come and let them go.",
+          "vi": "Câu chuyện và ý tưởng sẽ đến với bạn. Hãy để chúng đến rồi để chúng đi."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Why is \"Were you terrified?\" a weak question?",
+          "options": [
+            "It is too rude.",
+            "Journalists never use the word \"terrified\".",
+            "People react to the strong word and just answer yes or no.",
+            "It is too long and complicated to understand."
+          ],
+          "answer": 2,
+          "explain": "\"You're going to respond to the most powerful word… and the answer is 'Yes, I was' or 'No, I wasn't.'\" Câu hỏi đóng chỉ cho câu trả lời có hoặc không.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which questions does she recommend instead?",
+          "options": [
+            "\"Did you like it?\"",
+            "\"Were you angry?\"",
+            "\"What was that like?\" and \"How did that feel?\"",
+            "\"Can you repeat that?\""
+          ],
+          "answer": 2,
+          "explain": "\"Try asking them things like, 'What was that like?' 'How did that feel?'\" Đáp án B là ví dụ về câu hỏi đóng mà cô vừa phê phán.",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does a host sometimes ask a question that has already been answered?",
+          "options": [
+            "The show had a fixed list of questions.",
+            "The guest spoke too quietly.",
+            "He wanted to test the guest.",
+            "He stopped listening because he was focused on his own clever question."
+          ],
+          "answer": 3,
+          "explain": "\"The host probably stopped listening two minutes ago because he thought of this really clever question.\"",
+          "clue": [
+            6,
+            7
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does \"go with the flow\" mean in a conversation?",
+          "options": [
+            "Agree with whatever the other person says.",
+            "Always share the story that comes to your mind.",
+            "Change the topic often.",
+            "Let your own thoughts come and go instead of holding on to them."
+          ],
+          "answer": 3,
+          "explain": "\"Thoughts will come into your mind and you need to let them go\" và \"let them come and let them go\". Đáp án B là bẫy: kể ngay chuyện gặp Hugh Jackman chính là lúc ta ngừng nghe.",
+          "clue": [
+            5,
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Quy tắc 5–8: Thành thật, không so sánh, không lặp lại, bỏ chi tiết",
+      "start": 447.5,
+      "end": 549.8,
+      "lines": [
+        {
+          "t": 447.5,
+          "en": "Number five: If you don't know, say that you don't know.",
+          "vi": "Thứ năm: Không biết thì nói là không biết."
+        },
+        {
+          "t": 450.8,
+          "en": "Now, people on the radio, especially on NPR, are much more aware that they're going on the record, and so they're more careful about what they claim to be an expert in and what they claim to know for sure.",
+          "vi": "Những người lên radio, đặc biệt là NPR, ý thức rõ lời mình được ghi lại, nên họ cẩn thận hơn với những gì họ tự nhận là chuyên gia hay biết chắc."
+        },
+        {
+          "t": 461.0,
+          "en": "Do that. Err on the side of caution. Talk should not be cheap.",
+          "vi": "Hãy làm như vậy. Thà thận trọng còn hơn. Lời nói không nên rẻ rúng."
+        },
+        {
+          "t": 467.0,
+          "en": "Number six: Don't equate your experience with theirs. If they're talking about having lost a family member, don't start talking about the time you lost a family member. If they're talking about the trouble they're having at work, don't tell them about how much you hate your job.",
+          "vi": "Thứ sáu: Đừng đánh đồng trải nghiệm của bạn với của họ. Nếu họ kể về việc mất người thân, đừng kể chuyện bạn mất người thân. Nếu họ kể rắc rối ở chỗ làm, đừng kể bạn ghét công việc của mình thế nào."
+        },
+        {
+          "t": 480.2,
+          "en": "It's not the same. It is never the same. All experiences are individual. And, more importantly, it is not about you.",
+          "vi": "Nó không giống nhau, không bao giờ giống nhau. Mỗi trải nghiệm là riêng biệt. Và quan trọng hơn, chuyện này không phải về bạn."
+        },
+        {
+          "t": 489.1,
+          "en": "You don't need to take that moment to prove how amazing you are or how much you've suffered.",
+          "vi": "Bạn không cần tranh thủ lúc đó để chứng tỏ mình giỏi thế nào hay đã khổ ra sao."
+        },
+        {
+          "t": 495.9,
+          "en": "Somebody asked Stephen Hawking once what his IQ was, and he said, \"I have no idea. People who brag about their IQs are losers.\" Conversations are not a promotional opportunity.",
+          "vi": "Có người hỏi Stephen Hawking chỉ số IQ của ông, ông đáp: \"Tôi không biết. Người khoe IQ là kẻ thất bại.\" Trò chuyện không phải dịp để quảng cáo bản thân."
+        },
+        {
+          "t": 509.0,
+          "en": "Number seven: Try not to repeat yourself. It's condescending, and it's really boring, and we tend to do it a lot.",
+          "vi": "Thứ bảy: Cố đừng lặp lại mình. Điều đó vừa trịch thượng vừa nhàm chán, mà ta lại hay làm vậy."
+        },
+        {
+          "t": 517.6,
+          "en": "Especially in work conversations or in conversations with our kids, we have a point to make, so we just keep rephrasing it over and over. Don't do that.",
+          "vi": "Nhất là khi nói chuyện công việc hay với con cái: ta có một ý cần nói nên cứ diễn đạt lại mãi. Đừng làm thế."
+        },
+        {
+          "t": 526.5,
+          "en": "Number eight: Stay out of the weeds. Frankly, people don't care about the years, the names, the dates, all those details that you're struggling to come up with in your mind. They don't care.",
+          "vi": "Thứ tám: Đừng sa vào chi tiết vụn vặt. Thật ra người ta không quan tâm đến năm tháng, tên tuổi, ngày giờ, những chi tiết bạn đang cố nhớ ra. Họ không quan tâm."
+        },
+        {
+          "t": 540.5,
+          "en": "What they care about is you. They care about what you're like, what you have in common. So forget the details. Leave them out.",
+          "vi": "Họ quan tâm đến bạn: bạn là người thế nào, hai người có điểm gì chung. Nên hãy quên chi tiết đi, bỏ chúng ra."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does she advise if you don't know something?",
+          "options": [
+            "Change the subject.",
+            "Say that you don't know and be careful about what you claim.",
+            "Guess confidently.",
+            "Ask an expert on the radio."
+          ],
+          "answer": 1,
+          "explain": "\"If you don't know, say that you don't know… Err on the side of caution.\" \"Err on the side of caution\" nghĩa là thà thận trọng còn hơn.",
+          "clue": [
+            0,
+            2
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "A friend tells you about losing a family member. According to rule six, what should you avoid?",
+          "options": [
+            "Telling the story of when you lost a family member",
+            "Listening quietly",
+            "Saying that you don't know what to say",
+            "Asking how they feel"
+          ],
+          "answer": 0,
+          "explain": "\"Don't equate your experience with theirs… It is never the same… it is not about you.\"",
+          "clue": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "What is the point of the Stephen Hawking story?",
+          "options": [
+            "IQ tests are not accurate.",
+            "Smart people don't like conversations.",
+            "Conversations are not a chance to promote yourself.",
+            "You should always know your IQ."
+          ],
+          "answer": 2,
+          "explain": "Câu chuyện kết bằng \"Conversations are not a promotional opportunity.\" Đừng dùng cuộc trò chuyện để khoe khoang.",
+          "clue": [
+            5,
+            6
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Stay out of the weeds\" means…",
+          "options": [
+            "avoid going outside",
+            "don't repeat yourself",
+            "stay calm",
+            "don't get lost in unnecessary details"
+          ],
+          "answer": 3,
+          "explain": "\"In the weeds\" nghĩa là sa lầy trong chi tiết. Cô giải thích ngay sau đó: \"people don't care about the years, the names, the dates… forget the details.\"",
+          "clue": [
+            9,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Quy tắc 9: Lắng nghe, quy tắc quan trọng nhất",
+      "start": 549.8,
+      "end": 630.0,
+      "lines": [
+        {
+          "t": 549.8,
+          "en": "Number nine: This is not the last one, but it is the most important one. Listen.",
+          "vi": "Thứ chín: Đây không phải quy tắc cuối, nhưng là quan trọng nhất. Hãy lắng nghe."
+        },
+        {
+          "t": 556.0,
+          "en": "I cannot tell you how many really important people have said that listening is perhaps the most, the number one most important skill that you could develop.",
+          "vi": "Không biết bao nhiêu người quan trọng đã nói rằng lắng nghe có lẽ là kỹ năng quan trọng số một mà bạn có thể phát triển."
+        },
+        {
+          "t": 565.5,
+          "en": "Buddha said, and I'm paraphrasing, \"If your mouth is open, you're not learning.\" And Calvin Coolidge said, \"No man ever listened his way out of a job.\"",
+          "vi": "Đức Phật nói (tôi diễn đạt lại): \"Khi miệng mở, bạn không học được gì.\" Và Calvin Coolidge nói: \"Chưa ai mất việc vì biết lắng nghe.\""
+        },
+        {
+          "t": 576.9,
+          "en": "Why do we not listen to each other? Number one, we'd rather talk. When I'm talking, I'm in control. I don't have to hear anything I'm not interested in. I'm the center of attention. I can bolster my own identity.",
+          "vi": "Vì sao ta không nghe nhau? Thứ nhất, ta thích nói hơn. Khi nói, tôi kiểm soát, không phải nghe điều mình không thích, tôi là trung tâm chú ý, tôi củng cố được hình ảnh bản thân."
+        },
+        {
+          "t": 588.5,
+          "en": "But there's another reason: We get distracted. The average person talks at about 225 words per minute, but we can listen at up to 500 words per minute. So our minds are filling in those other 275 words.",
+          "vi": "Nhưng còn lý do khác: ta bị xao nhãng. Người bình thường nói khoảng 225 từ mỗi phút, nhưng ta có thể nghe tới 500 từ mỗi phút. Nên đầu óc ta tự lấp 275 từ còn lại."
+        },
+        {
+          "t": 603.3,
+          "en": "And look, I know, it takes effort and energy to actually pay attention to someone, but if you can't do that, you're not in a conversation. You're just two people shouting out barely related sentences in the same place.",
+          "vi": "Tôi biết chú ý thật sự đến ai đó cần nỗ lực và năng lượng, nhưng nếu không làm được, bạn không phải đang trò chuyện. Chỉ là hai người cùng chỗ hét ra những câu chẳng mấy liên quan."
+        },
+        {
+          "t": 617.0,
+          "en": "You have to listen to one another. Stephen Covey said it very beautifully. He said, \"Most of us don't listen with the intent to understand. We listen with the intent to reply.\"",
+          "vi": "Bạn phải lắng nghe nhau. Stephen Covey nói rất hay: \"Đa số chúng ta không nghe để hiểu. Ta nghe để đáp lại.\""
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does she say about rule number nine?",
+          "options": [
+            "It is not the last one, but it is the most important one.",
+            "It is the last and the easiest rule.",
+            "It only applies to radio hosts.",
+            "It is the least important rule."
+          ],
+          "answer": 0,
+          "explain": "\"This is not the last one, but it is the most important one. Listen.\" Đáp án B là bẫy: quy tắc cuối là số 10.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How fast does the average person talk, and how fast can we listen?",
+          "options": [
+            "Talk 225, listen 275 words per minute",
+            "Talk 225, listen up to 500 words per minute",
+            "Talk 275, listen 500 words per minute",
+            "Talk 500, listen 225 words per minute"
+          ],
+          "answer": 1,
+          "explain": "\"Talks at about 225 words per minute, but we can listen at up to 500.\" 275 là phần chênh lệch mà đầu óc ta tự lấp vào.",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "According to her, why would we rather talk than listen?",
+          "options": [
+            "Because others speak too slowly.",
+            "Because listening is bad for our identity.",
+            "Because when we talk we are in control and the center of attention.",
+            "Because talking is easier to learn."
+          ],
+          "answer": 2,
+          "explain": "\"When I'm talking, I'm in control… I'm the center of attention. I can bolster my own identity.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does the Stephen Covey quote mean?",
+          "options": [
+            "We should reply faster.",
+            "We should never reply.",
+            "Most people listen only to prepare their reply, not to understand.",
+            "Understanding is less important than replying."
+          ],
+          "answer": 2,
+          "explain": "\"Most of us don't listen with the intent to understand. We listen with the intent to reply.\"",
+          "clue": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quy tắc 10 và điều cốt lõi: hãy quan tâm đến người khác",
+      "start": 630.0,
+      "end": 700.6,
+      "lines": [
+        {
+          "t": 630.0,
+          "en": "One more rule, number 10, and it's this one: Be brief.",
+          "vi": "Thêm một quy tắc, số 10: Hãy ngắn gọn."
+        },
+        {
+          "t": 644.8,
+          "en": "All of this boils down to the same basic concept, and it is this one: Be interested in other people.",
+          "vi": "Tất cả quy về một ý cơ bản: hãy quan tâm đến người khác."
+        },
+        {
+          "t": 650.5,
+          "en": "You know, I grew up with a very famous grandfather, and there was kind of a ritual in my home. People would come over to talk to my grandparents, and after they would leave, my mother would come over to us and say, \"Do you know who that was? She was the runner-up to Miss America. He was the mayor of Sacramento. She won a Pulitzer Prize. He's a Russian ballet dancer.\"",
+          "vi": "Tôi lớn lên cùng một người ông rất nổi tiếng, và nhà tôi có một kiểu nghi thức. Khách đến nói chuyện với ông bà, khi họ về, mẹ tôi lại bảo: \"Con biết đó là ai không? Cô ấy là á hậu Hoa hậu Mỹ. Ông kia là thị trưởng Sacramento. Bà ấy đoạt giải Pulitzer. Anh ấy là vũ công ballet người Nga.\""
+        },
+        {
+          "t": 671.4,
+          "en": "And I kind of grew up assuming everyone has some hidden, amazing thing about them. And honestly, I think it's what makes me a better host.",
+          "vi": "Và tôi lớn lên với niềm tin rằng ai cũng có điều tuyệt vời ẩn giấu. Thật lòng, tôi nghĩ đó là điều giúp tôi dẫn chương trình tốt hơn."
+        },
+        {
+          "t": 679.4,
+          "en": "I keep my mouth shut as often as I possibly can, I keep my mind open, and I'm always prepared to be amazed, and I'm never disappointed.",
+          "vi": "Tôi giữ im lặng nhiều nhất có thể, giữ tâm trí cởi mở, luôn sẵn sàng để ngạc nhiên, và chưa bao giờ thất vọng."
+        },
+        {
+          "t": 691.0,
+          "en": "You do the same thing. Go out, talk to people, listen to people, and most importantly, be prepared to be amazed. Thanks.",
+          "vi": "Bạn cũng hãy làm vậy. Ra ngoài, nói chuyện với mọi người, lắng nghe họ, và quan trọng nhất, hãy sẵn sàng để ngạc nhiên. Cảm ơn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What is rule number ten?",
+          "options": [
+            "Be brief",
+            "Be prepared",
+            "Be honest",
+            "Be interested"
+          ],
+          "answer": 0,
+          "explain": "\"One more rule, number 10… Be brief.\" Cô nói thật ngắn để minh họa luôn quy tắc, nên khán giả bật cười. \"Be interested\" là ý cốt lõi của mọi quy tắc, không phải quy tắc số 10.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What basic concept do all the rules boil down to?",
+          "options": [
+            "Be interested in other people.",
+            "Never disagree with anyone.",
+            "Talk less than ten minutes.",
+            "Prepare good questions."
+          ],
+          "answer": 0,
+          "explain": "\"All of this boils down to the same basic concept… Be interested in other people.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "What did she learn from the visitors to her grandparents' home?",
+          "options": [
+            "Famous people are hard to talk to.",
+            "Everyone has some hidden, amazing thing about them.",
+            "You should ask people about their prizes.",
+            "Only famous people are interesting."
+          ],
+          "answer": 1,
+          "explain": "\"I kind of grew up assuming everyone has some hidden, amazing thing about them.\"",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What is her final advice?",
+          "options": [
+            "Talk to people, listen, and be prepared to be amazed.",
+            "Become a radio host.",
+            "Follow all ten rules perfectly.",
+            "Avoid people you disagree with."
+          ],
+          "answer": 0,
+          "explain": "\"Go out, talk to people, listen to people, and most importantly, be prepared to be amazed.\"",
+          "clue": [
+            5
+          ]
+        }
+      ]
+    }
+  ],
+  "shuffled": true,
+  "level": "B",
+  "levelStats": {
+    "wpm": 170,
+    "rarePct": 5.0,
+    "avgSent": 13.4
+  }
+}

@@ -7,6 +7,10 @@
     {
       "id": "tam-ly-thoi-quen",
       "name": "Tâm lý & Thói quen"
+    },
+    {
+      "id": "giao-tiep",
+      "name": "Giao tiếp & Kỹ năng"
     }
   ],
   "videos": [
@@ -38,6 +42,21 @@
         "wpm": 164,
         "rarePct": 8.7,
         "avgSent": 15.8
+      }
+    },
+    {
+      "id": "10-ways-better-conversation-headlee",
+      "topic": "giao-tiep",
+      "youtubeId": "R1vskiVDwl4",
+      "title": "10 Ways to Have a Better Conversation — Celeste Headlee (TED)",
+      "duration": "11:44",
+      "level": "B",
+      "segments": 8,
+      "questions": 32,
+      "levelStats": {
+        "wpm": 170,
+        "rarePct": 5.0,
+        "avgSent": 13.4
       }
     }
   ]
