@@ -11,6 +11,10 @@
     {
       "id": "giao-tiep",
       "name": "Giao tiếp & Kỹ năng"
+    },
+    {
+      "id": "cong-nghe-ai",
+      "name": "Công nghệ & AI"
     }
   ],
   "videos": [
@@ -57,6 +61,21 @@
         "wpm": 170,
         "rarePct": 5.0,
         "avgSent": 13.4
+      }
+    },
+    {
+      "id": "claude-code-behind-the-scenes",
+      "topic": "cong-nghe-ai",
+      "youtubeId": "hXMTkm-JUlQ",
+      "title": "How Claude Code Works Behind the Scenes — Lydia (Anthropic)",
+      "duration": "15:33",
+      "level": "B",
+      "segments": 10,
+      "questions": 40,
+      "levelStats": {
+        "wpm": 149,
+        "rarePct": 11.1,
+        "avgSent": 14.1
       }
     }
   ]

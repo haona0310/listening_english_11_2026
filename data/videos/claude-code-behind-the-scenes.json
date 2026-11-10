@@ -1,0 +1,1158 @@
+{
+  "id": "claude-code-behind-the-scenes",
+  "topic": "cong-nghe-ai",
+  "youtubeId": "hXMTkm-JUlQ",
+  "title": "How Claude Code Works Behind the Scenes — Lydia (Anthropic)",
+  "duration": "15:33",
+  "segments": [
+    {
+      "id": 1,
+      "title": "Giới thiệu khóa học và ý quan trọng nhất: mô hình không có trạng thái",
+      "start": 8.0,
+      "end": 71.0,
+      "lines": [
+        {
+          "t": 8.4,
+          "en": "Hi, I'm Lydia. I'm on the Claude Code team at Anthropic.",
+          "vi": "Xin chào, tôi là Lydia, thuộc nhóm Claude Code ở Anthropic."
+        },
+        {
+          "t": 11.64,
+          "en": "I created this course because I want to give you a better understanding of how Claude Code works behind the scenes, so that you can truly personalize it to your code base and your workflows.",
+          "vi": "Tôi làm khóa học này vì muốn giúp bạn hiểu rõ hơn Claude Code hoạt động thế nào ở hậu trường, để bạn có thể thật sự tùy chỉnh nó cho mã nguồn và quy trình làm việc của mình."
+        },
+        {
+          "t": 20.72,
+          "en": "In this course, we'll be talking about the agentic loop, how your prompt is assembled, and what the model actually sees.",
+          "vi": "Trong khóa học, ta sẽ nói về vòng lặp tác tử (agentic loop), cách prompt của bạn được lắp ráp, và mô hình thực sự nhìn thấy gì."
+        },
+        {
+          "t": 28.04,
+          "en": "And then we'll be talking about the features in Claude Code and why we use them: Claude MD, permissions, plan mode, skills, hooks, plugins, MCP, you name it.",
+          "vi": "Sau đó ta sẽ nói về các tính năng của Claude Code và lý do dùng chúng: Claude MD, quyền (permissions), plan mode, skills, hooks, plugins, MCP, đủ cả."
+        },
+        {
+          "t": 37.36,
+          "en": "Everything to truly personalize Claude Code and get the best results out of it. With this deeper understanding of Claude Code, you can master agentic engineering.",
+          "vi": "Tất cả để tùy chỉnh Claude Code và đạt kết quả tốt nhất. Hiểu sâu hơn về Claude Code, bạn có thể làm chủ kỹ thuật làm việc với tác tử."
+        },
+        {
+          "t": 45.96,
+          "en": "But the most important thing when working with Claude Code, again, is that the model is stateless. It has no in-session memory, no memory between the calls.",
+          "vi": "Nhưng điều quan trọng nhất khi làm việc với Claude Code là mô hình không có trạng thái (stateless). Nó không có bộ nhớ trong phiên, không nhớ gì giữa các lần gọi."
+        },
+        {
+          "t": 58.04,
+          "en": "Every time we call the model, it essentially starts from zero. So it's up to the harness to provide all the state.",
+          "vi": "Mỗi lần gọi mô hình, về cơ bản nó bắt đầu lại từ số không. Nên việc cung cấp toàn bộ trạng thái là của \"harness\" (phần khung bao quanh mô hình)."
+        },
+        {
+          "t": 63.44,
+          "en": "So everything — your files, your conversation history, your entire setup, your environment — that's all Claude Code. But how does Claude Code get that?",
+          "vi": "Mọi thứ, từ file, lịch sử hội thoại, toàn bộ thiết lập đến môi trường của bạn, đều do Claude Code lo. Nhưng Claude Code lấy những thứ đó bằng cách nào?"
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Why did Lydia create this course?",
+          "options": [
+            "To teach people how to train AI models",
+            "To sell a new version of Claude Code",
+            "To help people understand how Claude Code works behind the scenes so they can personalize it",
+            "To compare Claude Code with other tools"
+          ],
+          "answer": 2,
+          "explain": "\"I want to give you a better understanding of how Claude Code works behind the scenes so that you can truly personalize it.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does she say is the most important thing when working with Claude Code?",
+          "options": [
+            "The model is stateless — it has no memory between calls.",
+            "The model can run commands by itself.",
+            "The model remembers every past session.",
+            "The model is very fast."
+          ],
+          "answer": 0,
+          "explain": "\"The most important thing… is that the model is stateless. It has no in-session memory, no memory between the calls.\" Đáp án C ngược nghĩa hoàn toàn.",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Every time we call the model, it essentially starts from zero.\" This means the model…",
+          "options": [
+            "loses all its training",
+            "resets your files",
+            "begins with no knowledge of previous calls",
+            "counts from zero to start"
+          ],
+          "answer": 2,
+          "explain": "\"Start from zero\" nghĩa là bắt đầu lại từ đầu: mỗi lần gọi, mô hình không biết gì về các lần trước, nên harness phải gửi lại toàn bộ trạng thái.",
+          "clue": [
+            6
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Who is responsible for providing the files, conversation history and environment to the model?",
+          "options": [
+            "The harness — Claude Code",
+            "The user, by typing them each time",
+            "The model itself",
+            "The API server"
+          ],
+          "answer": 0,
+          "explain": "\"It's up to the harness to provide all the state… that's all Claude Code.\"",
+          "clue": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Prompt được lắp ráp: tool schemas, system prompt, môi trường",
+      "start": 71.0,
+      "end": 160.0,
+      "lines": [
+        {
+          "t": 71.68,
+          "en": "So, just to go back to our prompts: behind the scenes, the moment you press enter, Claude Code assembles all of this data into one big request, into one big assembled prompt — way more than just the user message.",
+          "vi": "Quay lại với prompt: ở hậu trường, ngay khi bạn nhấn Enter, Claude Code gom toàn bộ dữ liệu này thành một yêu cầu lớn, một prompt được lắp ráp, nhiều hơn hẳn tin nhắn của người dùng."
+        },
+        {
+          "t": 87.72,
+          "en": "So first, we have the tool schemas. You don't have to know much about tools yet, but these define every action that Claude Code can take on your behalf: bash, edit, read, agents, web fetch — there's a bunch more, and they're all in our docs.",
+          "vi": "Đầu tiên là các tool schema. Bạn chưa cần biết nhiều về công cụ, nhưng chúng định nghĩa mọi hành động Claude Code có thể làm thay bạn: bash, edit, read, agents, web fetch, còn nhiều nữa, tất cả có trong tài liệu."
+        },
+        {
+          "t": 101.36,
+          "en": "And each one is visualized differently here, but it's actually a JSON schema. So we have the name, the description, and the input shape.",
+          "vi": "Ở đây mỗi công cụ được minh họa khác nhau, nhưng thực chất là một JSON schema, gồm tên, mô tả và dạng dữ liệu đầu vào."
+        },
+        {
+          "t": 110.36,
+          "en": "So the model now sees, \"Okay, if I want to do something, I know that the harness could run a bash command or an edit command.\"",
+          "vi": "Nhờ vậy mô hình biết: \"Nếu muốn làm gì đó, harness có thể chạy lệnh bash hay lệnh edit.\""
+        },
+        {
+          "t": 118.48,
+          "en": "Again, the model cannot run that. The model will just send it back to the harness, but we'll see that in a moment.",
+          "vi": "Nhắc lại, mô hình không tự chạy được. Nó chỉ gửi yêu cầu lại cho harness, lát nữa ta sẽ thấy."
+        },
+        {
+          "t": 123.96,
+          "en": "Then we also have the system prompt, and this is just hard-coded into Claude Code itself. Anthropic adds this to the harness.",
+          "vi": "Tiếp theo là system prompt, được viết cố định sẵn trong Claude Code. Anthropic thêm nó vào harness."
+        },
+        {
+          "t": 131.92,
+          "en": "And this tells the model who it is, what tone it should have, the coding conventions, security rules that we as Anthropic want to enforce, all that stuff.",
+          "vi": "Nó cho mô hình biết mình là ai, giọng điệu ra sao, quy ước viết code, các quy tắc bảo mật Anthropic muốn áp dụng, đại loại vậy."
+        },
+        {
+          "t": 142.52,
+          "en": "We also have your environment. That's the entire environment of your coding session: the operating system, your shell, which model you're running, your Git branch, all that stuff.",
+          "vi": "Ta còn có môi trường của bạn: toàn bộ môi trường của phiên lập trình, gồm hệ điều hành, shell, mô hình đang dùng, nhánh Git, v.v."
+        },
+        {
+          "t": 152.96,
+          "en": "Claude Code captures this whenever you start a session.",
+          "vi": "Claude Code ghi lại những thông tin này mỗi khi bạn bắt đầu một phiên."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "When does Claude Code assemble everything into one big request?",
+          "options": [
+            "Once a day",
+            "When the model asks for it",
+            "Only when you start a new project",
+            "The moment you press enter"
+          ],
+          "answer": 3,
+          "explain": "\"The moment you press enter, Claude Code assembles all of this data into one big request.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What do the tool schemas define?",
+          "options": [
+            "The tone the model should use",
+            "Your Git branch and shell",
+            "Every action Claude Code can take on your behalf",
+            "The security rules of Anthropic"
+          ],
+          "answer": 2,
+          "explain": "\"These define every action that Claude Code can take on your behalf.\" Giọng điệu và quy tắc bảo mật thuộc về system prompt.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Can the model run a bash command by itself?",
+          "options": [
+            "Yes, it runs commands directly on your computer.",
+            "No — it only sends the request back to the harness, which runs it.",
+            "Only edit commands, not bash.",
+            "Only if you are on the Opus model."
+          ],
+          "answer": 1,
+          "explain": "\"The model cannot run that. The model will just send it back to the harness.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which information belongs to the \"environment\" part?",
+          "options": [
+            "Your CLAUDE.md file",
+            "Tool names and descriptions",
+            "Operating system, shell, model and Git branch",
+            "Coding conventions and tone"
+          ],
+          "answer": 2,
+          "explain": "\"The operating system, your shell, which model you're running, your Git branch, all that stuff.\" Quy ước code thuộc system prompt, tên công cụ thuộc tool schema.",
+          "clue": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mảng tin nhắn: CLAUDE.md, danh sách skill và prompt của bạn",
+      "start": 160.0,
+      "end": 228.5,
+      "lines": [
+        {
+          "t": 160.0,
+          "en": "And then lastly, and this is the most important one for us, that's the messages array, or the conversation array.",
+          "vi": "Cuối cùng, và quan trọng nhất với chúng ta, là mảng tin nhắn (messages array), hay mảng hội thoại."
+        },
+        {
+          "t": 167.68,
+          "en": "So you can see here that we have our own prompt: \"add a test for calc.\" But we also have the CLAUDE.md file contents, if we have a CLAUDE.md file.",
+          "vi": "Ở đây có prompt của ta: \"thêm test cho calc\". Nhưng còn có nội dung file CLAUDE.md, nếu ta có file đó."
+        },
+        {
+          "t": 176.96,
+          "en": "And a list of all the skills that we might have in our project. We'll talk more about skills later, but this is a list of skills with only their names and descriptions.",
+          "vi": "Và danh sách các skill trong dự án. Ta sẽ nói kỹ về skill sau, nhưng đây chỉ là danh sách gồm tên và mô tả của chúng."
+        },
+        {
+          "t": 187.76,
+          "en": "This is like progressive disclosure. So the first message that we're sending to the model also has our CLAUDE.md file contents, the skills, and then finally our prompt.",
+          "vi": "Đây là kiểu \"tiết lộ dần dần\" (progressive disclosure). Tin nhắn đầu tiên gửi tới mô hình gồm nội dung CLAUDE.md, các skill, và cuối cùng là prompt của ta."
+        },
+        {
+          "t": 199.8,
+          "en": "Now, of course, realistically this looks something like this. If you've used our SDK, you should be very familiar with the structure. This is just a JSON request body to the Messages API.",
+          "vi": "Trên thực tế nó trông như thế này. Nếu bạn từng dùng SDK của chúng tôi thì sẽ quen cấu trúc này: chỉ là phần thân yêu cầu JSON gửi tới Messages API."
+        },
+        {
+          "t": 211.48,
+          "en": "One subtle thing I do want to say is that the model doesn't read JSON. It's up to the API to internally turn this into tokens. The model only understands these tokens, not plain JSON.",
+          "vi": "Một điểm tinh tế tôi muốn nói: mô hình không đọc JSON. API sẽ chuyển nó thành token bên trong. Mô hình chỉ hiểu token, không hiểu JSON thuần."
+        },
+        {
+          "t": 223.04,
+          "en": "But that's up to the API side — either the Anthropic API or Bedrock, all that stuff.",
+          "vi": "Việc đó do phía API lo, dù là Anthropic API hay Bedrock."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Which part of the assembled prompt does she call \"the most important one for us\"?",
+          "options": [
+            "The environment",
+            "The messages array",
+            "The tool schemas",
+            "The system prompt"
+          ],
+          "answer": 1,
+          "explain": "\"Lastly, and this is the most important one for us, that's the messages array.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What is included about skills in the first message?",
+          "options": [
+            "Only the names and descriptions of the skills",
+            "Only skills the user typed",
+            "Nothing about skills",
+            "The full instructions of every skill"
+          ],
+          "answer": 0,
+          "explain": "\"A list of skills and only their names and descriptions\". Cách gửi tóm tắt trước, chi tiết sau này gọi là progressive disclosure.",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Progressive disclosure\" here means…",
+          "options": [
+            "showing everything at once",
+            "hiding information from the user forever",
+            "giving a short summary first and the details only when needed",
+            "revealing a secret password"
+          ],
+          "answer": 2,
+          "explain": "Progressive disclosure là tiết lộ dần dần: lúc đầu mô hình chỉ thấy tên và mô tả skill, khi cần mới tải nội dung đầy đủ.",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "What does she mean by \"the model doesn't read JSON\"?",
+          "options": [
+            "JSON is too long for the model.",
+            "The model reads XML instead.",
+            "You must not send JSON to the API.",
+            "The API turns the JSON into tokens, and the model only understands tokens."
+          ],
+          "answer": 3,
+          "explain": "\"It's up to the API to internally turn this into tokens. The model only understands these tokens, not plain JSON.\"",
+          "clue": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vòng lặp: mô hình gọi công cụ, harness chạy và trả kết quả",
+      "start": 228.5,
+      "end": 322.0,
+      "lines": [
+        {
+          "t": 229.4,
+          "en": "So now finally the request gets sent to the API. The model sees this request and starts reasoning. It sees the entire assembled prompt.",
+          "vi": "Cuối cùng yêu cầu được gửi tới API. Mô hình nhận yêu cầu và bắt đầu suy luận. Nó thấy toàn bộ prompt đã lắp ráp."
+        },
+        {
+          "t": 238.12,
+          "en": "It's like, \"Well, the user wants to add a test in utils.ts, but nowhere in our assembled prompt have we added this file yet.\" So it can't do anything.",
+          "vi": "Nó nghĩ: \"Người dùng muốn thêm test vào utils.ts, nhưng trong prompt chưa có file này.\" Nên nó chưa làm gì được."
+        },
+        {
+          "t": 247.2,
+          "en": "But what it does see is that in our tool schema, we have a read tool. So it understands, \"Okay, if I don't have access to something, then just use this read tool call.\"",
+          "vi": "Nhưng nó thấy trong tool schema có công cụ read. Nên nó hiểu: \"Nếu chưa có thứ gì đó thì dùng lệnh gọi read.\""
+        },
+        {
+          "t": 258.16,
+          "en": "So the response of the model, or the API, is an assistant message with this tool call. In your network, you might see it as \"tool use\".",
+          "vi": "Phản hồi của mô hình, tức của API, là một tin nhắn assistant chứa lời gọi công cụ này. Trong network bạn có thể thấy nó hiện là \"tool use\"."
+        },
+        {
+          "t": 266.72,
+          "en": "And this again is a hint to the harness that it wants to read this file.",
+          "vi": "Đó là tín hiệu cho harness biết mô hình muốn đọc file này."
+        },
+        {
+          "t": 272.36,
+          "en": "Only now, when the API has responded, will it show that read tool call in your CLI. Behind the scenes, this might run something like fs.readFile, but that's up to the harness.",
+          "vi": "Chỉ khi API đã phản hồi thì lệnh read mới hiện trong giao diện dòng lệnh của bạn. Ở hậu trường, harness có thể chạy kiểu fs.readFile, nhưng đó là việc của harness."
+        },
+        {
+          "t": 289.92,
+          "en": "Eventually the file contents come back as a tool result. And when it's all successful, it can reassemble that entire prompt with the exact same messages and everything else above.",
+          "vi": "Cuối cùng nội dung file quay về dưới dạng tool result. Khi mọi thứ thành công, harness lắp ráp lại toàn bộ prompt với đúng các tin nhắn và mọi phần phía trên."
+        },
+        {
+          "t": 303.56,
+          "en": "The only thing that's added here is the assistant message to the messages array, and also now the tool result — in this case, the contents of the file it just read.",
+          "vi": "Thứ duy nhất được thêm vào là tin nhắn assistant trong mảng tin nhắn, cùng với tool result, ở đây là nội dung file vừa đọc."
+        },
+        {
+          "t": 313.72,
+          "en": "Please understand that this is of course pseudo code. Normally these are just JSON objects. Don't take this too literally — it's more just the idea.",
+          "vi": "Lưu ý đây chỉ là mã giả. Thực tế chúng là các đối tượng JSON. Đừng hiểu quá theo nghĩa đen, chủ yếu là để nắm ý tưởng."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Suy luận",
+          "q": "Why can't the model add the test right away?",
+          "options": [
+            "The file utils.ts is not yet in the assembled prompt.",
+            "The user didn't give permission.",
+            "There is no test tool.",
+            "The model is too slow."
+          ],
+          "answer": 0,
+          "explain": "\"Nowhere in our assembled prompt have we added this file yet. So it can't do anything.\" Mô hình không có trạng thái, nên chỉ biết những gì nằm trong prompt.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What does the model respond with?",
+          "options": [
+            "The finished test code",
+            "A question to the user",
+            "An error message",
+            "An assistant message with a read tool call"
+          ],
+          "answer": 3,
+          "explain": "\"The response of the model… is an assistant message with this tool call.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How do the file contents get back to the model?",
+          "options": [
+            "They are saved in the model's memory.",
+            "The model downloads them from the internet.",
+            "As a tool result added to the messages array in the reassembled prompt.",
+            "The user copies and pastes them."
+          ],
+          "answer": 2,
+          "explain": "\"The file contents also come back as a tool result… it can reassemble that entire prompt.\" Đáp án A là bẫy: mô hình không có bộ nhớ, nên harness phải gửi lại toàn bộ.",
+          "clue": [
+            6,
+            7
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Don't take this too literally.\" She means…",
+          "options": [
+            "It's a simplified picture; the real format is JSON objects.",
+            "Don't read this text aloud.",
+            "Don't translate it.",
+            "This information is wrong."
+          ],
+          "answer": 0,
+          "explain": "\"Take something literally\" là hiểu theo nghĩa đen. Cô nói đây chỉ là mã giả (pseudo code) để minh họa ý, còn định dạng thật là JSON.",
+          "clue": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Plan mode và danh sách quyền allow / ask / deny",
+      "start": 322.0,
+      "end": 423.0,
+      "lines": [
+        {
+          "t": 322.28,
+          "en": "Plan mode is kind of like a permission mode. We're telling Claude, \"Hey, don't code anything yet. Don't touch anything.\"",
+          "vi": "Plan mode giống một chế độ quyền: ta bảo Claude \"Khoan viết code, đừng đụng vào gì cả.\""
+        },
+        {
+          "t": 330.72,
+          "en": "But remember that loop diagram, where the model emits a tool call and then the harness executes it. How do we know that what it's executing is actually stuff that we want?",
+          "vi": "Nhưng nhớ lại sơ đồ vòng lặp: mô hình phát ra lời gọi công cụ, harness thực thi. Làm sao ta biết thứ được thực thi đúng là thứ ta muốn?"
+        },
+        {
+          "t": 340.72,
+          "en": "So in our Claude settings JSON, we can also define specific permissions.",
+          "vi": "Trong file settings JSON của Claude, ta có thể định nghĩa các quyền cụ thể."
+        },
+        {
+          "t": 344.04,
+          "en": "I have this pretty early on in the workshop because I think it's important that you understand the control you can have over Claude Code, and make sure that it won't run anything that you don't want running on your machine.",
+          "vi": "Tôi đưa phần này khá sớm trong buổi học vì bạn cần hiểu mình kiểm soát Claude Code được tới đâu, và chắc chắn nó không chạy thứ bạn không muốn trên máy mình."
+        },
+        {
+          "t": 355.84,
+          "en": "So first we have an allow list. This is a list that runs with no prompt.",
+          "vi": "Đầu tiên là danh sách allow: những thứ được chạy mà không cần hỏi."
+        },
+        {
+          "t": 365.56,
+          "en": "For example, I can say, \"Just make a dark mode.\" I haven't added any permissions yet, so it will ask me if it can edit it.",
+          "vi": "Ví dụ tôi nói \"Làm chế độ tối đi.\" Tôi chưa thêm quyền nào, nên nó hỏi tôi có cho sửa file không."
+        },
+        {
+          "t": 378.08,
+          "en": "But honestly, it's kind of annoying to babysit it like this. I'm like, \"Yeah, I'm sure it's fine. I'm sure you're going to do a good job.\"",
+          "vi": "Thật ra cứ phải canh chừng thế này hơi phiền. Kiểu: \"Ừ, chắc không sao đâu, chắc bạn sẽ làm tốt.\""
+        },
+        {
+          "t": 389.0,
+          "en": "We can either set auto mode, but permissions are a bit more deliberate.",
+          "vi": "Ta có thể bật auto mode, nhưng dùng permissions thì có chủ đích hơn."
+        },
+        {
+          "t": 395.8,
+          "en": "If the tool call is npm run, just do it, don't ask me. If it's git commit, maybe you're also always okay with that. But if it's git push, please don't do that — don't touch any of my remotes.",
+          "vi": "Nếu lệnh là npm run thì cứ chạy, đừng hỏi. Nếu là git commit, có lẽ bạn cũng luôn đồng ý. Nhưng git push thì đừng, đừng đụng tới remote của tôi."
+        },
+        {
+          "t": 408.64,
+          "en": "Removing files — honestly, I always have it in ask. It's annoying to have it in deny, because then you end up with so many stale files that should have been deleted. So if there's an rm, just ask.",
+          "vi": "Xóa file thì tôi luôn để ở ask. Để ở deny thì phiền, vì bạn sẽ có rất nhiều file cũ lẽ ra đã bị xóa. Nên gặp lệnh rm thì cứ hỏi."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does plan mode tell Claude?",
+          "options": [
+            "Don't code or touch anything yet.",
+            "Delete old files.",
+            "Push to the remote repository.",
+            "Write code as fast as possible."
+          ],
+          "answer": 0,
+          "explain": "\"We're telling Claude like, 'Hey, don't code anything yet. Don't touch anything.'\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What happens to a command on the allow list?",
+          "options": [
+            "It asks you every time.",
+            "It runs without asking you.",
+            "It is always blocked.",
+            "It runs only in plan mode."
+          ],
+          "answer": 1,
+          "explain": "\"An allow list. So this is a list that runs with no prompt.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which command does she NOT want Claude to run?",
+          "options": [
+            "git commit",
+            "git push",
+            "npm run",
+            "read"
+          ],
+          "answer": 1,
+          "explain": "\"If it's a git push, please don't do that. Like don't touch any of my remotes.\" npm run và git commit là ví dụ cho phép.",
+          "clue": [
+            8
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does she put file removal (rm) in \"ask\" instead of \"deny\"?",
+          "options": [
+            "Because deleting is always safe.",
+            "Because ask is faster than deny.",
+            "Because with deny you end up with many stale files that should have been deleted.",
+            "Because rm cannot be denied."
+          ],
+          "answer": 2,
+          "explain": "\"It's annoying to have it in deny cuz then you just end up with so many stale files that should have been deleted.\" \"Stale\" ở đây là file cũ, không còn dùng.",
+          "clue": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Lệnh /permissions, settings.json và \"fewer permission prompts\"",
+      "start": 423.0,
+      "end": 548.0,
+      "lines": [
+        {
+          "t": 423.0,
+          "en": "The best thing, I think, is to control this with our built-in slash command called permissions.",
+          "vi": "Cách tốt nhất, theo tôi, là kiểm soát bằng lệnh có sẵn /permissions."
+        },
+        {
+          "t": 437.24,
+          "en": "And here you can add a new rule if you want. You can also just see the other rules.",
+          "vi": "Ở đây bạn có thể thêm quy tắc mới, hoặc xem các quy tắc hiện có."
+        },
+        {
+          "t": 442.92,
+          "en": "The only annoying thing is that you have to know which tools are available and how you write this permission-type code. But this is a very easy way to add these permission rules.",
+          "vi": "Điểm hơi phiền là bạn phải biết có những công cụ nào và cách viết cú pháp quyền. Nhưng đây là cách rất dễ để thêm quy tắc quyền."
+        },
+        {
+          "t": 457.24,
+          "en": "Otherwise, we just have to do it explicitly. We can go to .claude/settings.json, and in here we can have deny, ask, all these things.",
+          "vi": "Nếu không thì phải làm thủ công: mở .claude/settings.json, trong đó có deny, ask, v.v."
+        },
+        {
+          "t": 471.88,
+          "en": "But we just added another command which I really like. And that is \"fewer permission prompts\".",
+          "vi": "Nhưng chúng tôi vừa thêm một lệnh tôi rất thích: \"fewer permission prompts\" (ít hỏi quyền hơn)."
+        },
+        {
+          "t": 486.48,
+          "en": "It'll go through all your transcripts, and it will try to find the tool calls that you've been asked about the most.",
+          "vi": "Nó sẽ rà toàn bộ lịch sử phiên làm việc và tìm những lệnh gọi công cụ bạn bị hỏi nhiều nhất."
+        },
+        {
+          "t": 494.96,
+          "en": "So if you've already run a couple of sessions and you're like, \"I always see the same type of tool calls and I keep allowing this, but how do I add this to my permissions?\" — fewer permission prompts is really good for that.",
+          "vi": "Nếu bạn đã chạy vài phiên và thấy \"lúc nào cũng gặp cùng kiểu lệnh, mình cứ bấm cho phép, làm sao thêm vào quyền đây?\", thì lệnh này rất hợp."
+        },
+        {
+          "t": 507.04,
+          "en": "So it saw that I kept accepting my Linear MCP server and the bash \"bun run type check\". So it added two of these to my settings.json without me having to touch it.",
+          "vi": "Nó thấy tôi cứ chấp nhận MCP server Linear và lệnh bash \"bun run type check\", nên tự thêm hai mục này vào settings.json mà tôi không phải động tay."
+        },
+        {
+          "t": 517.52,
+          "en": "It also skipped a few, and it will tell you why. Instructions say, \"When in doubt, leave it out.\" So it's also very conservative with what it does add.",
+          "vi": "Nó cũng bỏ qua vài mục và nói rõ lý do. Hướng dẫn ghi: \"Khi nghi ngờ thì bỏ ra.\" Nên nó rất thận trọng với những gì nó thêm."
+        },
+        {
+          "t": 530.56,
+          "en": "It still thinks, \"Okay, is what I'm allowing actually safe? Is it maybe redundant?\"",
+          "vi": "Nó vẫn cân nhắc: \"Thứ mình cho phép có thật sự an toàn không? Có thừa không?\""
+        },
+        {
+          "t": 537.76,
+          "en": "If you've been using Claude Code for a while, there are so many newish commands that can be very useful to your workflow.",
+          "vi": "Nếu bạn dùng Claude Code lâu rồi, có rất nhiều lệnh mới hữu ích cho quy trình làm việc."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What is the \"annoying thing\" about using the /permissions command?",
+          "options": [
+            "It is very slow.",
+            "You have to know which tools exist and how to write the permission syntax.",
+            "It deletes your old rules.",
+            "It only works on a new laptop."
+          ],
+          "answer": 1,
+          "explain": "\"You have to know which tools are available and… how you kind of write this permission type code.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does \"fewer permission prompts\" do?",
+          "options": [
+            "It looks through your transcripts and adds the tool calls you approve most often to your settings.",
+            "It removes your settings.json file.",
+            "It writes new code for you.",
+            "It turns off all permissions."
+          ],
+          "answer": 0,
+          "explain": "\"It'll go through all your transcripts and it will try to find the tool calls that you've been asked the most… added two of these to my settings.json.\"",
+          "clue": [
+            5,
+            7
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"When in doubt, leave it out\" means…",
+          "options": [
+            "Delete the file.",
+            "Ask the user to decide.",
+            "Always add everything.",
+            "If you're not sure, don't add it."
+          ],
+          "answer": 3,
+          "explain": "Câu này là \"khi nghi ngờ thì đừng thêm vào\". Nó giải thích vì sao lệnh này thận trọng (\"very conservative\") và bỏ qua vài mục.",
+          "clue": [
+            8
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which two items did the command add to her settings?",
+          "options": [
+            "Edit and read",
+            "Her Linear MCP server and \"bun run type check\"",
+            "git push and rm",
+            "npm run and git commit"
+          ],
+          "answer": 1,
+          "explain": "\"It saw that I kept just like accepting my Linear MCP server and the bash bun run type check.\"",
+          "clue": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Thứ tự ưu tiên của settings và thử nghiệm quy tắc deny",
+      "start": 548.0,
+      "end": 677.6,
+      "lines": [
+        {
+          "t": 547.96,
+          "en": "Question: with the settings, I guess there's a personal global setting and then per project. What happens if they collide with each other?",
+          "vi": "Câu hỏi: có thiết lập chung cá nhân và thiết lập theo dự án. Nếu chúng xung đột thì sao?"
+        },
+        {
+          "t": 558.0,
+          "en": "So the highest one has precedence, if that makes sense. If you have something in managed settings — all the way up to your enterprise — that will always take precedence. Then it's your user, and then it goes down per project.",
+          "vi": "Cái ở cấp cao nhất được ưu tiên. Nếu bạn có gì trong managed settings, tức ở cấp doanh nghiệp, thì nó luôn được ưu tiên. Sau đó tới cấp người dùng, rồi xuống tới từng dự án."
+        },
+        {
+          "t": 571.84,
+          "en": "Basically, we want to make sure that an individual team member's permissions cannot overwrite what your team or your company set up for you.",
+          "vi": "Về cơ bản, ta muốn chắc rằng quyền của một thành viên không ghi đè được những gì nhóm hay công ty đã thiết lập."
+        },
+        {
+          "t": 582.56,
+          "en": "So it's almost like a reverse hierarchy in that sense, where the one that's closest to root wins, and then it goes all the way down.",
+          "vi": "Theo nghĩa đó, nó gần như một hệ thống thứ bậc đảo ngược: cái gần gốc nhất thắng, rồi đi dần xuống."
+        },
+        {
+          "t": 593.52,
+          "en": "I'm going to add a deny rule here with edit package.json, and I'm just going to see what happens.",
+          "vi": "Giờ tôi sẽ thêm một quy tắc deny cho việc sửa package.json để xem chuyện gì xảy ra."
+        },
+        {
+          "t": 625.24,
+          "en": "And now I'm going to still ask Claude to edit it for me. I'm actually going to change this model to Haiku, because this is just a very simple task.",
+          "vi": "Giờ tôi vẫn nhờ Claude sửa file đó. Tôi đổi mô hình sang Haiku, vì đây chỉ là việc rất đơn giản."
+        },
+        {
+          "t": 633.28,
+          "en": "So I'm going to say, \"Update the version in package.json to one.\" Hopefully my permissions were set up correctly, and it will say, \"Can't do that.\"",
+          "vi": "Tôi gõ: \"Cập nhật version trong package.json thành 1.\" Mong là quyền đã cài đúng và nó sẽ nói \"Không làm được.\""
+        },
+        {
+          "t": 665.24,
+          "en": "Yeah, so it says, \"Oh, I can't do that.\" So even if this was a tool call coming from the model, it won't run it.",
+          "vi": "Đúng vậy, nó nói \"Tôi không làm được.\" Tức là dù lời gọi công cụ xuất phát từ mô hình, nó vẫn không được chạy."
+        },
+        {
+          "t": 672.28,
+          "en": "So this is a great way to add more control over what Claude can and cannot do in your environment.",
+          "vi": "Đây là cách rất tốt để kiểm soát những gì Claude được và không được làm trong môi trường của bạn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "If settings collide, which one takes precedence?",
+          "options": [
+            "The user settings",
+            "The project settings",
+            "The newest file",
+            "The managed (enterprise) settings at the highest level"
+          ],
+          "answer": 3,
+          "explain": "\"If you have something in managed settings, so all the way up to your enterprise, that will always take precedence.\" Thứ tự là doanh nghiệp, rồi người dùng, rồi dự án.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is the order designed this way?",
+          "options": [
+            "So projects can ignore company rules",
+            "So individual members cannot overwrite what the team or company set up",
+            "So nobody can change any settings",
+            "Because user settings load faster"
+          ],
+          "answer": 1,
+          "explain": "\"An individual team member's permissions cannot overwrite what your team or your company set up for you.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Why did she switch the model to Haiku for the demo?",
+          "options": [
+            "Haiku ignores permissions.",
+            "Opus was not available.",
+            "Haiku is the only model that can edit files.",
+            "It was just a very simple task."
+          ],
+          "answer": 3,
+          "explain": "\"I'm just going to actually change this model to Haiku, cuz again, this is just a very simple task.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What did the deny rule demo show?",
+          "options": [
+            "package.json can never be edited by anyone.",
+            "Even if the model emits the tool call, a denied action is not run.",
+            "The model can bypass a deny rule if asked.",
+            "Deny rules only work in plan mode."
+          ],
+          "answer": 1,
+          "explain": "\"Even if this was a tool call coming from the model, it won't run it.\" Quyền do harness thực thi, không phụ thuộc vào việc mô hình có nghe lời hay không.",
+          "clue": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Skills là gì và skill creator",
+      "start": 677.6,
+      "end": 785.5,
+      "lines": [
+        {
+          "t": 677.6,
+          "en": "We've seen how we can shape the behavior with CLAUDE.md, and how we can guarantee it with permissions, but both of these are kind of passive.",
+          "vi": "Ta đã thấy cách định hướng hành vi bằng CLAUDE.md và đảm bảo bằng permissions, nhưng cả hai đều khá thụ động."
+        },
+        {
+          "t": 686.96,
+          "en": "There are often a lot of workflows or a lot of steps that we want to take in Claude Code, and we want to do it multiple times. And in that case, we can use skills.",
+          "vi": "Thường có nhiều quy trình hay nhiều bước ta muốn làm trong Claude Code, và muốn làm nhiều lần. Khi đó ta dùng skills."
+        },
+        {
+          "t": 698.08,
+          "en": "A skill is just a markdown file with a specific procedure — something you'd otherwise have to re-explain to Claude every time, repeated, multi-step, and specific to our project.",
+          "vi": "Một skill chỉ là file markdown chứa một quy trình cụ thể: thứ mà nếu không có, bạn phải giải thích lại cho Claude mỗi lần, lặp đi lặp lại, nhiều bước, và riêng cho dự án."
+        },
+        {
+          "t": 712.48,
+          "en": "This could be anything like deployment or integrations, a QA loop — anything that you want to do multiple times, but you don't want to keep typing the same prompt over and over.",
+          "vi": "Có thể là triển khai, tích hợp, vòng kiểm thử, bất cứ việc gì bạn muốn làm nhiều lần mà không muốn gõ lại cùng một prompt."
+        },
+        {
+          "t": 725.08,
+          "en": "Actually, before I start typing it myself, a really nice one that I like to use is skill creator. I believe this is built into Claude Code.",
+          "vi": "Trước khi tự viết, một công cụ tôi rất thích dùng là skill creator. Tôi tin là nó có sẵn trong Claude Code."
+        },
+        {
+          "t": 736.56,
+          "en": "Sometimes I add different plugins to my environment and then I forget whether this was built in or if I added it.",
+          "vi": "Đôi khi tôi thêm nhiều plugin rồi quên mất cái nào có sẵn, cái nào tôi tự thêm."
+        },
+        {
+          "t": 747.32,
+          "en": "And this one makes it super easy to add your custom skills. Let's say, a very simple code reviewer skill.",
+          "vi": "Cái này giúp thêm skill tùy chỉnh cực dễ. Ví dụ một skill review code đơn giản."
+        },
+        {
+          "t": 763.0,
+          "en": "Also, what I want to show here is: if you have a question or an example, the first thing that should come to your mind is, \"Has Claude Code already automated this, or do I really have to go into the code base and code it myself?\"",
+          "vi": "Điều tôi muốn nói thêm: khi có câu hỏi hay một việc cần làm, điều đầu tiên nên nghĩ là \"Claude Code đã tự động hóa việc này chưa, hay mình phải tự vào code?\""
+        },
+        {
+          "t": 776.4,
+          "en": "For a lot of these questions, you could just ask Claude and let it do it for you. So it's like updating your mindset: how much of my daily life can I Claudify?",
+          "vi": "Nhiều câu hỏi như vậy bạn cứ hỏi Claude và để nó làm. Đó là thay đổi tư duy: mình có thể \"Claude hóa\" bao nhiêu phần trong công việc hằng ngày?"
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "How does she describe CLAUDE.md and permissions?",
+          "options": [
+            "Both are only for enterprise users.",
+            "Both are deprecated.",
+            "Both are active tools.",
+            "Both are kind of passive."
+          ],
+          "answer": 3,
+          "explain": "\"Both of these are kind of passive.\" Skills được giới thiệu như cách chủ động chạy một quy trình.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What is a skill?",
+          "options": [
+            "A new AI model",
+            "A JSON settings file for permissions",
+            "A paid add-on for Claude Code",
+            "A markdown file with a specific, repeatable procedure"
+          ],
+          "answer": 3,
+          "explain": "\"A skill is just a markdown file with a specific procedure… something you'd otherwise have to re-explain to Claude every time.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which example skill does she decide to create with skill creator?",
+          "options": [
+            "A translation skill",
+            "A deployment skill",
+            "A dark mode skill",
+            "A very simple code reviewer skill"
+          ],
+          "answer": 3,
+          "explain": "\"A very simple um like code reviewer skill.\" Skill deploy là ví dụ ở đoạn sau.",
+          "clue": [
+            6
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"How much of my daily life can I Claudify?\" — \"Claudify\" means…",
+          "options": [
+            "hand it over to Claude to do or automate",
+            "explain it to Claude",
+            "delete it",
+            "make it more beautiful"
+          ],
+          "answer": 0,
+          "explain": "Đây là từ cô tự đặt (Claude + -ify): giao việc cho Claude làm hoặc tự động hóa. Nó nối với câu trước: \"just ask Claude and let it do it for you\".",
+          "clue": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Tùy chỉnh skill: chọn mô hình và ai được gọi skill",
+      "start": 785.5,
+      "end": 853.0,
+      "lines": [
+        {
+          "t": 785.48,
+          "en": "And the nice thing also is that we have a lot of configuration options within a skill. We can also set the model here.",
+          "vi": "Điều hay nữa là skill có nhiều tùy chọn cấu hình. Ta có thể chọn mô hình ngay trong skill."
+        },
+        {
+          "t": 792.04,
+          "en": "In this case, it's just reviewing code, so I can tell it, \"Always use Sonnet.\" Even though I'm on Opus, whenever this specific skill is invoked, I want to use Sonnet — or Haiku in some cases.",
+          "vi": "Ở đây chỉ là review code, nên tôi bảo nó luôn dùng Sonnet. Dù tôi đang dùng Opus, cứ khi skill này được gọi thì dùng Sonnet, hoặc Haiku trong một số trường hợp."
+        },
+        {
+          "t": 802.0,
+          "en": "What's also nice is, for example, if we never want our model to review our code — we just want to run it like a slash command — we can use \"disable model invocation: true\".",
+          "vi": "Một điểm hay nữa: nếu ta không bao giờ muốn mô hình tự review code mà chỉ muốn chạy như lệnh gạch chéo, ta dùng \"disable model invocation: true\"."
+        },
+        {
+          "t": 813.76,
+          "en": "By setting that, we're not sending it to the model; we're only keeping it locally. So the model can never invoke the skill, only us, using it as a slash command.",
+          "vi": "Khi đặt vậy, skill không được gửi tới mô hình mà chỉ giữ ở máy. Mô hình không bao giờ gọi được skill, chỉ ta gọi bằng lệnh gạch chéo."
+        },
+        {
+          "t": 824.48,
+          "en": "If we want the opposite — if we only ever want the model to do it — we can set \"user invocable: false\".",
+          "vi": "Nếu muốn ngược lại, chỉ mô hình được gọi, ta đặt \"user invocable: false\"."
+        },
+        {
+          "t": 829.32,
+          "en": "And I know, honestly, this should just be one front matter setting. It's two, and they're kind of negating each other. Just accept it for now; we might change it.",
+          "vi": "Tôi biết, lẽ ra chỉ nên là một thiết lập front matter. Giờ lại có hai cái, kiểu phủ định lẫn nhau. Tạm chấp nhận đã, có thể chúng tôi sẽ đổi."
+        },
+        {
+          "t": 840.0,
+          "en": "But by adding this one, now it's no longer a slash command like we've just run; only the model can do it. So that's how you get more control over skills as well.",
+          "vi": "Thêm cái này vào thì nó không còn là lệnh gạch chéo như vừa chạy, chỉ mô hình mới gọi được. Đó là cách bạn kiểm soát skill tốt hơn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Which model does she want the code review skill to always use?",
+          "options": [
+            "Sonnet",
+            "Whatever model you're on",
+            "Haiku only",
+            "Opus"
+          ],
+          "answer": 0,
+          "explain": "\"I can just tell it always use Sonnet. Even though I'm on Opus.\" Opus là mô hình cô đang dùng, Haiku chỉ được nhắc là dùng \"in some cases\".",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What does \"disable model invocation: true\" do?",
+          "options": [
+            "The skill is deleted.",
+            "The model can never invoke the skill; only you can, as a slash command.",
+            "Only the model can use the skill.",
+            "The skill uses a smaller model."
+          ],
+          "answer": 1,
+          "explain": "\"The model can never invoke the skill, only us using it as a slash command.\" Đáp án C là tác dụng của \"user invocable false\".",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which setting makes a skill usable only by the model?",
+          "options": [
+            "user invocable: false",
+            "disable model invocation: true",
+            "arguments",
+            "model: sonnet"
+          ],
+          "answer": 0,
+          "explain": "\"If we only ever want the model to do it, we can set user invocable false.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "What does she admit about these two settings?",
+          "options": [
+            "They are perfect as they are.",
+            "They don't work yet.",
+            "They are only for enterprise users.",
+            "It should really be one setting; two settings that negate each other is confusing."
+          ],
+          "answer": 3,
+          "explain": "\"This should just be one front matter setting, it's two and they're kind of like negating each other. Just accept it for now, we might change it.\"",
+          "clue": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Truyền tham số cho skill: ví dụ skill deploy",
+      "start": 853.0,
+      "end": 932.8,
+      "lines": [
+        {
+          "t": 853.04,
+          "en": "Another thing that's kind of nice is that you can pass arguments to it, and that's just with the normal arguments syntax.",
+          "vi": "Một điểm hay nữa là bạn có thể truyền tham số cho skill, theo cú pháp arguments thông thường."
+        },
+        {
+          "t": 863.4,
+          "en": "Maybe if we had a deploy skill, we could have something like \"deploy\", and this deploys our code base to either staging or production.",
+          "vi": "Ví dụ có một skill deploy, nó triển khai mã nguồn lên staging hoặc production."
+        },
+        {
+          "t": 885.12,
+          "en": "Maybe first it's like: run the tests, bundle the app, deploy to our environment.",
+          "vi": "Có thể các bước là: chạy test, đóng gói ứng dụng, triển khai lên môi trường."
+        },
+        {
+          "t": 895.0,
+          "en": "Again, nothing is set up, so I know when I ask Claude, it will be like, \"What am I supposed to do? There are no tests and I can't deploy.\"",
+          "vi": "Nhắc lại là chưa có gì được thiết lập, nên khi hỏi, Claude sẽ kiểu \"Tôi phải làm gì đây? Không có test và tôi không deploy được.\""
+        },
+        {
+          "t": 903.28,
+          "en": "But here you can also say, \"deploy to\", for example, arguments.",
+          "vi": "Nhưng ở đây bạn có thể viết \"deploy to\" rồi đặt tham số vào."
+        },
+        {
+          "t": 907.48,
+          "en": "And now, I'm just going to rename this real quick to deploy, and reload plugins.",
+          "vi": "Giờ tôi đổi tên nhanh thành deploy rồi tải lại plugin."
+        },
+        {
+          "t": 921.56,
+          "en": "If I run deploy, I can just do \"deploy staging\", for example. And now in our skill, it will always then deploy to staging.",
+          "vi": "Khi chạy deploy, tôi chỉ cần gõ \"deploy staging\". Khi đó skill sẽ triển khai lên staging."
+        },
+        {
+          "t": 928.92,
+          "en": "So this I find very useful. You have a lot of control over skills.",
+          "vi": "Tôi thấy điều này rất hữu ích. Bạn có nhiều quyền kiểm soát với skill."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Where can the example deploy skill deploy the code base?",
+          "options": [
+            "Only to production",
+            "To either staging or production",
+            "To the user's laptop",
+            "To GitHub"
+          ],
+          "answer": 1,
+          "explain": "\"Deploys our… codebase to either staging or production.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What are the steps she writes for the deploy skill?",
+          "options": [
+            "Ask permission, edit files, commit",
+            "Review code, fix bugs, restart",
+            "Run the tests, bundle the app, deploy to the environment",
+            "Write tests, push to GitHub, email the team"
+          ],
+          "answer": 2,
+          "explain": "\"Run the tests, bundle the app, deploy to our environment.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does she expect Claude to say \"There are no tests and I can't deploy\"?",
+          "options": [
+            "Because the skill has a bug",
+            "Because Haiku cannot deploy",
+            "Because nothing is actually set up in her demo project",
+            "Because deploy is denied in permissions"
+          ],
+          "answer": 2,
+          "explain": "\"Again, nothing is set up, so I know when I will ask Claude, it will be like, 'What am I supposed to do?'\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What do arguments let you do?",
+          "options": [
+            "Run a skill without a name",
+            "Change the model of the skill",
+            "Pass a value such as \"staging\" when you run the skill, so it acts on that target",
+            "Stop the model from invoking the skill"
+          ],
+          "answer": 2,
+          "explain": "\"I can just do like deploy staging… it will always then deploy to staging.\" Tham số giúp dùng một skill cho nhiều trường hợp.",
+          "clue": [
+            4,
+            6
+          ]
+        }
+      ]
+    }
+  ],
+  "shuffled": true,
+  "level": "B",
+  "levelStats": {
+    "wpm": 149,
+    "rarePct": 11.1,
+    "avgSent": 14.1
+  }
+}
