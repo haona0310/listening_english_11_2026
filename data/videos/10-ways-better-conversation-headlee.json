@@ -119,7 +119,8 @@
             4
           ]
         }
-      ]
+      ],
+      "summary": "Ta hủy kết bạn và tránh mặt người khác vì bất đồng. Đến thời tiết và sức khỏe cũng thành chủ đề nhạy cảm. Khảo sát của Pew cho thấy xã hội phân cực chưa từng có, ta ít thỏa hiệp và không nghe nhau."
     },
     {
       "id": 2,
@@ -230,7 +231,8 @@
             6
           ]
         }
-      ]
+      ],
+      "summary": "Trò chuyện cần cân bằng giữa nói và nghe. Thanh thiếu niên nhắn tin nhiều hơn nói chuyện trực tiếp, và một thầy giáo nhận ra kỹ năng trò chuyện là kỹ năng bị bỏ quên nhất."
     },
     {
       "id": 3,
@@ -357,7 +359,8 @@
             10
           ]
         }
-      ]
+      ],
+      "summary": "Cô kiếm sống bằng việc phỏng vấn đủ loại người. Hãy quên các mẹo như nhìn vào mắt, gật đầu: thật sự chú ý thì không cần tỏ ra chú ý. Cô có 10 quy tắc, chỉ cần làm chủ một cái đã đủ giúp ích."
     },
     {
       "id": 4,
@@ -480,7 +483,8 @@
             9
           ]
         }
-      ]
+      ],
+      "summary": "Quy tắc 1: hãy hiện diện trọn vẹn, đừng nửa ở nửa không. Quy tắc 2: đừng chỉ nêu quan điểm mà không cho ai phản hồi, hãy nghĩ ai cũng là chuyên gia về điều gì đó."
     },
     {
       "id": 5,
@@ -602,7 +606,8 @@
             9
           ]
         }
-      ]
+      ],
+      "summary": "Quy tắc 3: hỏi câu mở bắt đầu bằng ai, cái gì, thế nào. Câu \"Bạn có sợ không?\" chỉ nhận được có hoặc không. Quy tắc 4: đừng bám vào ý nghĩ hay câu chuyện riêng, kẻo ngừng nghe."
     },
     {
       "id": 6,
@@ -731,7 +736,8 @@
             10
           ]
         }
-      ]
+      ],
+      "summary": "Quy tắc 5–8: thừa nhận khi không biết; đừng kể chuyện của mình khi người khác đang chia sẻ; đừng nhắc đi nhắc lại; bỏ qua tên, ngày tháng, chi tiết thừa."
     },
     {
       "id": 7,
@@ -836,7 +842,8 @@
             6
           ]
         }
-      ]
+      ],
+      "summary": "Quy tắc 9, lắng nghe, là quan trọng nhất. Ta không nghe vì thích nói và vì đầu óc nghe nhanh hơn người khác nói (500 so với 225 từ/phút) nên dễ xao nhãng."
     },
     {
       "id": 8,
@@ -937,7 +944,8 @@
             5
           ]
         }
-      ]
+      ],
+      "summary": "Quy tắc 10: ngắn gọn. Tất cả quy về một điều: quan tâm đến người khác. Lớn lên giữa những vị khách đặc biệt, cô tin ai cũng có điều tuyệt vời ẩn giấu, nên hãy sẵn sàng để ngạc nhiên."
     }
   ],
   "shuffled": true,
@@ -946,5 +954,77 @@
     "wpm": 170,
     "rarePct": 5.0,
     "avgSent": 13.4
+  },
+  "summary": {
+    "oneLine": "10 quy tắc trò chuyện, quy về một ý: hãy thật sự quan tâm và lắng nghe người khác.",
+    "overview": "Người dẫn chương trình radio Celeste Headlee cho rằng xã hội ngày càng phân cực vì ta không còn lắng nghe nhau, một phần do công nghệ. Cô bỏ qua những mẹo kiểu \"gật đầu, mỉm cười\" và đưa ra 10 quy tắc rút từ nghề phỏng vấn, trong đó lắng nghe là quan trọng nhất. Tất cả quy về một ý: hãy quan tâm đến người khác và luôn sẵn sàng để ngạc nhiên.",
+    "points": [
+      {
+        "text": "Xã hội phân cực hơn bao giờ hết. Ta ít thỏa hiệp, tức là không lắng nghe nhau.",
+        "seg": 1
+      },
+      {
+        "text": "Mất cân bằng giữa nói và nghe, một phần do điện thoại. Kỹ năng trò chuyện là kỹ năng bị bỏ quên.",
+        "seg": 2
+      },
+      {
+        "text": "Quên mẹo \"tỏ ra chú ý\" đi: nếu thật sự chú ý thì không cần tỏ ra.",
+        "seg": 3
+      },
+      {
+        "text": "(1) Đừng làm nhiều việc cùng lúc. (2) Đừng lên giọng dạy đời, hãy nghĩ mình có điều để học.",
+        "seg": 4
+      },
+      {
+        "text": "(3) Dùng câu hỏi mở như \"thế nào\", \"cảm thấy ra sao\". (4) Thuận theo dòng chảy, để ý nghĩ riêng đến rồi đi.",
+        "seg": 5
+      },
+      {
+        "text": "(5) Không biết thì nói không biết. (6) Đừng đánh đồng trải nghiệm. (7) Đừng lặp lại. (8) Bỏ chi tiết vụn vặt.",
+        "seg": 6
+      },
+      {
+        "text": "(9) Lắng nghe, quy tắc quan trọng nhất. Đa số ta nghe để đáp lại, không phải để hiểu.",
+        "seg": 7
+      },
+      {
+        "text": "(10) Hãy ngắn gọn. Cốt lõi: quan tâm đến người khác, ai cũng có điều tuyệt vời ẩn giấu.",
+        "seg": 8
+      }
+    ],
+    "vocab": [
+      {
+        "en": "polarized",
+        "vi": "phân cực"
+      },
+      {
+        "en": "compromise",
+        "vi": "thỏa hiệp"
+      },
+      {
+        "en": "multitask",
+        "vi": "làm nhiều việc cùng lúc"
+      },
+      {
+        "en": "pontificate",
+        "vi": "lên giọng dạy đời"
+      },
+      {
+        "en": "open-ended question",
+        "vi": "câu hỏi mở"
+      },
+      {
+        "en": "equate",
+        "vi": "đánh đồng"
+      },
+      {
+        "en": "condescending",
+        "vi": "trịch thượng"
+      },
+      {
+        "en": "stay out of the weeds",
+        "vi": "đừng sa vào chi tiết vụn vặt"
+      }
+    ]
   }
 }

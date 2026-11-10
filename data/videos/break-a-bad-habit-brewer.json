@@ -156,7 +156,8 @@
             12
           ]
         }
-      ]
+      ],
+      "summary": "Thiền tưởng đơn giản mà lại rất mệt. Ta khó tập trung vì đang chống lại cơ chế học dựa trên phần thưởng, cơ chế lâu đời nhất của não: thấy đồ ăn, ăn, thấy ngon, lặp lại."
     },
     {
       "id": 2,
@@ -289,7 +290,8 @@
             11
           ]
         }
-      ]
+      ],
+      "summary": "Não dùng cơ chế đó cho cảm xúc, như buồn thì ăn sô-cô-la, hay hút thuốc cho \"ngầu\". Lặp lại nhiều thì thành thói quen, và chính những thói quen này đang giết chết ta."
     },
     {
       "id": 3,
@@ -415,7 +417,8 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "Thay vì ép bản thân, nhóm nghiên cứu bảo người hút thuốc cứ hút nhưng hãy tò mò. Một người nhận ra thuốc lá có mùi phô mai thối và vị hóa chất."
     },
     {
       "id": 4,
@@ -538,7 +541,8 @@
             9
           ]
         }
-      ]
+      ],
+      "summary": "Cô ấy đi từ \"biết bằng đầu\" sang \"thấm vào xương\". Ý chí do vỏ não trước trán điều khiển sẽ tắt khi căng thẳng, còn sự vỡ mộng khiến ta tự không muốn làm nữa."
     },
     {
       "id": 5,
@@ -655,7 +659,8 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "Chánh niệm là thấy rõ hậu quả của hành vi rồi buông bỏ tự nhiên. Sự tò mò tự nó dễ chịu, và giúp ta thấy cơn thèm chỉ là những cảm giác cơ thể nhỏ, đến rồi đi."
     },
     {
       "id": 6,
@@ -750,7 +755,8 @@
             3
           ]
         }
-      ]
+      ],
+      "summary": "Luyện chánh niệm hiệu quả gấp đôi liệu pháp tiêu chuẩn trong cai thuốc. Vỏ não đai sau hoạt động khi ta bị cuốn vào cơn thèm, và lắng xuống khi ta tò mò quan sát."
     },
     {
       "id": 7,
@@ -861,12 +867,81 @@
             6
           ]
         }
-      ]
+      ],
+      "summary": "Họ đang thử nghiệm các ứng dụng chánh niệm, dùng chính điện thoại để giúp ta bỏ thói quen. Hãy áp dụng cả với email hay tin nhắn: nhận ra thôi thúc, tò mò, rồi buông."
     }
   ],
   "levelStats": {
     "wpm": 164,
     "rarePct": 8.7,
     "avgSent": 15.8
+  },
+  "summary": {
+    "oneLine": "Bỏ thói quen xấu không cần ép bản thân: hãy tò mò quan sát nó.",
+    "overview": "Bác sĩ tâm thần Judson Brewer giải thích thói quen hình thành theo vòng lặp tác nhân, hành vi, phần thưởng. Ý chí (vỏ não trước trán) thường thất bại khi ta căng thẳng. Thay vào đó, hãy tò mò quan sát trải nghiệm của mình (chánh niệm). Khi thấy rõ thói quen thật ra chẳng mang lại gì, ta \"vỡ mộng\" và tự buông bỏ nó. Nghiên cứu của ông cho thấy cách này hiệu quả gấp đôi liệu pháp tiêu chuẩn trong việc cai thuốc lá.",
+    "points": [
+      {
+        "text": "Học dựa trên phần thưởng gồm ba bước: tác nhân (trigger), hành vi (behavior), phần thưởng (reward).",
+        "seg": 1
+      },
+      {
+        "text": "Não dùng cùng cơ chế đó cho cảm xúc: buồn thì ăn đồ ngọt, muốn \"ngầu\" thì hút thuốc. Dần dần nó thành thói quen.",
+        "seg": 2
+      },
+      {
+        "text": "Thí nghiệm: bảo người nghiện cứ hút nhưng hãy tò mò. Họ nhận ra thuốc lá có mùi như phô mai thối.",
+        "seg": 3
+      },
+      {
+        "text": "Ý chí sụp đổ khi căng thẳng. Còn sự \"vỡ mộng\" giúp ta tự mất hứng thú với thói quen.",
+        "seg": 4
+      },
+      {
+        "text": "Sự tò mò tự nó đã là phần thưởng. Cơn thèm thực chất chỉ là các cảm giác cơ thể đến rồi đi.",
+        "seg": 5
+      },
+      {
+        "text": "Bằng chứng: hiệu quả gấp đôi liệu pháp tiêu chuẩn. Vùng não liên quan đến việc \"bị cuốn vào\" lắng xuống khi ta tò mò.",
+        "seg": 6
+      },
+      {
+        "text": "Vòng lặp mới: nhận ra thôi thúc, tò mò, cảm nhận niềm vui khi buông bỏ, rồi lặp lại.",
+        "seg": 7
+      }
+    ],
+    "vocab": [
+      {
+        "en": "trigger / reward",
+        "vi": "tác nhân / phần thưởng"
+      },
+      {
+        "en": "reinforcement",
+        "vi": "sự củng cố (tâm lý học)"
+      },
+      {
+        "en": "craving / urge",
+        "vi": "cơn thèm / thôi thúc"
+      },
+      {
+        "en": "mindfulness",
+        "vi": "chánh niệm"
+      },
+      {
+        "en": "curious / curiosity",
+        "vi": "tò mò / sự tò mò"
+      },
+      {
+        "en": "disenchanted",
+        "vi": "vỡ mộng, hết hứng thú"
+      },
+      {
+        "en": "prefrontal cortex",
+        "vi": "vỏ não trước trán"
+      },
+      {
+        "en": "cognitive control",
+        "vi": "kiểm soát bằng lý trí"
+      }
+    ]
   }
 }

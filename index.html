@@ -36,6 +36,22 @@ button:disabled{opacity:.45;cursor:default}
 .tabs button.on{background:var(--acc-soft);border-color:var(--acc);color:var(--acc);font-weight:600}
 .tabs .done::after{content:" ✓";color:var(--ok)}
 .seg-title{font-size:18px;margin:0 0 4px}
+details.sum{padding:0}
+details.sum>summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;gap:10px;align-items:baseline}
+details.sum>summary b{flex:none}
+details.sum>summary .small{flex:1 1 220px}
+details.sum>summary::-webkit-details-marker{display:none}
+details.sum>summary::after{content:"▾";margin-left:auto;color:var(--mute);transition:transform .15s}
+details.sum:not([open])>summary::after{transform:rotate(-90deg)}
+details.sum .sbody{padding:0 16px 16px}
+.sum h3{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mute);margin:14px 0 6px}
+.sum p{margin:0}
+.sum ol{margin:0;padding-left:20px}.sum ol li{margin:4px 0}
+.sum ol li a{color:var(--acc);cursor:pointer;font-size:13px;margin-left:4px;text-decoration:underline}
+.vocab{display:flex;flex-wrap:wrap;gap:6px}
+.vocab span{background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:4px 8px;font-size:14px}
+.vocab b{font-weight:600}
+.segsum{margin-top:12px;font-size:15px;background:var(--acc-soft);border-radius:10px;padding:10px 12px}
 .q{border-top:1px solid var(--line);padding-top:14px;margin-top:14px}
 .q .type{font-size:12px;font-weight:600;color:var(--acc);text-transform:uppercase;letter-spacing:.04em}
 .q p{margin:4px 0 10px;font-weight:600}
@@ -208,7 +224,7 @@ window.setLevel = l => { try { localStorage.setItem('ytl-level', l); } catch(e){
 function openVideo(v, segIdx){
   const same = state.video && state.video.id === v.id;
   state.video = v; state.seg = Math.min(segIdx, v.segments.length - 1);
-  state.answers = {}; state.submitted = false; state.showTr = false;
+  state.answers = {}; state.submitted = false; state.showTr = false; state.showSum = false;
   $('#back').hidden = false; $('#h1').textContent = v.title;
   if (!same || !document.getElementById('yt')) {
     $('#app').innerHTML = `
@@ -220,8 +236,11 @@ function openVideo(v, segIdx){
         <button id="bRate">Tốc độ ${state.rate}x</button>
         <button id="bCover">${state.cover ? 'Hiện hình' : 'Ẩn hình'}</button>
       </div>
+      ${renderSummary(v)}
       <div class="tabs" id="tabs"></div>
       <div id="seg"></div>`;
+    const d = document.getElementById('sum');
+    if (d) d.addEventListener('toggle', () => { try { localStorage.setItem('ytl-sum-open', d.open ? '1' : '0'); } catch(e){} });
     player = null; pendingPlay = null; mountPlayer();
     $('#bPlay').onclick = () => { const s = curSeg(); playRange(s.start, s.end); };
     $('#bBack').onclick = () => { if (player && player.getCurrentTime) { const s = curSeg(); playRange(Math.max(s.start, player.getCurrentTime() - 5), s.end); } };
@@ -233,6 +252,16 @@ function openVideo(v, segIdx){
   renderSeg();
 }
 const curSeg = () => state.video.segments[state.seg];
+function renderSummary(v){
+  const S = v.summary; if (!S) return '';
+  let open = true; try { open = localStorage.getItem('ytl-sum-open') !== '0'; } catch(e){}
+  const pts = (S.points || []).map(p => `<li>${esc(p.text)}${p.seg ? `<a onclick="location.hash='#v/${v.id}/${p.seg}'">Đoạn ${p.seg}</a>` : ''}</li>`).join('');
+  const voc = (S.vocab || []).map(w => `<span><b>${esc(w.en)}</b> · ${esc(w.vi)}</span>`).join('');
+  return `<details class="card sum" id="sum" ${open ? 'open' : ''}><summary><b>Tóm tắt video</b><span class="small">${esc(S.oneLine || '')}</span></summary>
+    <div class="sbody"><p>${esc(S.overview)}</p>
+    ${pts ? `<h3>Ý chính</h3><ol>${pts}</ol>` : ''}
+    ${voc ? `<h3>Từ khóa cần biết trước khi nghe</h3><div class="vocab">${voc}</div>` : ''}</div></details>`;
+}
 function renderTabs(){
   const p = store.get()[state.video.id] || {};
   $('#tabs').innerHTML = state.video.segments.map((s, i) =>
@@ -267,6 +296,7 @@ function renderSeg(){
     <div class="card">
       <h2 class="seg-title">Đoạn ${state.seg + 1}: ${esc(s.title)}</h2>
       <div class="small">${fmt(s.start)} – ${fmt(s.end)} · Nghe trước, rồi trả lời. Transcript mở sau khi nộp bài.</div>
+      ${s.summary ? (sub || state.showSum ? `<div class="segsum"><b>Ý chính đoạn này:</b> ${esc(s.summary)}</div>` : `<div style="margin-top:10px"><button onclick="showSum()">Xem ý chính đoạn (gợi ý)</button></div>`) : ''}
       ${qs}
       <div class="row" style="margin-top:14px">
         ${sub ? `<span class="score">${correct}/${s.questions.length} đúng</span><span class="spacer"></span>
@@ -286,7 +316,8 @@ function renderSeg(){
 }
 window.pick = (qi, oi) => { state.answers[qi] = oi; renderSeg(); };
 window.submit = () => { state.submitted = true; renderSeg(); window.scrollTo({ top: 0, behavior: 'smooth' }); };
-window.retry = () => { state.answers = {}; state.submitted = false; state.showTr = false; renderSeg(); };
+window.retry = () => { state.answers = {}; state.submitted = false; state.showTr = false; state.showSum = false; renderSeg(); };
+window.showSum = () => { state.showSum = true; renderSeg(); };
 window.showTr = () => { state.showTr = true; renderSeg(); };
 window.toggleVi = () => { state.showVi = !state.showVi; renderSeg(); };
 window.playLine = i => { const s = curSeg(); const e = i + 1 < s.lines.length ? s.lines[i + 1].t : s.end; playRange(s.lines[i].t, e + 0.3); };

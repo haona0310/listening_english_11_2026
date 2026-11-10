@@ -114,7 +114,8 @@
             7
           ]
         }
-      ]
+      ],
+      "summary": "Khóa học giải thích Claude Code hoạt động thế nào để bạn tùy chỉnh nó. Điều quan trọng nhất: mô hình không có trí nhớ, nên Claude Code phải cung cấp file, lịch sử và môi trường mỗi lần gọi."
     },
     {
       "id": 2,
@@ -229,7 +230,8 @@
             7
           ]
         }
-      ]
+      ],
+      "summary": "Khi bạn nhấn Enter, Claude Code gom mọi thứ thành một yêu cầu: tool schema (các hành động có thể làm, dạng JSON), system prompt do Anthropic viết sẵn, và thông tin môi trường như hệ điều hành, shell, nhánh Git."
     },
     {
       "id": 3,
@@ -336,7 +338,8 @@
             5
           ]
         }
-      ]
+      ],
+      "summary": "Phần quan trọng nhất là mảng tin nhắn: nội dung CLAUDE.md, danh sách skill (chỉ tên và mô tả) và prompt của bạn. Mô hình không đọc JSON mà đọc token do API chuyển đổi."
     },
     {
       "id": 4,
@@ -452,7 +455,8 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "Mô hình thấy cần file utils.ts nhưng chưa có, nên trả về lời gọi công cụ read. Harness đọc file, thêm kết quả vào prompt rồi gửi lại cho mô hình."
     },
     {
       "id": 5,
@@ -572,7 +576,8 @@
             9
           ]
         }
-      ]
+      ],
+      "summary": "Plan mode bảo Claude chưa được đụng vào gì. Permissions trong settings.json gồm allow (npm run, git commit), ask (rm) và deny (git push) để kiểm soát lệnh nào được chạy."
     },
     {
       "id": 6,
@@ -698,7 +703,8 @@
             7
           ]
         }
-      ]
+      ],
+      "summary": "Dùng lệnh /permissions để thêm quy tắc, hoặc sửa .claude/settings.json. Lệnh \"fewer permission prompts\" rà lịch sử phiên và thêm các lệnh bạn hay cho phép, một cách thận trọng."
     },
     {
       "id": 7,
@@ -813,7 +819,8 @@
             7
           ]
         }
-      ]
+      ],
+      "summary": "Khi các settings xung đột, cấp cao hơn thắng: doanh nghiệp, rồi người dùng, rồi dự án. Thử nghiệm: đặt deny cho việc sửa package.json thì Claude từ chối làm."
     },
     {
       "id": 8,
@@ -928,7 +935,8 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "CLAUDE.md và permissions là thụ động. Skill là file markdown chứa quy trình hay lặp lại, như deploy hay review code. Có thể tạo bằng skill creator. Hãy tự hỏi việc gì có thể giao cho Claude."
     },
     {
       "id": 9,
@@ -1034,7 +1042,8 @@
             5
           ]
         }
-      ]
+      ],
+      "summary": "Skill có thể chọn mô hình riêng, ví dụ luôn dùng Sonnet. \"disable model invocation\" thì chỉ người dùng gọi được, \"user invocable: false\" thì chỉ mô hình gọi được."
     },
     {
       "id": 10,
@@ -1145,7 +1154,8 @@
             6
           ]
         }
-      ]
+      ],
+      "summary": "Skill nhận tham số. Ví dụ skill deploy gồm chạy test, đóng gói, triển khai. Gõ \"deploy staging\" thì skill triển khai lên staging."
     }
   ],
   "shuffled": true,
@@ -1154,5 +1164,85 @@
     "wpm": 149,
     "rarePct": 11.1,
     "avgSent": 14.1
+  },
+  "summary": {
+    "oneLine": "Claude Code lắp ráp prompt thế nào, chạy công cụ ra sao, và cách kiểm soát nó bằng quyền và skill.",
+    "overview": "Lydia (nhóm Claude Code, Anthropic) giải thích mô hình AI không có trí nhớ giữa các lần gọi, nên Claude Code (gọi là \"harness\") phải gửi lại toàn bộ bối cảnh mỗi lần: danh sách công cụ, system prompt, môi trường và lịch sử hội thoại. Mô hình không tự chạy lệnh mà chỉ yêu cầu, harness mới thực thi. Từ đó cô hướng dẫn cách kiểm soát những gì được chạy bằng permissions (allow/ask/deny) và cách đóng gói quy trình lặp lại bằng skills.",
+    "points": [
+      {
+        "text": "Mô hình không có trạng thái: mỗi lần gọi bắt đầu từ số không, harness phải cung cấp mọi thứ.",
+        "seg": 1
+      },
+      {
+        "text": "Prompt được lắp ráp gồm tool schema, system prompt và thông tin môi trường.",
+        "seg": 2
+      },
+      {
+        "text": "Mảng tin nhắn chứa CLAUDE.md, danh sách skill (chỉ tên và mô tả) và prompt của bạn. API chuyển JSON thành token.",
+        "seg": 3
+      },
+      {
+        "text": "Vòng lặp: mô hình yêu cầu gọi công cụ, harness chạy, kết quả được thêm vào prompt rồi gửi lại.",
+        "seg": 4
+      },
+      {
+        "text": "Plan mode và permissions: allow (chạy luôn), ask (hỏi trước), deny (chặn).",
+        "seg": 5
+      },
+      {
+        "text": "Lệnh /permissions và \"fewer permission prompts\" giúp thêm quy tắc tự động từ lịch sử phiên.",
+        "seg": 6
+      },
+      {
+        "text": "Settings cấp công ty được ưu tiên hơn cấp cá nhân. Lệnh bị deny sẽ không chạy dù mô hình có yêu cầu.",
+        "seg": 7
+      },
+      {
+        "text": "Skill là file markdown chứa quy trình lặp lại. Có thể tạo nhanh bằng skill creator.",
+        "seg": 8
+      },
+      {
+        "text": "Skill có thể chọn mô hình riêng và giới hạn ai được gọi (người dùng hay mô hình).",
+        "seg": 9
+      },
+      {
+        "text": "Skill nhận tham số, ví dụ \"deploy staging\".",
+        "seg": 10
+      }
+    ],
+    "vocab": [
+      {
+        "en": "stateless",
+        "vi": "không lưu trạng thái, không nhớ"
+      },
+      {
+        "en": "harness",
+        "vi": "phần khung bao quanh mô hình (Claude Code)"
+      },
+      {
+        "en": "tool call / tool result",
+        "vi": "lời gọi công cụ / kết quả công cụ"
+      },
+      {
+        "en": "schema",
+        "vi": "mô tả cấu trúc dữ liệu"
+      },
+      {
+        "en": "assemble",
+        "vi": "lắp ráp, gom lại"
+      },
+      {
+        "en": "precedence",
+        "vi": "quyền ưu tiên"
+      },
+      {
+        "en": "invoke / invocable",
+        "vi": "gọi / có thể gọi"
+      },
+      {
+        "en": "staging / production",
+        "vi": "môi trường thử nghiệm / môi trường thật"
+      }
+    ]
   }
 }

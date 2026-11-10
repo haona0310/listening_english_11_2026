@@ -152,7 +152,8 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "Dù có sẵn mọi nguồn kiến thức, ta vẫn khó tự học. Lý do là thông tin bị tóm tắt đi tóm tắt lại, còn người xem thì chỉ lưu vào thư mục mà không thực hành, kể cả chính người nói."
     },
     {
       "id": 2,
@@ -304,7 +305,8 @@
             14
           ]
         }
-      ]
+      ],
+      "summary": "Hai năm rưỡi trước, cô tự dựng video đầu tiên mất hơn 10 tiếng, không xem hướng dẫn nào, chỉ ghép các kỹ năng cơ bản. Khi kẹt, cô chỉ tìm hướng dẫn cho đúng vấn đề đó."
     },
     {
       "id": 3,
@@ -436,7 +438,8 @@
             11
           ]
         }
-      ]
+      ],
+      "summary": "Mạng xã hội đầy lời khuyên trái ngược, kể cả của cô. Hãy tự phân tích mình là kiểu người nào. Cô là kiểu chạy nước rút, làm việc sát hạn chót."
     },
     {
       "id": 4,
@@ -542,7 +545,8 @@
             6
           ]
         }
-      ]
+      ],
+      "summary": "Lên mạng tìm cẩm nang du lịch, 30 phút sau lại đang đọc chuyện bê bối. Giờ cô đọc sách 2 tiếng mỗi ngày, không bị gián đoạn, và để điện thoại thật xa."
     },
     {
       "id": 5,
@@ -664,12 +668,73 @@
             8
           ]
         }
-      ]
+      ],
+      "summary": "Video ngắn chỉ cho thông tin vụn vặt và làm giảm khả năng tập trung. Hãy xem phim tài liệu, đọc sách, và học từ gốc thay vì từ bản tóm tắt."
     }
   ],
   "levelStats": {
     "wpm": 182,
     "rarePct": 3.9,
     "avgSent": 14.2
+  },
+  "summary": {
+    "oneLine": "Đừng chỉ xem hướng dẫn: hãy bắt tay làm, tự phán đoán và lấy lại sự tập trung.",
+    "overview": "Một YouTuber dạy tiếng Anh cho rằng ngày nay ta không thiếu phương pháp mà thiếu can đảm bắt tay vào làm. Cô kể chuyện tự mày mò dựng video đầu tiên mà không xem hướng dẫn, khuyên mỗi người tự hiểu mình để chọn chiến lược học phù hợp, và chia sẻ cách cô lấy lại sự tập trung bằng sách và phim tài liệu thay cho video ngắn.",
+    "points": [
+      {
+        "text": "Thông tin ngày nay thường là \"second-hand\": tóm tắt của tóm tắt. Người ta lưu video hướng dẫn rồi không bao giờ làm theo.",
+        "seg": 1
+      },
+      {
+        "text": "Cô tự dựng video đầu tiên bằng bộ kỹ năng cơ bản, ghép như Lego (first principles), chỉ tìm hướng dẫn khi kẹt đúng một vấn đề cụ thể.",
+        "seg": 2
+      },
+      {
+        "text": "Lời khuyên trái ngược nhau đều có lý, nên bạn cần phán đoán riêng: mình là kiểu \"chạy nước rút\" hay \"chạy marathon\"?",
+        "seg": 3
+      },
+      {
+        "text": "Điện thoại đánh cắp sự chú ý. Cô dành 2 giờ mỗi ngày đọc sách, để điện thoại ở góc xa nhất nhà.",
+        "seg": 4
+      },
+      {
+        "text": "Thay video ngắn bằng phim tài liệu để xây lại khả năng tập trung và học từ gốc rễ thay vì đọc tóm tắt.",
+        "seg": 5
+      }
+    ],
+    "vocab": [
+      {
+        "en": "secondhand",
+        "vi": "qua tay người khác, không trực tiếp"
+      },
+      {
+        "en": "get your hands dirty",
+        "vi": "bắt tay vào làm thực tế"
+      },
+      {
+        "en": "tutorial",
+        "vi": "video/bài hướng dẫn"
+      },
+      {
+        "en": "first principles",
+        "vi": "tư duy từ nguyên lý gốc"
+      },
+      {
+        "en": "judgment",
+        "vi": "khả năng phán đoán"
+      },
+      {
+        "en": "sprinter / marathon runner",
+        "vi": "người chạy nước rút / chạy đường dài"
+      },
+      {
+        "en": "attention span",
+        "vi": "khả năng duy trì tập trung"
+      },
+      {
+        "en": "fragmented",
+        "vi": "rời rạc, vụn vặt"
+      }
+    ]
   }
 }
