@@ -12,6 +12,8 @@ topic_name = sys.argv[sys.argv.index('--topic-name') + 1] if '--topic-name' in s
 v = json.load(open(f, encoding='utf-8'))
 
 # 1) Kiểm tra
+assert v.get('summary', {}).get('overview'), 'Thiếu summary.overview'
+for s in v['segments']: assert s.get('summary'), f"Đoạn {s['id']} thiếu summary"
 for s in v['segments']:
     assert s['start'] < s['end'], s['id']
     for l in s['lines']:
@@ -46,7 +48,9 @@ if not any(t['id'] == v['topic'] for t in idx['topics']):
     idx['topics'].append({'id': v['topic'], 'name': topic_name})
 entry = {k: v[k] for k in ('id', 'topic', 'youtubeId', 'title', 'duration')}
 entry.update(level=lv, segments=len(v['segments']), questions=sum(len(s['questions']) for s in v['segments']), levelStats=st)
-idx['videos'] = [e for e in idx['videos'] if e['id'] != v['id']] + [entry]
+ids = [e['id'] for e in idx['videos']]
+if v['id'] in ids: idx['videos'][ids.index(v['id'])] = entry
+else: idx['videos'].append(entry)
 json.dump(idx, open(ip, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 from collections import Counter
 print(f"{v['id']}: {lv} ({sc}/6) {st} | đoạn {entry['segments']} | câu {entry['questions']} | đáp án",
