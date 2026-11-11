@@ -32,7 +32,9 @@ if not v.get('shuffled'):
         order = others[:]; order.insert(t, q['answer'])
         newpos = {old: new for new, old in enumerate(order)}
         q['options'] = [q['options'][o] for o in order]; q['answer'] = t
-        q['explain'] = re.sub(r'(Đáp án )([ABCD])', lambda m: m[1] + 'ABCD'[newpos['ABCD'.index(m[2])]], q['explain'])
+        # Đổi mọi chữ cái trong cụm "Đáp án X", "Đáp án X và Y", "đáp án X, Y"...
+        q['explain'] = re.sub(r'([Đđ]áp án )([ABCD](?:(?:, | và | hoặc )[ABCD])*)',
+            lambda m: m[1] + re.sub(r'[ABCD]', lambda c: 'ABCD'[newpos['ABCD'.index(c[0])]], m[2]), q['explain'])
     v['shuffled'] = True
 
 # 3) Trình độ

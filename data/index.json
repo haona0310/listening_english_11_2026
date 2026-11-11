@@ -92,6 +92,21 @@
         "rarePct": 7.7,
         "avgSent": 19.6
       }
+    },
+    {
+      "id": "introduce-yourself-in-20-words",
+      "topic": "giao-tiep",
+      "youtubeId": "f_N3PGvnVKg",
+      "title": "How to Introduce Yourself in 20 Words or Less",
+      "duration": "9:46",
+      "level": "A",
+      "segments": 7,
+      "questions": 23,
+      "levelStats": {
+        "wpm": 115,
+        "rarePct": 4.8,
+        "avgSent": 11.7
+      }
     }
   ]
 }

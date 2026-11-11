@@ -1,0 +1,803 @@
+{
+  "id": "introduce-yourself-in-20-words",
+  "topic": "giao-tiep",
+  "youtubeId": "f_N3PGvnVKg",
+  "title": "How to Introduce Yourself in 20 Words or Less",
+  "duration": "9:46",
+  "summary": {
+    "oneLine": "Lời giới thiệu hay là nói bạn làm được gì cho người nghe, trong 20 từ, để họ đáp \"Tell me more\".",
+    "overview": "Diễn giả, một chuyên gia tư vấn giao tiếp, kể lần trượt phỏng vấn chỉ sau 5 phút. Dù có hơn 20 năm kinh nghiệm, bà bị loại vì câu trả lời cho \"Tell me about yourself\" chỉ toàn kể về bản thân. Sáu tháng sau, chỉ với một câu giới thiệu, bà được thuê ngay dù ít bằng cấp hơn. Bà rút ra hai bí quyết (nói ngắn gọn thay vì tuôn dữ liệu, nói về người nghe thay vì về mình) và năm công thức giới thiệu trong 20 từ: lợi ích, đột phá với \"without\", đam mê, thế mạnh, sứ mệnh. Kết bài, bà nhắc rằng nhiều khi vấn đề không nằm ở bạn mà ở lời giới thiệu.",
+    "points": [
+      {
+        "text": "Trượt phỏng vấn sau 5 phút vì lời giới thiệu chỉ toàn về bản thân, dù có hơn 20 năm kinh nghiệm.",
+        "seg": 1
+      },
+      {
+        "text": "Bà nghiên cứu ấn tượng đầu tiên và tiêu đề viral, tìm ra cách giới thiệu trong 20 từ. Một câu giới thiệu giúp bà được thuê sau 15 phút.",
+        "seg": 2
+      },
+      {
+        "text": "Cùng một người, khác nhau ở lời giới thiệu. Không phải bạn kém, mà là lời giới thiệu chưa tốt.",
+        "seg": 3
+      },
+      {
+        "text": "Hai bí quyết: nói ngắn gọn thay vì tuôn dữ liệu, và nói về người nghe chứ không về mình.",
+        "seg": 4
+      },
+      {
+        "text": "Công thức 1: \"I help [đối tượng] achieve [lợi ích]\". Công thức 2: thêm \"without [hậu quả xấu]\" để thể hiện điểm khác biệt.",
+        "seg": 5
+      },
+      {
+        "text": "Không muốn nói về nghề nghiệp? Dùng đam mê, thế mạnh hoặc sứ mệnh.",
+        "seg": 6
+      },
+      {
+        "text": "Hãy thử nhiều cách cho các đối tượng khác nhau, và đừng tin ngay tiếng nói chê bai bên trong mình.",
+        "seg": 7
+      }
+    ],
+    "vocab": [
+      {
+        "en": "ramble",
+        "vi": "nói lan man"
+      },
+      {
+        "en": "qualifications",
+        "vi": "bằng cấp, trình độ"
+      },
+      {
+        "en": "elevator pitch",
+        "vi": "bài giới thiệu ngắn gọn (vài chục giây)"
+      },
+      {
+        "en": "sound bite",
+        "vi": "câu ngắn, dễ nhớ"
+      },
+      {
+        "en": "data dump",
+        "vi": "tuôn ra một đống thông tin"
+      },
+      {
+        "en": "target audience",
+        "vi": "đối tượng mục tiêu"
+      },
+      {
+        "en": "inner critic",
+        "vi": "tiếng nói chê bai bên trong"
+      },
+      {
+        "en": "impostor",
+        "vi": "kẻ \"mạo danh\", người thấy mình không xứng"
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": 1,
+      "title": "\"Tell me about yourself\" và buổi phỏng vấn 5 phút",
+      "start": 14.0,
+      "end": 106.2,
+      "summary": "Câu \"Tell me about yourself\" làm nhiều người nói lan man hoặc đứng hình. Diễn giả từng nghĩ lời giới thiệu không quan trọng bằng bằng cấp. Khi phỏng vấn làm giảng viên cho một viện chuỗi cung ứng, dù có hơn 20 năm kinh nghiệm, bà kể hết thành tích, và người phỏng vấn nói lẽ ra bà nên nói mình làm được gì cho họ. Buổi phỏng vấn kéo dài 5 phút và bà bị loại ngay.",
+      "lines": [
+        {
+          "t": 14.16,
+          "en": "\"Tell me about yourself.\" Four simple words that can make anyone ramble or freeze.",
+          "vi": "\"Hãy kể về bản thân bạn.\" Bốn từ đơn giản có thể khiến bất kỳ ai nói lan man hoặc đứng hình."
+        },
+        {
+          "t": 21.4,
+          "en": "Even people at the top of their game can go blank when they hear those dreaded words.",
+          "vi": "Ngay cả những người giỏi nhất trong nghề cũng có thể trống rỗng khi nghe câu đáng sợ này."
+        },
+        {
+          "t": 27.8,
+          "en": "So what does that mean? Does your introduction really make that big of a difference?",
+          "vi": "Vậy điều đó nghĩa là gì? Lời giới thiệu có thực sự tạo khác biệt lớn đến vậy không?"
+        },
+        {
+          "t": 33.36,
+          "en": "I never thought it did. I thought my introduction wasn't nearly as important as my qualifications.",
+          "vi": "Tôi từng không nghĩ vậy. Tôi cho rằng lời giới thiệu chẳng quan trọng bằng bằng cấp của mình."
+        },
+        {
+          "t": 40.16,
+          "en": "For example, right after I started my business, I had the perfect opportunity to shine. I was interviewing as an instructor for a supply chain institute, and I knew I was the ideal candidate.",
+          "vi": "Chẳng hạn, ngay sau khi mở công ty, tôi có cơ hội hoàn hảo để tỏa sáng. Tôi phỏng vấn làm giảng viên cho một viện đào tạo chuỗi cung ứng, và tôi biết mình là ứng viên lý tưởng."
+        },
+        {
+          "t": 53.32,
+          "en": "I had over 20 years of expertise leading supply chains for one of the world's largest consumer products companies.",
+          "vi": "Tôi có hơn 20 năm kinh nghiệm điều hành chuỗi cung ứng cho một trong những công ty hàng tiêu dùng lớn nhất thế giới."
+        },
+        {
+          "t": 60.44,
+          "en": "As I prepped for my interview, I didn't want there to be any doubts about my qualifications. I created an elevator pitch and included a complete list of my accomplishments.",
+          "vi": "Khi chuẩn bị phỏng vấn, tôi không muốn ai nghi ngờ năng lực của mình. Tôi soạn một bài giới thiệu ngắn và liệt kê đầy đủ mọi thành tích."
+        },
+        {
+          "t": 71.6,
+          "en": "When I heard \"Tell me about yourself,\" I was ready, and I proudly explained everything that I could do.",
+          "vi": "Khi nghe \"Hãy kể về bản thân bạn\", tôi đã sẵn sàng và tự hào trình bày mọi thứ mình làm được."
+        },
+        {
+          "t": 81.12,
+          "en": "When I finished, the interviewer said, \"Instead of talking about yourself, it would have been more effective if you had explained what you can do for me.\"",
+          "vi": "Khi tôi nói xong, người phỏng vấn bảo: \"Thay vì nói về bản thân, sẽ hiệu quả hơn nếu chị giải thích chị làm được gì cho tôi.\""
+        },
+        {
+          "t": 96.36,
+          "en": "My interview lasted 5 minutes. She rejected me on the spot, based off of one answer.",
+          "vi": "Buổi phỏng vấn kéo dài 5 phút. Bà ấy loại tôi ngay tại chỗ, chỉ dựa vào một câu trả lời."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What can the words \"Tell me about yourself\" make people do?",
+          "options": [
+            "Ask for more time",
+            "Smile and relax",
+            "Leave the room",
+            "Ramble or freeze"
+          ],
+          "answer": 3,
+          "explain": "\"Four simple words that can make anyone ramble or freeze.\" Ramble là nói lan man, freeze là đứng hình.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How much experience did she have when she went to the interview?",
+          "options": [
+            "About 5 years",
+            "None",
+            "6 months as a consultant",
+            "Over 20 years leading supply chains"
+          ],
+          "answer": 3,
+          "explain": "\"I had over 20 years of expertise leading supply chains.\" Đáp án A và C là bẫy: 5 là số phút của buổi phỏng vấn, 6 tháng là khoảng thời gian sau đó.",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What did the interviewer say she should have done?",
+          "options": [
+            "Talked about her business",
+            "Brought a résumé",
+            "Explained what she can do for the interviewer",
+            "Listed more accomplishments"
+          ],
+          "answer": 2,
+          "explain": "\"It would have been more effective if you had explained what you can do for me.\"",
+          "clue": [
+            8
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How did the interview end?",
+          "options": [
+            "She got the job.",
+            "She was asked to come back.",
+            "She was rejected on the spot after 5 minutes.",
+            "She left early."
+          ],
+          "answer": 2,
+          "explain": "\"My interview lasted 5 minutes. She rejected me on the spot based off of one answer.\"",
+          "clue": [
+            9
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Hồi chuông thức tỉnh và \"Tell me more\"",
+      "start": 106.2,
+      "end": 175.5,
+      "summary": "Bà nhận ra giỏi đến đâu cũng vô ích nếu không thu hút được sự chú ý. Bà nghiên cứu khoa học về ấn tượng đầu tiên và các tiêu đề viral, rồi tìm ra cách giới thiệu trong 20 từ. Sáu tháng sau, khi uống cà phê với một giám đốc, bà chỉ trả lời một câu, người kia đáp \"Tell me more\", và 15 phút sau thuê bà dạy workshop.",
+      "lines": [
+        {
+          "t": 106.24,
+          "en": "That was my wake-up call. I realized it doesn't matter how smart you are, it doesn't matter how perfect a fit you are, if you can't capture someone's attention.",
+          "vi": "Đó là hồi chuông thức tỉnh. Tôi nhận ra dù bạn giỏi đến đâu, phù hợp đến đâu, cũng vô ích nếu không thu hút được sự chú ý của người khác."
+        },
+        {
+          "t": 118.96,
+          "en": "After that, I became laser-focused on cracking the code on introducing myself.",
+          "vi": "Sau đó, tôi dồn hết tâm trí vào việc giải mã cách giới thiệu bản thân."
+        },
+        {
+          "t": 124.52,
+          "en": "I studied the science of first impressions. I researched viral headlines and what made them so irresistible.",
+          "vi": "Tôi nghiên cứu khoa học về ấn tượng đầu tiên. Tôi tìm hiểu các tiêu đề lan truyền và điều gì khiến chúng hấp dẫn khó cưỡng."
+        },
+        {
+          "t": 132.56,
+          "en": "And then I discovered the secret of introducing myself perfectly in 20 words or less.",
+          "vi": "Rồi tôi khám phá ra bí quyết giới thiệu bản thân hoàn hảo trong 20 từ hoặc ít hơn."
+        },
+        {
+          "t": 140.32,
+          "en": "Fast forward about 6 months. I'm having coffee with the executive director of a business development program. She asks me, \"What do you do?\" I answer her in one sentence.",
+          "vi": "Khoảng 6 tháng sau, tôi uống cà phê với giám đốc điều hành một chương trình phát triển doanh nghiệp. Bà hỏi: \"Chị làm nghề gì?\" Tôi trả lời bằng một câu."
+        },
+        {
+          "t": 155.04,
+          "en": "\"I'm a communications consultant, and I help people with something to say but struggle to say it.\"",
+          "vi": "\"Tôi là chuyên gia tư vấn giao tiếp, tôi giúp những người có điều muốn nói nhưng gặp khó khi nói ra.\""
+        },
+        {
+          "t": 162.28,
+          "en": "She leans in and says three magic words: \"Tell me more.\"",
+          "vi": "Bà nghiêng người tới và nói ba từ kỳ diệu: \"Kể thêm đi.\""
+        },
+        {
+          "t": 170.68,
+          "en": "15 minutes later, she hires me to give workshops for new entrepreneurs.",
+          "vi": "15 phút sau, bà thuê tôi tổ chức các buổi workshop cho những người mới khởi nghiệp."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "What was her \"wake-up call\"?",
+          "options": [
+            "It doesn't matter how smart or qualified you are if you can't capture attention.",
+            "She should stop doing interviews.",
+            "She needed more qualifications.",
+            "Being smart is enough."
+          ],
+          "answer": 0,
+          "explain": "\"It doesn't matter how smart you are… if you can't capture someone's attention.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What did she study to improve her introduction?",
+          "options": [
+            "Job interview books",
+            "The science of first impressions and viral headlines",
+            "Supply chain management",
+            "Acting and public speaking"
+          ],
+          "answer": 1,
+          "explain": "\"I studied the science of first impressions. I researched viral headlines.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What was her one-sentence answer to \"What do you do?\"",
+          "options": [
+            "\"I have 20 years of experience in supply chains.\"",
+            "\"I help people with something to say but struggle to say it.\"",
+            "\"I'm an award-winning author.\"",
+            "\"I give workshops for entrepreneurs.\""
+          ],
+          "answer": 1,
+          "explain": "\"I'm a communications consultant and I help people with something to say but struggle to say it.\" Đáp án D là việc bà được thuê làm sau đó.",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How long after \"Tell me more\" was she hired?",
+          "options": [
+            "15 minutes",
+            "5 minutes",
+            "6 months",
+            "One day"
+          ],
+          "answer": 0,
+          "explain": "\"15 minutes later, she hires me.\" Mốc 6 tháng là khoảng thời gian tính từ buổi phỏng vấn thất bại.",
+          "clue": [
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Không phải bạn, mà là lời giới thiệu",
+      "start": 175.5,
+      "end": 234.2,
+      "summary": "Vẫn là con người đã trượt phỏng vấn 6 tháng trước, nhưng lần này bà được nhận dù ít bằng cấp hơn hẳn. Khác biệt duy nhất giữa thành công và thất bại là lời giới thiệu. Bà nhận ra những lần bị từ chối, khi tiếng nói bên trong bảo bà không đủ giỏi, thật ra không phải lỗi ở bà mà ở lời giới thiệu.",
+      "lines": [
+        {
+          "t": 175.48,
+          "en": "But here's the thing. I was the same person who blew that interview just 6 months before.",
+          "vi": "Nhưng vấn đề là: tôi vẫn là người đã làm hỏng buổi phỏng vấn chỉ 6 tháng trước."
+        },
+        {
+          "t": 183.6,
+          "en": "But this time I got the job, even though I had way fewer qualifications.",
+          "vi": "Nhưng lần này tôi được nhận, dù bằng cấp phù hợp ít hơn hẳn."
+        },
+        {
+          "t": 190.6,
+          "en": "And the only thing different between success and failure, between that door of opportunity opening or slamming shut in my face, was my introduction.",
+          "vi": "Và điều khác biệt duy nhất giữa thành công và thất bại, giữa cánh cửa cơ hội mở ra hay đóng sầm trước mặt, là lời giới thiệu của tôi."
+        },
+        {
+          "t": 202.28,
+          "en": "From that point on, I started to see my introduction in a whole new light. It wasn't just a way of grabbing someone's attention.",
+          "vi": "Từ đó, tôi nhìn lời giới thiệu theo một cách hoàn toàn mới. Nó không chỉ là cách thu hút sự chú ý."
+        },
+        {
+          "t": 211.72,
+          "en": "I thought about all those times when I would hear no, and my inner critic would tell me that people didn't see me or hear me because I wasn't good enough or smart enough.",
+          "vi": "Tôi nghĩ về những lần bị từ chối, khi tiếng nói chê bai bên trong bảo rằng người ta không nhìn thấy, không lắng nghe tôi vì tôi không đủ giỏi, không đủ thông minh."
+        },
+        {
+          "t": 226.84,
+          "en": "But that was wrong. It wasn't me. It was my introduction.",
+          "vi": "Nhưng điều đó sai. Không phải do tôi. Mà do lời giới thiệu của tôi."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Suy luận",
+          "q": "Why is it surprising that she got the second job?",
+          "options": [
+            "She was a different person by then.",
+            "She was late for the meeting.",
+            "She had way fewer qualifications for it than for the first job.",
+            "She didn't want the job."
+          ],
+          "answer": 2,
+          "explain": "\"I was the same person… But this time I got the job even though I had way fewer qualifications.\"",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"That door of opportunity opening or slamming shut in my face\" means…",
+          "options": [
+            "being polite or rude",
+            "getting or losing a chance",
+            "arriving early or late",
+            "entering a new office"
+          ],
+          "answer": 1,
+          "explain": "Cánh cửa cơ hội mở ra hay đóng sầm trước mặt, tức là có được hay mất cơ hội.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What did her \"inner critic\" tell her, and what does she now believe?",
+          "options": [
+            "That she wasn't good or smart enough — but really it was her introduction",
+            "That she talked too little — so she talks more now",
+            "That she was perfect — and she still believes it",
+            "That she should change careers — and she did"
+          ],
+          "answer": 0,
+          "explain": "\"My inner critic would tell me… I wasn't good enough or smart enough. But that was wrong. It wasn't me. It was my introduction.\"",
+          "clue": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Hai bí quyết: câu ngắn gọn và nói về người nghe",
+      "start": 234.2,
+      "end": 317.8,
+      "summary": "Bí quyết 1: nói một câu ngắn gọn dễ nhớ, đừng tuôn ra cả đống dữ liệu, vì người nghe ngày nay rất dễ mất tập trung, \"thu hút con cá vàng còn dễ hơn\". Lời giới thiệu 20 từ chỉ nhằm khiến người ta nói \"Tell me more\". Bí quyết 2: nói về người nghe, tức là điều bạn làm được cho họ. Ví dụ, thay vì \"Tôi là tác giả sách bán chạy từng đoạt giải\", hãy nói \"Tôi giúp tác giả mới xuất bản sách nhanh hơn\".",
+      "lines": [
+        {
+          "t": 234.24,
+          "en": "All right. Are you ready to introduce yourself in 20 words or less? I'm going to start with two secrets of getting people to say, \"Tell me more.\"",
+          "vi": "Nào, bạn sẵn sàng giới thiệu bản thân trong 20 từ chưa? Tôi sẽ bắt đầu với hai bí quyết khiến người khác nói \"Kể thêm đi\"."
+        },
+        {
+          "t": 246.56,
+          "en": "Secret number one: Think sound bite, not data dump.",
+          "vi": "Bí quyết thứ nhất: hãy nghĩ tới một câu ngắn gọn, đừng tuôn ra cả đống dữ liệu."
+        },
+        {
+          "t": 253.0,
+          "en": "That's because with today's multitasking, attention-deficit audiences, it's been said you have a better chance of engaging with a goldfish than the person that you're talking to.",
+          "vi": "Bởi khán giả ngày nay vừa làm nhiều việc cùng lúc vừa thiếu tập trung, người ta còn nói bạn thu hút một con cá vàng dễ hơn người đang nói chuyện với mình."
+        },
+        {
+          "t": 266.96,
+          "en": "A 20-word introduction is designed to grab someone's attention and get them to say, \"Tell me more.\"",
+          "vi": "Lời giới thiệu 20 từ được thiết kế để thu hút sự chú ý và khiến người ta nói \"Kể thêm đi\"."
+        },
+        {
+          "t": 274.64,
+          "en": "Secret number two. Do you remember what that interviewer told me? Don't talk about yourself. Instead, explain what you can do for them.",
+          "vi": "Bí quyết thứ hai. Bạn nhớ người phỏng vấn đã nói gì với tôi chứ? Đừng nói về bản thân, hãy giải thích bạn làm được gì cho họ."
+        },
+        {
+          "t": 289.04,
+          "en": "I call the difference an \"about me\" versus an \"about you\" introduction.",
+          "vi": "Tôi gọi sự khác biệt này là lời giới thiệu \"về tôi\" và lời giới thiệu \"về bạn\"."
+        },
+        {
+          "t": 295.84,
+          "en": "An \"about me\" introduction sounds like this: \"I'm an award-winning, best-selling author.\"",
+          "vi": "Giới thiệu \"về tôi\" nghe như thế này: \"Tôi là tác giả sách bán chạy từng đoạt giải.\""
+        },
+        {
+          "t": 303.24,
+          "en": "Compare that to: \"I help new authors get published faster.\"",
+          "vi": "So với: \"Tôi giúp các tác giả mới xuất bản sách nhanh hơn.\""
+        },
+        {
+          "t": 308.44,
+          "en": "Can you hear the difference? One describes me; the other describes what I can do for you.",
+          "vi": "Bạn nghe ra khác biệt chứ? Một câu mô tả tôi, câu kia mô tả điều tôi làm được cho bạn."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Think sound bite, not data dump\" means…",
+          "options": [
+            "Say one short, catchy line instead of lots of information",
+            "Use music in your introduction",
+            "Record your voice before speaking",
+            "Bring data to prove your skills"
+          ],
+          "answer": 0,
+          "explain": "\"Sound bite\" là một câu ngắn gọn, dễ nhớ. \"Data dump\" là tuôn ra một đống thông tin.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does she mention a goldfish?",
+          "options": [
+            "Goldfish are her favorite animal.",
+            "To show that today's audiences have very short attention spans.",
+            "Goldfish are good listeners.",
+            "To give an example introduction."
+          ],
+          "answer": 1,
+          "explain": "\"With today's multitasking attention deficit audiences… you have a better chance of engaging with a goldfish.\" Ý là người nghe rất dễ mất tập trung.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which is an \"about you\" introduction?",
+          "options": [
+            "\"I help new authors get published faster.\"",
+            "\"I have 20 years of experience.\"",
+            "\"I'm a communications consultant.\"",
+            "\"I'm an award-winning, best-selling author.\""
+          ],
+          "answer": 0,
+          "explain": "\"I help new authors get published faster\" mô tả điều bạn làm được cho người nghe. Đáp án D là ví dụ giới thiệu \"about me\".",
+          "clue": [
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Công thức 1–2: lợi ích và đột phá với \"without\"",
+      "start": 317.8,
+      "end": 397.2,
+      "summary": "Công thức 1, lợi ích: \"I help [đối tượng] achieve [lợi ích họ mong muốn]\". Lợi ích trả lời câu hỏi của người nghe: \"Đời tôi sẽ khác đi thế nào?\". Công thức 2, đột phá: thêm \"without [hậu quả tiêu cực]\". Ví dụ: giúp thương hiệu tiếp cận khách hàng mới mà không tăng chi phí marketing. Chữ \"without\" thể hiện điều làm bạn khác biệt.",
+      "lines": [
+        {
+          "t": 317.76,
+          "en": "Now that you know the secrets, here are five ways to introduce yourself perfectly in 20 words or less.",
+          "vi": "Giờ bạn đã biết bí quyết, đây là năm cách giới thiệu bản thân hoàn hảo trong 20 từ trở xuống."
+        },
+        {
+          "t": 325.64,
+          "en": "I'm going to start with a straightforward \"about you\" introduction. The formula is: I help [my target audience] achieve [a benefit they desire].",
+          "vi": "Tôi bắt đầu với kiểu giới thiệu \"về bạn\" đơn giản. Công thức là: Tôi giúp [đối tượng mục tiêu] đạt được [lợi ích họ mong muốn]."
+        },
+        {
+          "t": 337.48,
+          "en": "For example: \"I help worried job hunters confidently explain why they're the ideal candidate to hire.\"",
+          "vi": "Ví dụ: \"Tôi giúp những người tìm việc đang lo lắng tự tin giải thích vì sao họ là ứng viên lý tưởng.\""
+        },
+        {
+          "t": 344.08,
+          "en": "Now, here's a tip about your benefit. A benefit answers your listener's question: \"How will my life be different?\"",
+          "vi": "Một mẹo về lợi ích: lợi ích trả lời câu hỏi của người nghe: \"Cuộc sống của tôi sẽ khác đi thế nào?\""
+        },
+        {
+          "t": 354.96,
+          "en": "For the second framework, let's go beyond offering a benefit. Let's promise a breakthrough.",
+          "vi": "Với công thức thứ hai, hãy vượt xa việc đưa ra lợi ích. Hãy hứa hẹn một bước đột phá."
+        },
+        {
+          "t": 363.84,
+          "en": "The formula is the same as the benefit one, but you're going to add the word \"without\": I help [my target audience] achieve [a benefit they desire] without [a negative consequence].",
+          "vi": "Công thức giống công thức lợi ích, nhưng thêm chữ \"without\" (mà không): Tôi giúp [đối tượng] đạt [lợi ích] mà không [hậu quả tiêu cực]."
+        },
+        {
+          "t": 378.68,
+          "en": "\"I help established brands in competitive markets rapidly reach new audiences without increasing marketing spend.\"",
+          "vi": "\"Tôi giúp các thương hiệu lâu năm trong thị trường cạnh tranh nhanh chóng tiếp cận khách hàng mới mà không tăng chi phí marketing.\""
+        },
+        {
+          "t": 388.28,
+          "en": "The word \"without\" is so powerful because that's how you explain what makes you unique.",
+          "vi": "Chữ \"without\" rất mạnh vì nó giúp bạn nói ra điều làm mình khác biệt."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What is the formula for the first introduction?",
+          "options": [
+            "I'm known for [my strength].",
+            "I'm passionate about [something I value].",
+            "I help [target audience] achieve [a benefit they desire].",
+            "I am [job title] with [years] of experience."
+          ],
+          "answer": 2,
+          "explain": "\"The formula is, I help my target audience achieve a benefit they desire.\" Đáp án A và B là công thức ở đoạn sau.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What question does a benefit answer for the listener?",
+          "options": [
+            "\"How much does it cost?\"",
+            "\"Who are you?\"",
+            "\"Where did you study?\"",
+            "\"How will my life be different?\""
+          ],
+          "answer": 3,
+          "explain": "\"A benefit answers your listener's question, 'How will my life be different?'\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is the word \"without\" so powerful?",
+          "options": [
+            "It shows what makes you unique — the benefit with no negative consequence.",
+            "It hides your weaknesses.",
+            "It sounds more polite.",
+            "It makes the sentence shorter."
+          ],
+          "answer": 0,
+          "explain": "\"The word without is so powerful because that's how you explain what makes you unique.\"",
+          "clue": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Công thức 3–5: đam mê, thế mạnh, sứ mệnh",
+      "start": 397.2,
+      "end": 483.3,
+      "summary": "Nếu bạn không muốn tập trung vào nghề nghiệp (đang theo đuổi sứ mệnh, chuyển ngành, hay là sinh viên ít kinh nghiệm), hãy dùng đam mê (\"I'm passionate about… to achieve…\"), thế mạnh (\"I'm known for my… to achieve…\") hoặc sứ mệnh (\"I'm on a mission to…\"). Vế sau luôn là điều mà đối tượng của bạn coi trọng.",
+      "lines": [
+        {
+          "t": 397.24,
+          "en": "For the last three frameworks, here's what to say if you don't want to focus on your career. For example, you're mission-driven, or you're on a career pivot. Maybe you're a student and you don't have a lot of work experience.",
+          "vi": "Ba công thức cuối dành cho khi bạn không muốn tập trung vào sự nghiệp. Chẳng hạn bạn theo đuổi một sứ mệnh, đang chuyển hướng nghề nghiệp, hoặc là sinh viên chưa có nhiều kinh nghiệm làm việc."
+        },
+        {
+          "t": 412.96,
+          "en": "In this case, you can use your passion, your mission, or your strength.",
+          "vi": "Khi đó, bạn có thể dùng đam mê, sứ mệnh hoặc thế mạnh của mình."
+        },
+        {
+          "t": 420.16,
+          "en": "I'll start with your passion: I'm passionate about [something I value] to achieve [something my target audience values].",
+          "vi": "Bắt đầu với đam mê: Tôi đam mê [điều tôi coi trọng] để đạt được [điều đối tượng của tôi coi trọng]."
+        },
+        {
+          "t": 429.96,
+          "en": "\"I'm passionate about helping people in need and creating opportunities that change lives.\"",
+          "vi": "\"Tôi đam mê giúp đỡ người khó khăn và tạo ra những cơ hội thay đổi cuộc đời.\""
+        },
+        {
+          "t": 437.76,
+          "en": "Next, instead of your passion, you can use your strength: I'm known for my [strength] to achieve [something my target audience values].",
+          "vi": "Tiếp theo, thay vì đam mê, bạn có thể dùng thế mạnh: Tôi được biết đến với [thế mạnh] để đạt được [điều đối tượng coi trọng]."
+        },
+        {
+          "t": 450.48,
+          "en": "\"I'm known for my critical thinking and turning information into actionable insights.\"",
+          "vi": "\"Tôi được biết đến với tư duy phản biện và khả năng biến thông tin thành những nhận định có thể hành động ngay.\""
+        },
+        {
+          "t": 457.68,
+          "en": "Last, you can use your mission: I'm on a mission to achieve [something my target audience values].",
+          "vi": "Cuối cùng, bạn có thể dùng sứ mệnh: Tôi có sứ mệnh đạt được [điều đối tượng coi trọng]."
+        },
+        {
+          "t": 469.44,
+          "en": "\"I'm on a mission to bridge the healthcare divide and make a lasting difference for vulnerable communities.\"",
+          "vi": "\"Tôi có sứ mệnh thu hẹp khoảng cách y tế và tạo thay đổi lâu dài cho các cộng đồng dễ bị tổn thương.\""
+        },
+        {
+          "t": 476.96,
+          "en": "And that's how you use your passion, your mission, or your strength.",
+          "vi": "Đó là cách dùng đam mê, sứ mệnh hoặc thế mạnh."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Who are the last three frameworks for?",
+          "options": [
+            "People with 20 years of experience",
+            "Only job interviewers",
+            "Only company CEOs",
+            "People who don't want to focus on their career, e.g. career changers or students"
+          ],
+          "answer": 3,
+          "explain": "\"Here's what to say if you don't want to focus on your career. For example, you're mission-driven or you're on a career pivot. Maybe you're a student.\"",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "\"I'm known for my critical thinking…\" is an example of which framework?",
+          "options": [
+            "Passion",
+            "Strength",
+            "Mission",
+            "Benefit"
+          ],
+          "answer": 1,
+          "explain": "\"You can use your strength. I'm known for my strength to achieve…\" Ví dụ về đam mê là giúp người khó khăn, về sứ mệnh là thu hẹp khoảng cách y tế.",
+          "clue": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"You're on a career pivot\" means you are…",
+          "options": [
+            "getting promoted",
+            "retiring",
+            "changing direction in your career",
+            "looking for your first job"
+          ],
+          "answer": 2,
+          "explain": "\"Pivot\" là xoay trục, đổi hướng. \"Career pivot\" là chuyển hướng nghề nghiệp.",
+          "clue": [
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Thử nghiệm, và \"Nếu như…?\"",
+      "start": 483.3,
+      "end": 576.0,
+      "summary": "Hãy thử cả năm cách. Bạn sẽ dùng nhiều hơn một cách, vì mỗi đối tượng coi trọng những thứ khác nhau. Kết bài, bà thách thức tiếng nói bên trong bảo bạn không đủ giỏi hay là \"kẻ mạo danh\": nếu tiếng nói đó sai thì sao? Nếu điều duy nhất ngăn bạn được nhìn thấy, lắng nghe và công nhận chỉ là lời giới thiệu 20 từ thì sao?",
+      "lines": [
+        {
+          "t": 483.28,
+          "en": "Now that you've seen the five introductions, your next step: try them out.",
+          "vi": "Bạn đã xem năm kiểu giới thiệu, bước tiếp theo là thử chúng."
+        },
+        {
+          "t": 489.28,
+          "en": "Don't be surprised if you find yourself using more than one. That's because different audiences value different things. So what works for one may not work for another.",
+          "vi": "Đừng ngạc nhiên nếu bạn dùng nhiều hơn một cách. Đó là vì mỗi đối tượng coi trọng những điều khác nhau, nên cách hợp với người này có thể không hợp với người khác."
+        },
+        {
+          "t": 501.4,
+          "en": "But that's okay. You'll see there are multiple ways of getting people to say, \"Tell me more.\"",
+          "vi": "Không sao cả. Bạn sẽ thấy có nhiều cách khiến người ta nói \"Kể thêm đi\"."
+        },
+        {
+          "t": 512.56,
+          "en": "I'll close with this thought. Have doors been closed in your face? Do you struggle to be seen and heard?",
+          "vi": "Tôi xin kết thúc bằng suy nghĩ này. Bạn đã từng bị đóng cửa trước mặt chưa? Bạn có chật vật để được nhìn thấy và lắng nghe không?"
+        },
+        {
+          "t": 523.68,
+          "en": "Does your inner critic tell you you're not good enough, or smart enough, or that you're an impostor, and something is way above your pay grade?",
+          "vi": "Tiếng nói bên trong có bảo bạn không đủ giỏi, không đủ thông minh, bạn là \"kẻ mạo danh\", và việc gì đó vượt quá tầm của bạn không?"
+        },
+        {
+          "t": 535.36,
+          "en": "Before you buy into your inner critic's narrative, let me challenge you. What if?",
+          "vi": "Trước khi tin vào câu chuyện của tiếng nói ấy, để tôi thách bạn: Nếu như thì sao?"
+        },
+        {
+          "t": 543.64,
+          "en": "What if that voice inside your head is wrong? What if you are good enough and smart enough? What if the best way to describe you is impressive, not impostor?",
+          "vi": "Nếu tiếng nói trong đầu bạn sai thì sao? Nếu bạn đủ giỏi, đủ thông minh thì sao? Nếu từ đúng nhất để mô tả bạn là \"ấn tượng\" chứ không phải \"kẻ mạo danh\" thì sao?"
+        },
+        {
+          "t": 559.32,
+          "en": "And what if the only thing between you and being seen, heard and recognized is your introduction in 20 words?",
+          "vi": "Và nếu điều duy nhất ngăn bạn được nhìn thấy, lắng nghe và công nhận chỉ là lời giới thiệu 20 từ thì sao?"
+        }
+      ],
+      "questions": [
+        {
+          "type": "Suy luận",
+          "q": "Why might you use more than one type of introduction?",
+          "options": [
+            "Because interviewers ask for five",
+            "Because one is never enough words",
+            "Because different audiences value different things",
+            "Because you should change jobs often"
+          ],
+          "answer": 2,
+          "explain": "\"Different audiences value different things. So, what works for one may not work for another.\"",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Something is way above your pay grade\" means…",
+          "options": [
+            "You are paid too much.",
+            "You deserve a raise.",
+            "It's easy for you.",
+            "It's too difficult or important for someone at your level."
+          ],
+          "answer": 3,
+          "explain": "\"Above your pay grade\" là thành ngữ, nghĩa là vượt quá cấp bậc hay khả năng của bạn. Ở đây đó là lời của tiếng nói tự ti bên trong.",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What is her closing message?",
+          "options": [
+            "Never introduce yourself in under 20 words.",
+            "Challenge your inner critic — maybe the only thing holding you back is your introduction.",
+            "Your inner critic is usually right.",
+            "Avoid interviews if you feel like an impostor."
+          ],
+          "answer": 1,
+          "explain": "\"What if that voice inside your head is wrong?… What if the only thing between you and being seen, heard, and recognized is your introduction in 20 words?\"",
+          "clue": [
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "shuffled": true,
+  "level": "A",
+  "levelStats": {
+    "wpm": 115,
+    "rarePct": 4.8,
+    "avgSent": 11.7
+  }
+}
