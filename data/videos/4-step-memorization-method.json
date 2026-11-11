@@ -1,0 +1,1454 @@
+{
+  "id": "4-step-memorization-method",
+  "topic": "hoc-tap",
+  "youtubeId": "-gqYldhjZVk",
+  "title": "A 4-Step Memorization Method (from a Learning Coach)",
+  "duration": "20:14",
+  "summary": {
+    "oneLine": "Chỉ học thuộc lòng khi thật cần; khi phải thuộc, biến dữ kiện thành nhân vật kỳ quặc rồi ghép thành câu chuyện.",
+    "overview": "Một huấn luyện viên học tập (từng học y) giới thiệu phương pháp ghi nhớ 4 bước. Bước 1 quan trọng nhất: \"bộ lọc ghi nhớ\", tức chỉ học thuộc khi không thể hiểu hay liên kết dữ kiện với kiến thức sẵn có. Lý do là học vẹt bằng flashcard tạo khối lượng ôn tập không bền vững, còn dữ kiện gắn với kiến thức cũ thì tự nhớ lâu. Với phần còn lại, người nói hướng dẫn: ưu tiên dữ kiện đáng nhớ, biến chúng thành nhân vật kỳ quặc (dùng AI tạo ảnh), rồi ghép các nhân vật thành một câu chuyện. Ví dụ là bảng thuốc kháng sinh.",
+    "points": [
+      {
+        "text": "4 bước, bước 1 quan trọng nhất: bộ lọc ghi nhớ, chủ động quyết định cái gì cần học thuộc.",
+        "seg": 1
+      },
+      {
+        "text": "Flashcard tạo hàng nghìn thẻ phải ôn. Đường cong lãng quên và hiệu ứng ôn giãn cách.",
+        "seg": 2
+      },
+      {
+        "text": "Mỗi dữ kiện mới cần ôn 2–5 lần, nên học càng nhiều càng ngập trong ôn tập (\"Anki hell\").",
+        "seg": 3
+      },
+      {
+        "text": "Trí nhớ khác học thuộc. Học vẹt là cách xây trí nhớ rất kém hiệu quả.",
+        "seg": 4
+      },
+      {
+        "text": "Ba câu hỏi lọc: hiểu vì sao quan trọng không? Có liên quan gì đã biết không? Có cần thành thạo ở mức cao không?",
+        "seg": 5
+      },
+      {
+        "text": "Dữ kiện gắn với kiến thức có sẵn (schema) thì quên chậm. Ví dụ trò chơi Dynasty Warriors và lịch sử Trung Quốc.",
+        "seg": 6
+      },
+      {
+        "text": "Dữ kiện rời rạc bị não coi là vô ích và vứt bỏ. Tạo được liên kết thì quên chậm hơn mà không cần ôn.",
+        "seg": 7
+      },
+      {
+        "text": "Áp dụng bộ lọc giúp giảm 80% số flashcard. Học vẹt chỉ là phương án cuối cùng.",
+        "seg": 8
+      },
+      {
+        "text": "Bước 2: ưu tiên, chỉ chọn dữ kiện nổi bật (ví dụ bảng kháng sinh).",
+        "seg": 9
+      },
+      {
+        "text": "Bước 3: biến dữ kiện thành một nhân vật kỳ quặc (quái vật đá cho sulfonamide).",
+        "seg": 10
+      },
+      {
+        "text": "Họ beta-lactam thành bò, mũ rộng vành tượng trưng cho phổ rộng.",
+        "seg": 11
+      },
+      {
+        "text": "Bước 4: ghép các nhân vật thành câu chuyện để thể hiện quan hệ giữa các nhóm dữ kiện.",
+        "seg": 12
+      },
+      {
+        "text": "Câu chuyện mẫu: mỗi tương tác giữa nhân vật mang một ý nghĩa.",
+        "seg": 13
+      },
+      {
+        "text": "Kết quả: 27 dữ kiện, nhớ 100% sau 6 giờ và 48 giờ. Nhưng đây vẫn là phương án cuối cùng.",
+        "seg": 14
+      }
+    ],
+    "vocab": [
+      {
+        "en": "memorize / memorization",
+        "vi": "học thuộc / sự học thuộc"
+      },
+      {
+        "en": "retention",
+        "vi": "khả năng ghi nhớ lâu"
+      },
+      {
+        "en": "rote repetition",
+        "vi": "lặp lại máy móc, học vẹt"
+      },
+      {
+        "en": "forgetting curve",
+        "vi": "đường cong lãng quên"
+      },
+      {
+        "en": "spacing effect",
+        "vi": "hiệu ứng ôn giãn cách"
+      },
+      {
+        "en": "schema",
+        "vi": "khung kiến thức sẵn có"
+      },
+      {
+        "en": "last resort",
+        "vi": "phương án cuối cùng"
+      },
+      {
+        "en": "prioritize",
+        "vi": "ưu tiên"
+      }
+    ]
+  },
+  "segments": [
+    {
+      "id": 1,
+      "title": "Giới thiệu phương pháp và bước 1: bộ lọc ghi nhớ",
+      "start": 0,
+      "end": 68.4,
+      "summary": "Phương pháp này giúp người nói thuộc hơn 150 dữ kiện y khoa trong khoảng 2 giờ và nhớ trên 90% suốt 5 năm. Nó kết hợp phương pháp câu chuyện và cung điện trí nhớ, gồm 4 bước. Bước 1 là bộ lọc ghi nhớ: chủ động quyết định cái gì nên và không nên học thuộc.",
+      "lines": [
+        {
+          "t": 0.0,
+          "en": "So, today I'm going to teach you my favorite method of memorizing. I used this method to memorize over 150 facts in my third year of medical school. It took me maybe 2 hours, and I had over 90% retention for over 5 years.",
+          "vi": "Hôm nay tôi sẽ dạy bạn phương pháp ghi nhớ tôi thích nhất. Tôi đã dùng nó để thuộc hơn 150 dữ kiện hồi năm ba trường y. Mất khoảng 2 tiếng, và tôi nhớ được hơn 90% suốt hơn 5 năm."
+        },
+        {
+          "t": 15.64,
+          "en": "This method is actually a combination of a few memorization techniques, like the story method and the method of loci, and I've put it together into a system of steps that I've personally found to be more practical and effective than anything else.",
+          "vi": "Phương pháp này kết hợp vài kỹ thuật ghi nhớ như phương pháp câu chuyện và phương pháp loci (cung điện trí nhớ). Tôi gộp chúng thành một hệ thống các bước mà tôi thấy thực tế và hiệu quả hơn mọi thứ khác."
+        },
+        {
+          "t": 29.0,
+          "en": "So I'll show you my exact steps and my personal workflow so that you can start using this immediately.",
+          "vi": "Tôi sẽ chỉ bạn chính xác các bước và quy trình riêng của tôi để bạn áp dụng được ngay."
+        },
+        {
+          "t": 33.72,
+          "en": "There are four steps in total, and the first step is by far the most important, so I'll spend a little bit longer explaining that.",
+          "vi": "Tổng cộng có bốn bước, và bước đầu tiên quan trọng hơn hẳn, nên tôi sẽ giải thích kỹ hơn một chút."
+        },
+        {
+          "t": 41.0,
+          "en": "And this first step is using a memorization filter. This first step is crucial — so crucial, in fact, that I don't think there is any memorization technique that is sustainable long-term, especially with high volumes of content, if you do not apply this step.",
+          "vi": "Bước đầu tiên là dùng \"bộ lọc ghi nhớ\". Bước này cực kỳ quan trọng, đến mức tôi không nghĩ có kỹ thuật ghi nhớ nào bền vững lâu dài, nhất là với khối lượng lớn, nếu bạn bỏ qua bước này."
+        },
+        {
+          "t": 60.5,
+          "en": "In short, using a memorization filter means actively deciding what you should and should not memorize. And here's why it's so important.",
+          "vi": "Nói ngắn gọn, dùng bộ lọc ghi nhớ nghĩa là chủ động quyết định cái gì nên và không nên học thuộc. Và đây là lý do nó quan trọng."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What results did the speaker get with this method in medical school?",
+          "options": [
+            "He memorized 150 facts in 5 years.",
+            "He memorized over 150 facts in about 2 hours, with over 90% retention for 5 years.",
+            "He forgot most facts after 2 hours.",
+            "He memorized 90 facts in 5 hours."
+          ],
+          "answer": 1,
+          "explain": "\"Memorize over 150 facts… It took me maybe 2 hours and I had over 90% retention for over 5 years.\" Các con số 90, 5, 150, 2 dễ bị đảo vị trí.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "How many steps does the method have, and which one is the most important?",
+          "options": [
+            "Five steps; the second one",
+            "Four steps; the first one",
+            "Three steps; the last one",
+            "Four steps; the last one"
+          ],
+          "answer": 1,
+          "explain": "\"There are four steps in total and the first step is by far the most important.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What does \"using a memorization filter\" mean?",
+          "options": [
+            "Filtering out noise while studying",
+            "Using an app to sort flashcards",
+            "Memorizing only the first chapter",
+            "Actively deciding what you should and should not memorize"
+          ],
+          "answer": 3,
+          "explain": "\"In short, using a memorization filter means actively deciding what you should and should not memorize.\"",
+          "clue": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ngập trong flashcard và đường cong lãng quên",
+      "start": 68.4,
+      "end": 158.7,
+      "summary": "Hồi học y, người nói bị dồn dập kiến thức nên dùng flashcard vì nhanh, mỗi ngày tạo hàng trăm thẻ, chẳng mấy chốc có hàng nghìn thẻ phải ôn, phút nào cũng có thẻ đến hạn. Đường cong lãng quên Ebbinghaus cho thấy ta quên nhanh lúc đầu, mỗi lần ôn lại thì quên chậm hơn. Đó là hiệu ứng ôn giãn cách.",
+      "lines": [
+        {
+          "t": 68.4,
+          "en": "When I was first in my first few years of university, trying to enter into medical school, going through medical school, just endlessly being bombarded with facts to learn —",
+          "vi": "Hồi những năm đầu đại học, cố vào trường y rồi học trường y, tôi liên tục bị dội bom bởi vô số dữ kiện phải học."
+        },
+        {
+          "t": 78.68,
+          "en": "The pressure that I felt was: there's so much I need to hold on to in my memory, I have to use the method that allows me to memorize this as fast as possible.",
+          "vi": "Áp lực lúc đó là: có quá nhiều thứ phải giữ trong đầu, mình phải dùng cách nào học thuộc nhanh nhất."
+        },
+        {
+          "t": 88.5,
+          "en": "And I discovered flash cards, and flash cards are very fast because you basically just read a sentence and then you make a little flash card on it. These days you can just automatically have those created with AI.",
+          "vi": "Tôi tìm ra flashcard, và flashcard rất nhanh vì bạn chỉ cần đọc một câu rồi làm một thẻ nhỏ. Ngày nay còn có thể dùng AI tạo tự động."
+        },
+        {
+          "t": 98.6,
+          "en": "And because I was doing this for every lecture, like every day, creating hundreds of new flash cards, this is how I quickly ended up having thousands of flash cards to constantly go through.",
+          "vi": "Vì làm vậy cho mọi bài giảng, mỗi ngày tạo hàng trăm thẻ mới, tôi nhanh chóng có hàng nghìn thẻ phải ôn liên tục."
+        },
+        {
+          "t": 111.5,
+          "en": "Like, my spaced repetition algorithm was just like: every minute something is due. And this is actually mathematically unsustainable.",
+          "vi": "Thuật toán ôn tập giãn cách của tôi kiểu như phút nào cũng có thẻ đến hạn. Về mặt toán học, điều này không thể duy trì nổi."
+        },
+        {
+          "t": 118.96,
+          "en": "And so here's how I think about it now, as a much more experienced learner and also as a learning coach. This is the forgetting curve. You may have seen this before — the famous Ebbinghaus forgetting curve.",
+          "vi": "Giờ đây, với tư cách người học nhiều kinh nghiệm hơn và là huấn luyện viên học tập, tôi nghĩ thế này. Đây là đường cong lãng quên, có thể bạn từng thấy: đường cong lãng quên nổi tiếng của Ebbinghaus."
+        },
+        {
+          "t": 127.5,
+          "en": "It basically says that when you learn a new piece of information, initially you will forget it very quickly. So this is time on the x-axis, and this is your level of recall, your percentage of memory.",
+          "vi": "Nó cho thấy khi học một thông tin mới, ban đầu bạn quên rất nhanh. Trục hoành là thời gian, trục tung là mức độ nhớ lại, phần trăm trí nhớ."
+        },
+        {
+          "t": 139.8,
+          "en": "So you learn it the first time, you'll forget it very quickly. Therefore, if you repeat it, then you forget it a little bit more slowly. If you repeat it again, you will forget it even slower.",
+          "vi": "Học lần đầu, bạn quên rất nhanh. Nếu ôn lại, bạn quên chậm hơn một chút. Ôn thêm lần nữa thì quên chậm hơn nữa."
+        },
+        {
+          "t": 150.5,
+          "en": "This idea that as you repeat things multiple times, you forget it more slowly — this is called the spacing effect in cognitive science research.",
+          "vi": "Ý tưởng rằng lặp lại nhiều lần thì quên chậm hơn được gọi là hiệu ứng giãn cách trong nghiên cứu khoa học nhận thức."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Why did he choose flash cards at first?",
+          "options": [
+            "They are the only method that uses AI.",
+            "They are very fast to make — just read a sentence and make a card.",
+            "They were recommended by his teacher.",
+            "They help you understand concepts deeply."
+          ],
+          "answer": 1,
+          "explain": "\"Flash cards are very fast because you basically just read a sentence and then you make a little flash card on it.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "What does he mean by \"mathematically unsustainable\"?",
+          "options": [
+            "He was bad at math.",
+            "The flashcard app had a math error.",
+            "Creating hundreds of new cards every day led to more reviews than he could ever keep up with.",
+            "Spaced repetition only works for math."
+          ],
+          "answer": 2,
+          "explain": "Mỗi ngày thêm hàng trăm thẻ thì sẽ có hàng nghìn thẻ cần ôn, \"every minute something is due\". Số lượt ôn tăng nhanh hơn thời gian bạn có.",
+          "clue": [
+            3,
+            4
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "What is \"the spacing effect\"?",
+          "options": [
+            "Leaving space between lines in your notes",
+            "The more times you repeat something, the more slowly you forget it",
+            "Forgetting everything after a long break",
+            "Studying in a large, quiet room"
+          ],
+          "answer": 1,
+          "explain": "\"This idea that as you repeat things multiple times, you forget it more slowly, this is called the spacing effect.\"",
+          "clue": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Vì sao học thuộc mọi thứ là vòng lặp vô tận",
+      "start": 158.7,
+      "end": 213.2,
+      "summary": "Khi học khối lượng lớn, mỗi dữ kiện cần ôn 2–5 lần. Học 100 dữ kiện mới mỗi ngày nghĩa là để lại khoảng 500 lượt ôn cho tương lai, ngày nào cũng cộng thêm. Đó là vòng quay chuột hamster, học viên gọi là \"Anki hell\". Nên nếu được, tốt nhất là không cần phải học thuộc.",
+      "lines": [
+        {
+          "t": 158.72,
+          "en": "But the issue with relying on this to hold on to and retain all of your facts is, when you're learning a very high volume of material, this is happening like a hundred times every single day.",
+          "vi": "Nhưng vấn đề khi dựa vào cách này để giữ mọi dữ kiện là, khi học khối lượng rất lớn, chuyện này xảy ra khoảng trăm lần mỗi ngày."
+        },
+        {
+          "t": 172.6,
+          "en": "And for you to have good memory on this fact, you need to repeat it like two to maybe five times.",
+          "vi": "Để nhớ tốt một dữ kiện, bạn cần ôn khoảng hai đến năm lần."
+        },
+        {
+          "t": 178.5,
+          "en": "And so every day, let's say you're learning an extra 100 new facts — that is giving the future version of you, for example, 500 repetitions.",
+          "vi": "Giả sử mỗi ngày bạn học thêm 100 dữ kiện mới, tức là bạn để lại cho \"bạn trong tương lai\" khoảng 500 lượt ôn."
+        },
+        {
+          "t": 189.2,
+          "en": "And every day, you're giving yourself another 500 repetitions for the future.",
+          "vi": "Và ngày nào bạn cũng tự giao thêm 500 lượt ôn nữa cho tương lai."
+        },
+        {
+          "t": 195.0,
+          "en": "And so for every one fact, that is giving the future version of you five times the amount of work. It's like this endless hamster wheel.",
+          "vi": "Mỗi dữ kiện đem lại cho bạn tương lai lượng việc gấp năm lần. Như một vòng quay chuột hamster không hồi kết."
+        },
+        {
+          "t": 202.76,
+          "en": "Some of my students have called it \"Anki hell\", because Anki is one of the most popular flashcard apps.",
+          "vi": "Một số học viên của tôi gọi nó là \"địa ngục Anki\", vì Anki là một trong những ứng dụng flashcard phổ biến nhất."
+        },
+        {
+          "t": 207.5,
+          "en": "And so, if at all possible, you want to not need to memorize things.",
+          "vi": "Nên nếu có thể, tốt nhất là đừng phải học thuộc."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "How many times do you need to repeat a fact to remember it well?",
+          "options": [
+            "Once",
+            "About 100 times",
+            "About two to five times",
+            "Every minute"
+          ],
+          "answer": 2,
+          "explain": "\"You need to repeat it like two to maybe five times.\" 100 là số dữ kiện mới mỗi ngày trong ví dụ.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "If you learn 100 new facts a day, how many future repetitions does that create (in his example)?",
+          "options": [
+            "200",
+            "500",
+            "100",
+            "1,000"
+          ],
+          "answer": 1,
+          "explain": "\"Learning an extra 100 new facts, that is giving the future version of you, for example, 500 repetitions.\" Tức 100 dữ kiện × 5 lần ôn.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "Why do his students call it \"Anki hell\"?",
+          "options": [
+            "Because the Anki app is broken",
+            "Because reviewing endless flashcards in Anki feels like a never-ending hamster wheel",
+            "Because Anki is very expensive",
+            "Because Anki deletes their cards"
+          ],
+          "answer": 1,
+          "explain": "\"It's like this endless hamster wheel. Some of my students have called it Anki hell.\" Anki là ứng dụng flashcard phổ biến, \"hell\" chỉ cảm giác ôn mãi không hết.",
+          "clue": [
+            4,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Trí nhớ khác học thuộc",
+      "start": 213.2,
+      "end": 268.9,
+      "summary": "Trí nhớ là có thông tin lưu trong đầu để gợi lại. Học thuộc là một cách để đạt được trí nhớ, thường bằng lặp lại máy móc, vừa chán vừa thụ động. Nghiên cứu cho thấy đây là cách xây trí nhớ rất kém hiệu quả, nên gọi đúng tên là \"lặp lại máy móc\". Đời thường cũng cho thấy phần lớn những gì ta nhớ không cần học thuộc.",
+      "lines": [
+        {
+          "t": 213.2,
+          "en": "And I think this is one of the things that I was really confused about initially: I didn't understand that memory and memorization are not the same thing.",
+          "vi": "Một điều tôi từng rất bối rối lúc đầu là không hiểu rằng trí nhớ và học thuộc không phải là một."
+        },
+        {
+          "t": 223.0,
+          "en": "Memory is just having stuff stored in your memory so that you can recall it. Memorization is the process of how you achieve memory.",
+          "vi": "Trí nhớ đơn giản là có thông tin lưu trong đầu để có thể gợi lại. Học thuộc là quá trình để đạt được trí nhớ."
+        },
+        {
+          "t": 231.6,
+          "en": "And typically, when we're talking about memorization, we're talking about memorizing things through rote, through repetition. It's very tedious, it's very boring, it's very passive.",
+          "vi": "Thường khi nói học thuộc, ta nói đến việc nhớ bằng cách lặp lại máy móc. Nó rất tẻ nhạt, nhàm chán và thụ động."
+        },
+        {
+          "t": 241.5,
+          "en": "And despite it being called memorization, what we know from modern research is that memorization is an incredibly inefficient way of developing memory.",
+          "vi": "Dù được gọi là \"học thuộc\", nghiên cứu hiện đại cho thấy đó là cách xây dựng trí nhớ cực kỳ kém hiệu quả."
+        },
+        {
+          "t": 252.6,
+          "en": "Right, so instead of calling it something like memorization, which is actually misleading, we should really just call it rote repetition.",
+          "vi": "Vậy thay vì gọi là học thuộc, một cái tên gây hiểu lầm, ta nên gọi đúng là lặp lại máy móc."
+        },
+        {
+          "t": 259.72,
+          "en": "And we actually know this from just day-to-day experience: most things that we can preserve in our memory don't need to be memorized.",
+          "vi": "Ta biết điều này từ trải nghiệm hằng ngày: phần lớn những thứ ta giữ được trong trí nhớ đều không cần học thuộc."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "What is the difference between memory and memorization?",
+          "options": [
+            "Memory is having information stored to recall; memorization is one process to achieve it.",
+            "Memory is only for short-term facts.",
+            "They are exactly the same.",
+            "Memorization is stronger than memory."
+          ],
+          "answer": 0,
+          "explain": "\"Memory is just having stuff stored… so that you can recall it. Memorization is the process of how you achieve memory.\"",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "According to modern research, what is memorization by repetition?",
+          "options": [
+            "Useful only for children",
+            "Impossible for adults",
+            "An incredibly inefficient way of developing memory",
+            "The most efficient way to build memory"
+          ],
+          "answer": 2,
+          "explain": "\"Memorization is a incredibly inefficient way of developing memory.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Rote repetition\" means…",
+          "options": [
+            "reading quickly",
+            "repeating something in a group",
+            "repeating something mechanically without understanding",
+            "creative practice"
+          ],
+          "answer": 2,
+          "explain": "\"Rote\" là học vẹt, lặp lại máy móc. Ông mô tả nó là \"tedious… boring… passive\".",
+          "clue": [
+            2,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Ba câu hỏi của bộ lọc ghi nhớ",
+      "start": 268.9,
+      "end": 375.0,
+      "summary": "Bộ lọc gồm ba câu hỏi theo thứ tự. (1) Có hiểu vì sao dữ kiện quan trọng không? Chưa hiểu thì tra cứu. (2) Nó có giống hay liên quan đến gì đã học không? Thử tìm phép so sánh. (3) Có cần thành thạo ở mức cao, tức vận dụng giải quyết vấn đề phức tạp, không? Nếu có thì đừng dựa vào học vẹt. Nếu chỉ cần nhớ ở mức thấp thì cứ học thuộc.",
+      "lines": [
+        {
+          "t": 268.96,
+          "en": "And so, bringing this back to the memorization filter: this is the way that we decide what we should be memorizing and what we should try to learn through some other mechanism.",
+          "vi": "Quay lại bộ lọc ghi nhớ: đây là cách ta quyết định cái gì nên học thuộc và cái gì nên học bằng cách khác."
+        },
+        {
+          "t": 278.0,
+          "en": "We ask ourselves three questions in this order. First of all: do we understand why this fact is important to learn about?",
+          "vi": "Ta tự hỏi ba câu theo thứ tự. Thứ nhất: ta có hiểu vì sao dữ kiện này quan trọng không?"
+        },
+        {
+          "t": 287.48,
+          "en": "If the answer to this is no, I don't understand, then try to look it up. If, after you've tried, you still do not understand why it's important, we move on to question number two.",
+          "vi": "Nếu câu trả lời là không hiểu, hãy thử tra cứu. Nếu đã thử mà vẫn không hiểu vì sao nó quan trọng, ta chuyển sang câu hai."
+        },
+        {
+          "t": 300.16,
+          "en": "Is this similar or related to anything else that you've learned? Perhaps you can find an analogy to help you understand this.",
+          "vi": "Điều này có giống hay liên quan đến thứ gì bạn đã học không? Có thể bạn tìm được một phép so sánh giúp hiểu nó."
+        },
+        {
+          "t": 309.0,
+          "en": "If the answer is no, it doesn't seem similar to anything else — again, try to look for similarities. And if after you've looked, you still cannot find anything that it's similar or related to, then we move on to question number three.",
+          "vi": "Nếu không, nó có vẻ chẳng giống gì cả, thì lại thử tìm điểm tương đồng. Nếu tìm rồi vẫn không thấy gì liên quan, ta chuyển sang câu ba."
+        },
+        {
+          "t": 325.0,
+          "en": "Do I need high-level mastery over this concept or fact?",
+          "vi": "Mình có cần thành thạo ở mức cao khái niệm hay dữ kiện này không?"
+        },
+        {
+          "t": 330.5,
+          "en": "So high-level mastery refers to not only being able to recall and list or describe that particular fact, but being able to use that for complex problem-solving, especially if that concept or fact is going to fit with other concepts and facts.",
+          "vi": "Thành thạo mức cao nghĩa là không chỉ nhớ lại, liệt kê hay mô tả được dữ kiện, mà còn dùng nó để giải quyết vấn đề phức tạp, nhất là khi nó phải kết hợp với các khái niệm khác."
+        },
+        {
+          "t": 348.2,
+          "en": "If you know that the piece of information you're trying to learn works together with lots of other pieces of information, then you probably don't want to be relying too much on rote repetition, because rote repetition doesn't build up your brain's ability to apply the knowledge in diverse ways.",
+          "vi": "Nếu thông tin bạn học phải kết hợp với nhiều thông tin khác, có lẽ bạn không nên dựa nhiều vào học vẹt, vì học vẹt không giúp não vận dụng kiến thức theo nhiều cách khác nhau."
+        },
+        {
+          "t": 363.96,
+          "en": "But if the answer to this is no — I basically just need it for low-level recall — this is something that, yes, you can go ahead and memorize.",
+          "vi": "Nhưng nếu câu trả lời là không, bạn chỉ cần nhớ ở mức đơn giản, thì đây là thứ bạn có thể cứ học thuộc."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What is the first question of the memorization filter?",
+          "options": [
+            "Is this similar to something I've learned?",
+            "Do I need high-level mastery?",
+            "How many flashcards do I need?",
+            "Do I understand why this fact is important?"
+          ],
+          "answer": 3,
+          "explain": "\"First of all, do we understand why this fact is important to learn about?\" Hai đáp án A và C là câu hỏi số ba và số hai.",
+          "clue": [
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What does question two ask you to look for?",
+          "options": [
+            "A faster flashcard app",
+            "The exam date",
+            "A teacher to explain it",
+            "Similarities or an analogy with something you've already learned"
+          ],
+          "answer": 3,
+          "explain": "\"Is this similar or related to anything else that you've learned? Perhaps you can find an analogy.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "When is it OK to just memorize a fact by rote?",
+          "options": [
+            "When it connects to many other facts",
+            "When you understand it well",
+            "Always, for every fact",
+            "When you only need it for low-level recall, not complex problem-solving"
+          ],
+          "answer": 3,
+          "explain": "\"If the answer to this is no, I basically just need it for low-level recall, this is something that yes, you can go ahead and memorize.\" Nếu dữ kiện phải kết hợp với nhiều dữ kiện khác thì không nên học vẹt.",
+          "clue": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Không phải mọi thứ đều bị quên nhanh: vai trò của schema",
+      "start": 375.0,
+      "end": 473.2,
+      "summary": "Không phải thông tin nào cũng phai nhanh như nhau. Tốc độ quên phụ thuộc vào mức độ dữ kiện gắn với kiến thức sẵn có (schema). Người nói từng chơi Dynasty Warriors nhiều năm, nên sau này học lịch sử Trung Quốc rất dễ nhớ, vì ông đã có sẵn nhiều trải nghiệm liên quan.",
+      "lines": [
+        {
+          "t": 375.0,
+          "en": "So, the idea with using this memorization filter is that not every single piece of information will decay this quickly.",
+          "vi": "Ý tưởng của bộ lọc ghi nhớ là không phải thông tin nào cũng phai nhanh như vậy."
+        },
+        {
+          "t": 380.5,
+          "en": "And this is also one of the key breakthroughs that really allowed me to save time in learning so many facts every single day: the idea that not all information decays rapidly.",
+          "vi": "Đây cũng là một đột phá giúp tôi tiết kiệm thời gian khi học rất nhiều dữ kiện mỗi ngày: không phải thông tin nào cũng phai nhanh."
+        },
+        {
+          "t": 394.52,
+          "en": "How quickly something decays really depends on how well integrated this fact is with everything else you already know.",
+          "vi": "Tốc độ phai nhạt phụ thuộc vào việc dữ kiện đó gắn kết thế nào với mọi thứ bạn đã biết."
+        },
+        {
+          "t": 403.0,
+          "en": "So if this is your existing body of knowledge — we call this a schema — when a new fact can be related to many other things in your existing knowledge, this information naturally is retained for a very long time.",
+          "vi": "Nếu đây là khối kiến thức sẵn có của bạn, gọi là schema, thì khi một dữ kiện mới liên hệ được với nhiều thứ trong đó, nó tự nhiên được nhớ rất lâu."
+        },
+        {
+          "t": 416.5,
+          "en": "Like, I remember when I was like 13 to 16 years old, I played this game called Dynasty Warriors a lot. And this game franchise is set in the old wartime China period.",
+          "vi": "Tôi nhớ hồi 13 đến 16 tuổi, tôi chơi rất nhiều trò Dynasty Warriors. Loạt game này lấy bối cảnh thời chiến tranh ở Trung Quốc xưa."
+        },
+        {
+          "t": 427.8,
+          "en": "And there's lots of famous names that appear, like historical figures and generals.",
+          "vi": "Trong đó có nhiều tên tuổi nổi tiếng như nhân vật lịch sử và các tướng lĩnh."
+        },
+        {
+          "t": 436.4,
+          "en": "And I played this game so much, and I learned so much about the battles and who was in charge of which dynasty and the names of all the generals, that years later, when I actually learned about Chinese history a little bit, I was like, \"Wow, that's so interesting. Oh yeah, that's the battle that I played in that particular level, and on the left was that particular base with that annoying archer that kept shooting at me.\"",
+          "vi": "Tôi chơi nhiều đến mức biết rõ các trận đánh, ai cai quản triều đại nào, tên các tướng, nên nhiều năm sau học chút lịch sử Trung Quốc, tôi thốt lên: \"Hay thật. À, đó là trận mình chơi ở màn ấy, bên trái là căn cứ có tên cung thủ phiền phức cứ bắn mình.\""
+        },
+        {
+          "t": 459.5,
+          "en": "So that information, which normally might be very dry and hard to remember, for me was very easy to remember, because I had so much of this prior knowledge, prior experience from just playing the game.",
+          "vi": "Những thông tin vốn khô khan, khó nhớ ấy lại rất dễ nhớ với tôi, vì tôi đã có sẵn nhiều kiến thức, trải nghiệm từ việc chơi game."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does how quickly a fact decays depend on?",
+          "options": [
+            "How many times you write it down",
+            "What time of day you learn it",
+            "How long the fact is",
+            "How well integrated it is with everything else you already know"
+          ],
+          "answer": 3,
+          "explain": "\"How quickly something decays really depends on how well integrated this fact is with everything else you already know.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "In this video, a \"schema\" is…",
+          "options": [
+            "a type of video game",
+            "a flashcard template",
+            "your existing body of knowledge",
+            "a memory test"
+          ],
+          "answer": 2,
+          "explain": "\"If this is your existing body of knowledge, we call this a schema.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why was Chinese history easy for him to remember?",
+          "options": [
+            "He had lots of prior knowledge from playing Dynasty Warriors.",
+            "He studied it at medical school.",
+            "His teacher told stories about it.",
+            "He used flashcards every day."
+          ],
+          "answer": 0,
+          "explain": "\"For me it was very easy to remember because I had so much of this prior knowledge, prior experience from just playing the game.\"",
+          "clue": [
+            6,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Thông tin rời rạc bị não vứt bỏ",
+      "start": 473.2,
+      "end": 562.9,
+      "summary": "Có dữ kiện gần với điều ta đã biết, có dữ kiện hoàn toàn rời rạc. Thứ rời rạc ta thấy ngẫu nhiên, vô ích, và não coi là lãng phí năng lượng nên vứt bỏ, đó chính là quên. Nếu tìm được liên kết, kể cả từ môn học hay trải nghiệm khác, thông tin sẽ bị quên chậm hơn nhiều mà không cần ôn.",
+      "lines": [
+        {
+          "t": 473.2,
+          "en": "And so, it's the same thing with learning any new piece of information or any new fact: some facts that you learn will be very close to what you already know, and then some facts that you learn are going to be way out here.",
+          "vi": "Học bất kỳ thông tin mới nào cũng vậy: có dữ kiện rất gần với điều bạn đã biết, có dữ kiện lại nằm tít ngoài xa."
+        },
+        {
+          "t": 484.56,
+          "en": "They're so disconnected from everything else that you've learned about, all of your existing prior knowledge, that there's no real way to connect it.",
+          "vi": "Chúng rời rạc với mọi thứ bạn đã học, với toàn bộ kiến thức sẵn có, đến mức không thể kết nối."
+        },
+        {
+          "t": 491.52,
+          "en": "And so, this stuff — we feel this is random. We feel that this is irrelevant. And our brain can tell that it's irrelevant.",
+          "vi": "Những thứ này ta thấy ngẫu nhiên, không liên quan. Và não cũng nhận ra là nó không liên quan."
+        },
+        {
+          "t": 501.0,
+          "en": "And so it makes a decision: \"You are a waste of energy,\" and it will just throw it away. And that is what happens when we forget.",
+          "vi": "Thế là não quyết định: \"Mày tốn năng lượng vô ích\", rồi vứt nó đi. Đó chính là lúc ta quên."
+        },
+        {
+          "t": 508.44,
+          "en": "So this type of information that's really disconnected — this is the stuff that you forget rapidly.",
+          "vi": "Loại thông tin rời rạc như vậy là thứ bạn quên rất nhanh."
+        },
+        {
+          "t": 513.5,
+          "en": "But if we find a way to connect it — if we realize, \"Oh, actually, I thought it was really random and irrelevant, but actually there is something that I learned in a different class, or there is a different experience that I've had that reminds me of something that's very similar\" — we can create a connection that maybe didn't come to us naturally at first.",
+          "vi": "Nhưng nếu tìm được cách kết nối, nhận ra \"À, tưởng nó ngẫu nhiên vô ích, hóa ra có thứ mình học ở môn khác, hay một trải nghiệm khác gợi nhớ điều tương tự\", ta tạo được liên kết mà ban đầu không tự nhiên có."
+        },
+        {
+          "t": 537.52,
+          "en": "And in doing so, instead of it being forgotten like this, it gets forgotten like this. And so, even without doing any of these repetitions, we're still able to forget the information much more slowly.",
+          "vi": "Nhờ đó, thay vì bị quên nhanh như thế này, nó bị quên chậm như thế này. Kể cả không ôn lần nào, ta vẫn quên chậm hơn nhiều."
+        },
+        {
+          "t": 552.08,
+          "en": "And this is what we want to happen most of the time. If you've got a hundred new facts you're learning every day, and the slope of every new fact looks like this, you're in for a rough time.",
+          "vi": "Đó là điều ta muốn trong hầu hết trường hợp. Nếu mỗi ngày học trăm dữ kiện mới mà đường quên của dữ kiện nào cũng dốc như vầy, bạn sẽ khổ đấy."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Ý chính",
+          "q": "According to the speaker, why do we forget disconnected information?",
+          "options": [
+            "Because we review it too often",
+            "Because it is too difficult to read",
+            "Because the brain sees it as irrelevant and a waste of energy, so it throws it away",
+            "Because we sleep too little"
+          ],
+          "answer": 2,
+          "explain": "\"It makes a decision, you are a waste of energy, and it will just throw it away. And that is what happens when we forget.\"",
+          "clue": [
+            2,
+            3
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Where can a connection for a \"random\" fact come from?",
+          "options": [
+            "Something learned in a different class or another experience",
+            "Only from a flashcard app",
+            "From memorizing it ten times",
+            "Only from the textbook"
+          ],
+          "answer": 0,
+          "explain": "\"There is something that I learned in a different class, or there is a different experience that I've had.\"",
+          "clue": [
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What happens when we create a connection, even without repetition?",
+          "options": [
+            "We need more flashcards.",
+            "We understand nothing new.",
+            "We forget the information much more slowly.",
+            "We forget it immediately."
+          ],
+          "answer": 2,
+          "explain": "\"Even without doing any of these repetitions, we're still able to forget the information much more slowly.\"",
+          "clue": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Dùng bộ lọc: giảm 80% flashcard, học vẹt là phương án cuối",
+      "start": 562.9,
+      "end": 645.4,
+      "summary": "Bộ lọc ép ta tìm liên kết trước: nếu không thấy ngay thì cố tìm, hoặc mượn phép so sánh từ lĩnh vực khác, để dữ kiện không bị cô lập và bị não \"tỉa\" đi. Nếu sau này cần dùng ở mức cao thì dần dựng giàn giáo để kết nối. Từ năm tư đại học, áp dụng cách này giúp ông giảm 80% flashcard và trí nhớ tốt hẳn lên. Nhưng vẫn luôn có một phần, nhất là trong y khoa, phải học thuộc.",
+      "lines": [
+        {
+          "t": 562.9,
+          "en": "And that's exactly what using this memorization filter does. It says: hey, do we see why it's important? In other words, can we see if it connects to anything in our existing knowledge straight away?",
+          "vi": "Đó chính là việc bộ lọc ghi nhớ làm: ta có thấy vì sao nó quan trọng không? Nói cách khác, nó có kết nối ngay với gì trong kiến thức sẵn có không?"
+        },
+        {
+          "t": 574.6,
+          "en": "If not, try. Try to find a way to connect it. If you still can't, can you at least create an analogy from something distant, in a different topic?",
+          "vi": "Nếu không, hãy thử tìm cách kết nối. Nếu vẫn không được, ít nhất có thể tạo phép so sánh từ thứ gì đó xa hơn, ở chủ đề khác không?"
+        },
+        {
+          "t": 586.12,
+          "en": "Some kind of connection, so it's not just stranded there in the distance, isolated, waiting for your brain to just prune it away.",
+          "vi": "Một kiểu liên kết nào đó, để nó không bị mắc kẹt ở xa, cô lập, chờ não tỉa bỏ."
+        },
+        {
+          "t": 592.0,
+          "en": "If the answer is still no, but we know we're going to need to use this at a higher level eventually, then maybe one day we can build it. We can aim for that. Right now it's very far away from everything we know, but let's try to scaffold our way to be able to connect it, instead of just accepting that it's going to be completely random and disconnected.",
+          "vi": "Nếu vẫn không, nhưng biết sau này sẽ cần dùng ở mức cao, thì có thể một ngày ta sẽ xây được. Hãy hướng tới đó. Giờ nó còn xa mọi thứ ta biết, nhưng hãy dựng giàn giáo từng bước để kết nối được, thay vì chấp nhận nó mãi ngẫu nhiên, rời rạc."
+        },
+        {
+          "t": 611.92,
+          "en": "So I started doing this from my fourth year of university onwards. The amount of flash cards I needed to make on a daily basis reduced by 80%. By keeping rote repetition as my last resort, my memory actually started improving dramatically.",
+          "vi": "Tôi bắt đầu làm vậy từ năm tư đại học. Số flashcard phải làm mỗi ngày giảm 80%. Coi học vẹt là phương án cuối cùng, trí nhớ của tôi tốt lên rõ rệt."
+        },
+        {
+          "t": 629.88,
+          "en": "However, there's always going to be a bunch of stuff that falls into that last resort, especially in something like medicine. There are a bunch of these things that eventually pass this filter, and yes, we just need to memorize it through rote repetition. And so, when that happens, we now move on to step number two.",
+          "vi": "Tuy vậy, luôn có một số thứ rơi vào diện phương án cuối, nhất là trong y khoa. Có những thứ qua hết bộ lọc và đúng là ta phải học vẹt. Khi đó, ta chuyển sang bước hai."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "\"Waiting for your brain to just prune it away\" — \"prune\" means…",
+          "options": [
+            "to copy it",
+            "to make it stronger",
+            "to water and grow it",
+            "to cut off and remove it"
+          ],
+          "answer": 3,
+          "explain": "\"Prune\" nghĩa gốc là tỉa cành. Ở đây là não cắt bỏ những thông tin cô lập, không liên kết.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "What happened after he started using the filter in his fourth year?",
+          "options": [
+            "The flash cards he needed daily dropped by 80% and his memory improved.",
+            "He stopped using flash cards completely.",
+            "He made 80% more flash cards.",
+            "He failed his exams."
+          ],
+          "answer": 0,
+          "explain": "\"The amount of flash cards I needed to make on a daily basis reduced by 80%… my memory actually started improving dramatically.\"",
+          "clue": [
+            4
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Does the filter remove the need to memorize completely?",
+          "options": [
+            "Yes, you never need to memorize again.",
+            "Yes, but only in medicine.",
+            "No — some things, especially in medicine, still pass the filter and must be memorized.",
+            "No, you must memorize everything."
+          ],
+          "answer": 2,
+          "explain": "\"There's always going to be a bunch of stuff that falls into that last resort, especially in something like medicine.\" Phần này đi tiếp vào bước 2–4.",
+          "clue": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Bước 2: ưu tiên dữ kiện đáng nhớ (ví dụ bảng kháng sinh)",
+      "start": 645.4,
+      "end": 746.5,
+      "summary": "Bước 2 là ưu tiên: quyết định cụ thể dữ kiện nào cần thuộc. Với bảng kháng sinh, buồn nôn và dị ứng lặp lại ở hầu hết các thuốc nên chỉ cần nhớ chung là kháng sinh hay gây buồn nôn. Dữ kiện hiếm và nổi bật như ức chế tủy xương mới đáng ưu tiên. Với sulfonamide, ông chọn nhớ: kìm khuẩn, ức chế tủy xương, hay gây dị ứng.",
+      "lines": [
+        {
+          "t": 645.4,
+          "en": "And so, step number two is to prioritize. What we're going to do in this step is decide what specific facts we're going to try to memorize.",
+          "vi": "Bước hai là ưu tiên. Ở bước này, ta quyết định cụ thể sẽ học thuộc những dữ kiện nào."
+        },
+        {
+          "t": 655.0,
+          "en": "So I'm going to walk you through an actual example so you can see the process that I used, step by step.",
+          "vi": "Tôi sẽ đi qua một ví dụ thực tế để bạn thấy từng bước tôi làm."
+        },
+        {
+          "t": 662.0,
+          "en": "So this is a table of different antibiotics: side effects, the class of antibiotics, how they work, when you should use them, the type of resistance. So there's a lot of dense information here.",
+          "vi": "Đây là bảng các loại kháng sinh: tác dụng phụ, nhóm thuốc, cơ chế, khi nào dùng, kiểu kháng thuốc. Rất nhiều thông tin dày đặc."
+        },
+        {
+          "t": 672.2,
+          "en": "And so, what we do with prioritizing is, instead of just taking the facts and learning everything — for example, if we look at the top line, which is called sulfonamides, which is a group of antibiotics, if we wanted to learn about the side effects — the way you do this is look at each fact and try to apply the memorization filter to it.",
+          "vi": "Khi ưu tiên, thay vì học hết mọi dữ kiện, ví dụ dòng đầu là sulfonamide (một nhóm kháng sinh), nếu muốn học tác dụng phụ, ta xem từng dữ kiện và áp bộ lọc ghi nhớ vào."
+        },
+        {
+          "t": 690.5,
+          "en": "What you should find is that if you look through this list — nausea, vomiting, hypersensitivity — these are actually repeated in most of these antibiotics.",
+          "vi": "Bạn sẽ thấy buồn nôn, nôn, quá mẫn xuất hiện lặp lại ở hầu hết các kháng sinh."
+        },
+        {
+          "t": 703.5,
+          "en": "And so normally I would have to commit that to memory, but now I don't, because it's much easier to remember that pretty much all the antibiotics will make you feel a little nauseous.",
+          "vi": "Bình thường tôi sẽ phải học thuộc, nhưng giờ thì không, vì dễ nhớ hơn nhiều rằng hầu như kháng sinh nào cũng làm bạn hơi buồn nôn."
+        },
+        {
+          "t": 712.0,
+          "en": "And actually, the more outstanding fact on this is this bone marrow depression. This is not very common. I don't really see it anywhere else on this list. And so I would prioritize that particular fact.",
+          "vi": "Dữ kiện nổi bật hơn là ức chế tủy xương. Nó không phổ biến, tôi không thấy ở đâu khác trong bảng. Nên tôi ưu tiên dữ kiện này."
+        },
+        {
+          "t": 723.5,
+          "en": "And so during this prioritize step, what you do is you write down what are the actual individual things that you want to make sure that you remember.",
+          "vi": "Ở bước ưu tiên, bạn ghi ra từng điều cụ thể muốn chắc chắn nhớ được."
+        },
+        {
+          "t": 730.04,
+          "en": "So for this one, I wanted to remember that sulfonamides are static, that they cause bone marrow depression, that allergic reactions are common. Everything else is either simple enough for me to remember, or I can just figure it out through logic.",
+          "vi": "Với thuốc này, tôi muốn nhớ sulfonamide là thuốc kìm khuẩn, gây ức chế tủy xương, và hay gây dị ứng. Những thứ khác hoặc đủ đơn giản để nhớ, hoặc suy luận ra được."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "Why doesn't he memorize nausea and vomiting for each antibiotic?",
+          "options": [
+            "They are not important at all.",
+            "He forgot to include them.",
+            "They only happen with sulfonamides.",
+            "They appear in most antibiotics, so he just remembers that antibiotics generally cause nausea."
+          ],
+          "answer": 3,
+          "explain": "\"These are actually repeated in like most of these antibiotics… much easier to remember pretty much all the antibiotics will make you feel a little nauseous.\"",
+          "clue": [
+            4,
+            5
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which side effect of sulfonamides does he prioritize because it's unusual?",
+          "options": [
+            "Nausea",
+            "Bone marrow depression",
+            "Headache",
+            "Vomiting"
+          ],
+          "answer": 1,
+          "explain": "\"The more outstanding fact on this is this bone marrow depression. This is not very common.\"",
+          "clue": [
+            6
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What do you do in the prioritize step?",
+          "options": [
+            "Write down only the specific facts you need to remember; skip what's simple or logical",
+            "Draw a character for every row",
+            "Make a flashcard for every fact",
+            "Memorize the whole table"
+          ],
+          "answer": 0,
+          "explain": "\"You write down what are the actual individual things that you want to make sure that you remember… Everything else is either simple enough… or I can just figure it out through logic.\"",
+          "clue": [
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Bước 3: \"phi lý hóa\", biến dữ kiện thành nhân vật",
+      "start": 746.5,
+      "end": 880.6,
+      "summary": "Bước 3 là biến danh sách dữ kiện thành một nhân vật kỳ quặc, giống phương pháp cung điện trí nhớ. Ông dùng AI tạo ảnh (công cụ của nhà tài trợ video), dù cho rằng AI trong học tập nhìn chung bị thổi phồng. Vẽ tay cũng được, chỉ lâu hơn. Sulfonamide thành quái vật đá địa nhiệt (sulfa gợi nhớ suối nước nóng), nhấp nháy như nhiễu sóng (kìm khuẩn), xương gãy (ức chế tủy), ngồi trong vũng mủ (kém hiệu quả khi nhiễm trùng có mủ), bị xích (kháng thuốc nhiều), đầy vết mẩn đỏ (dị ứng).",
+      "lines": [
+        {
+          "t": 746.5,
+          "en": "And then you move on to step three. Step three is to absurdify. And what I like to do is I create a character out of the list of facts. This is very similar to the memory palace, or method of loci.",
+          "vi": "Rồi chuyển sang bước ba: \"phi lý hóa\". Tôi thường tạo một nhân vật từ danh sách dữ kiện. Cách này rất giống cung điện trí nhớ hay phương pháp loci."
+        },
+        {
+          "t": 760.56,
+          "en": "And for me personally, I like to use AI these days to do this image generation. I used to do this by literally drawing every single thing — you can still do that, but it just takes much, much longer.",
+          "vi": "Cá nhân tôi giờ thích dùng AI tạo ảnh. Trước đây tôi vẽ tay từng thứ, bạn vẫn có thể làm vậy, chỉ là lâu hơn nhiều."
+        },
+        {
+          "t": 775.5,
+          "en": "And so for me, my personal workflow is I actually use Higgsfield, who is also the sponsor of this video.",
+          "vi": "Quy trình của tôi là dùng Higgsfield, cũng là nhà tài trợ của video này."
+        },
+        {
+          "t": 780.6,
+          "en": "Now, I will say that when it comes to using AI for learning, generally I've found that it's pretty overrated. But this is a genuinely time-efficient and worthwhile way of using AI for learning.",
+          "vi": "Nói thật, dùng AI cho việc học nhìn chung khá bị thổi phồng. Nhưng đây là cách dùng AI cho học tập thực sự tiết kiệm thời gian và đáng giá."
+        },
+        {
+          "t": 795.0,
+          "en": "But as I said, if you don't want to use AI, you can still do this just drawing it out. It's just going to take you a little bit longer.",
+          "vi": "Như đã nói, nếu không muốn dùng AI, bạn cứ vẽ ra, chỉ mất thời gian hơn chút."
+        },
+        {
+          "t": 801.5,
+          "en": "So what I did is I took my list of prioritized facts and elements, and I turned that into a character. So when I thought \"sulfonamide\" — sulfa — that reminds me of hot pools.",
+          "vi": "Tôi lấy danh sách dữ kiện đã ưu tiên và biến thành một nhân vật. Nghĩ đến sulfonamide, \"sulfa\" (lưu huỳnh) làm tôi nhớ tới suối nước nóng."
+        },
+        {
+          "t": 813.5,
+          "en": "When I thought \"static\" — in this table, static refers to the fact that it doesn't kill the bacteria, it just stops the bacteria from growing so that your own body can kill it by itself — I started thinking of radio static, like glitching in and out. And so now in my mind I've got this geothermal rock monster glitching in and out.",
+          "vi": "Với \"static\" (kìm khuẩn: không giết vi khuẩn mà chỉ ngăn chúng phát triển để cơ thể tự tiêu diệt), tôi nghĩ tới tiếng nhiễu sóng radio, chập chờn. Thế là trong đầu tôi có một con quái vật đá địa nhiệt cứ chập chờn ẩn hiện."
+        },
+        {
+          "t": 835.0,
+          "en": "For the bone marrow depression, I thought of this big broken femur bone. And because it's not very useful with infections with pus, I wanted this rock monster to be sitting in a big pool of pus.",
+          "vi": "Với ức chế tủy xương, tôi nghĩ tới một khúc xương đùi lớn bị gãy. Vì thuốc này kém hiệu quả với nhiễm trùng có mủ, tôi cho quái vật ngồi trong một vũng mủ lớn."
+        },
+        {
+          "t": 849.5,
+          "en": "One of the other things that we wanted to remember is that you don't use it very often because there's lots of resistance. So in my mind, I pictured that this monster is shackled up. And to emphasize the fact that there's lots of allergy to this, I wanted this rock monster to have lots of red rashes along its body.",
+          "vi": "Một điều khác cần nhớ là thuốc ít được dùng vì kháng thuốc nhiều, nên tôi hình dung con quái vật bị xích lại. Để nhấn mạnh chuyện hay gây dị ứng, tôi cho nó đầy vết mẩn đỏ khắp người."
+        },
+        {
+          "t": 867.0,
+          "en": "And so I put that into the prompt, and I got this image, which, as you can see, seems pretty memorable. All of those elements I described to you are cues for you to remember the facts that you need to remember.",
+          "vi": "Tôi đưa tất cả vào prompt và nhận được bức ảnh này, khá dễ nhớ. Mọi chi tiết tôi vừa tả đều là gợi ý để bạn nhớ các dữ kiện cần nhớ."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does he say about using AI for learning in general?",
+          "options": [
+            "It should never be used.",
+            "It replaces the memorization filter.",
+            "It is the best way to learn everything.",
+            "It is generally pretty overrated, but this use is genuinely worthwhile."
+          ],
+          "answer": 3,
+          "explain": "\"When it comes to using AI for learning, generally I found that it's pretty overrated. But this is a genuinely time-efficient and worthwhile way.\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "In the table, \"static\" means the antibiotic…",
+          "options": [
+            "makes electricity",
+            "does not work at all",
+            "stops bacteria from growing so the body can kill them",
+            "kills bacteria immediately"
+          ],
+          "answer": 2,
+          "explain": "\"It doesn't kill the bacteria, it just like stops the bacteria from growing so that your own body can kill it.\" Ông dùng hình ảnh nhiễu sóng radio (radio static) để nhớ chữ này.",
+          "clue": [
+            6
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is the rock monster shackled up?",
+          "options": [
+            "To represent bone marrow depression",
+            "To represent that the drug is not used often because of lots of resistance",
+            "To represent allergic reactions",
+            "Because it is dangerous to patients"
+          ],
+          "answer": 1,
+          "explain": "\"You don't use it very often because there's lots of resistance. So… this monster is shackled up.\" Dị ứng được thể hiện bằng vết mẩn đỏ, ức chế tủy bằng xương gãy.",
+          "clue": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Đàn bò beta-lactam và mũ rộng vành",
+      "start": 880.6,
+      "end": 969.4,
+      "summary": "Ông làm tương tự cho các kháng sinh khác. Penicillin, cephalosporin và carbapenem đều thuộc nhóm beta-lactam; \"lactam\" gợi \"lactose\" (sữa) nên tất cả thành bò. Penicillin cơ bản nhất nên là con bò thuần. Mũ rộng vành (broad hat) tượng trưng cho phổ rộng (broad-spectrum). Trong lúc AI tạo ảnh, ông quay lại làm bước 2 cho kháng sinh tiếp theo.",
+      "lines": [
+        {
+          "t": 880.6,
+          "en": "And so I did this for a few of the other items on this table: trimethoprim, penicillin, cephalosporins, carbapenems. You can see these are the prompts that I gave for each one, and the image that I was able to generate for all of them.",
+          "vi": "Tôi làm vậy với vài loại khác trong bảng: trimethoprim, penicillin, cephalosporin, carbapenem. Đây là prompt tôi dùng cho từng loại và ảnh tạo được."
+        },
+        {
+          "t": 897.0,
+          "en": "You'll notice that some of these are cows, or like cow-human hybrids. I had a lot of fun with this one, because penicillin, cephalosporins and carbapenems are all a class of antibiotic which are called beta-lactams.",
+          "vi": "Bạn sẽ thấy vài nhân vật là bò, hoặc nửa bò nửa người. Tôi rất thích phần này, vì penicillin, cephalosporin và carbapenem đều thuộc nhóm kháng sinh beta-lactam."
+        },
+        {
+          "t": 911.64,
+          "en": "And \"lactam\" kind of reminds you of lactose, you know, like milk. And I thought, well, what if all the lactams were cows?",
+          "vi": "\"Lactam\" gợi nhớ tới lactose, tức là sữa. Tôi nghĩ: sao không cho tất cả lactam là bò nhỉ?"
+        },
+        {
+          "t": 919.0,
+          "en": "And penicillin is like the most basic of the beta-lactams in the antibiotics. So I thought, \"Well, what if penicillin is just a straight-up cow?\" It's not even like a cow-human hybrid, it's just a cow.",
+          "vi": "Penicillin là beta-lactam cơ bản nhất, nên tôi nghĩ: \"Penicillin cứ là một con bò thuần luôn.\" Không phải nửa bò nửa người, chỉ là con bò."
+        },
+        {
+          "t": 930.4,
+          "en": "You'll also note that a lot of them are wearing hats. This represents broad-spectrum coverage. It means that the antibiotic is useful for a lot of different types of bacteria. So I would give these characters big straw hats — broad-spectrum.",
+          "vi": "Bạn cũng thấy nhiều nhân vật đội mũ. Mũ tượng trưng cho phổ rộng, tức kháng sinh tác dụng với nhiều loại vi khuẩn. Nên tôi cho chúng đội mũ rơm rộng vành, \"broad\" như broad-spectrum."
+        },
+        {
+          "t": 945.04,
+          "en": "This is step three, where you are absurdifying these clusters of facts into these discrete characters.",
+          "vi": "Đó là bước ba: phi lý hóa từng cụm dữ kiện thành các nhân vật riêng biệt."
+        },
+        {
+          "t": 950.0,
+          "en": "And the reason I like using Higgsfield for this is because I can type in the prompt and it will generate it. It takes a little bit of time to generate, but while it's generating, I go back and do step two, prioritizing for the next one. So I'll do sulfonamides, figure out the elements, generate the thing; as it's generating, I move on to the next antibiotic.",
+          "vi": "Tôi thích dùng Higgsfield vì gõ prompt là nó tạo ảnh. Mất chút thời gian, nhưng trong lúc chờ, tôi quay lại làm bước hai cho loại tiếp theo. Làm sulfonamide, xác định các chi tiết, cho tạo ảnh, trong lúc đó chuyển sang kháng sinh kế tiếp."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Suy luận",
+          "q": "Why are the beta-lactam antibiotics drawn as cows?",
+          "options": [
+            "Because they treat cow diseases",
+            "Because they are made from milk",
+            "Because cows are easy to draw",
+            "Because \"lactam\" reminds him of lactose, like milk"
+          ],
+          "answer": 3,
+          "explain": "\"Lactam kind of reminds you of lactose, you know, like milk. And I thought, well, what if all the lactams were cows?\" Đây là liên tưởng bằng âm thanh của từ.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Why is penicillin a \"straight-up cow\" and not a cow-human hybrid?",
+          "options": [
+            "Because it is the most basic beta-lactam",
+            "Because it is the newest antibiotic",
+            "Because it is not a beta-lactam",
+            "Because it has many side effects"
+          ],
+          "answer": 0,
+          "explain": "\"Penicillin is like the most basic of the beta-lactams… what if penicillin is just a straight-up cow?\"",
+          "clue": [
+            3
+          ]
+        },
+        {
+          "type": "Từ trong ngữ cảnh",
+          "q": "What do the big straw hats represent?",
+          "options": [
+            "Hot weather",
+            "Broad-spectrum coverage — useful against many types of bacteria",
+            "Drug resistance",
+            "Allergic reactions"
+          ],
+          "answer": 1,
+          "explain": "\"This represents broad-spectrum coverage. It means that the antibiotic is useful for a lot of different types of bacteria.\" Mũ rộng vành (broad) gợi chữ broad-spectrum.",
+          "clue": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Bước 4: \"câu chuyện hóa\", ghép nhân vật thành câu chuyện",
+      "start": 969.4,
+      "end": 1062.2,
+      "summary": "Khi có quá nhiều nhân vật, ta dễ quên nhân vật nào đại diện cho nhóm dữ kiện nào, giống như nhớ có một câu thần chú mà quên nó dùng cho việc gì. Quan hệ giữa các nhóm, ví dụ sulfonamide thường dùng kèm trimethoprim, cũng khó thể hiện trong một nhân vật. Bước 4 là ghép các nhân vật thành câu chuyện (phương pháp liên kết, phương pháp câu chuyện). Ông dựng video bằng AI, chọn thể loại sử thi và chế độ quay một cảnh liền để câu chuyện liền mạch.",
+      "lines": [
+        {
+          "t": 969.44,
+          "en": "Now, you can actually stop here. But what happens if you keep doing this and you end up with lots of different characters — so if you've got a lot of stuff to memorize — is that you forget what character represents what group of facts or concepts.",
+          "vi": "Bạn có thể dừng ở đây. Nhưng nếu cứ làm vậy và có quá nhiều nhân vật, tức là phải nhớ rất nhiều thứ, bạn sẽ quên nhân vật nào đại diện cho nhóm dữ kiện nào."
+        },
+        {
+          "t": 981.5,
+          "en": "It's kind of like when you remember that there is a mnemonic for something, but you can't remember what the mnemonic is meant for.",
+          "vi": "Giống như bạn nhớ có một câu thần chú ghi nhớ nhưng không nhớ nó dùng để nhớ gì."
+        },
+        {
+          "t": 986.48,
+          "en": "And especially when groups of facts relate to each other. So, for example, sulfonamides are often given in combination with trimethoprim, which is that second antibiotic. So that's really hard to represent in a single character for each.",
+          "vi": "Nhất là khi các nhóm dữ kiện liên quan đến nhau. Ví dụ sulfonamide thường được dùng kèm trimethoprim, kháng sinh thứ hai. Điều này rất khó thể hiện nếu mỗi thứ chỉ là một nhân vật riêng."
+        },
+        {
+          "t": 1001.5,
+          "en": "And this is where step four comes in, which is to storyfy — which I'm pretty sure is not a word — but you basically put them together into a story. This is taken from the link method, or the story method technique.",
+          "vi": "Đây là lúc bước bốn xuất hiện: \"câu chuyện hóa\" (chắc không có từ này), tức là ghép chúng thành một câu chuyện. Cách này lấy từ phương pháp liên kết hay phương pháp câu chuyện."
+        },
+        {
+          "t": 1012.28,
+          "en": "And so what you do is you download these images that you've generated, you go into video, and you make a cinematic video where you upload all of these images as characters. And then think about a story where these characters are relating together.",
+          "vi": "Bạn tải các ảnh đã tạo, vào phần video, làm một video điện ảnh với các ảnh đó là nhân vật. Rồi nghĩ ra câu chuyện trong đó các nhân vật tương tác với nhau."
+        },
+        {
+          "t": 1026.0,
+          "en": "What I recommend, if you're going to use Higgsfield, is changing some of these settings. For this one, I picked \"epic\" as the genre. You don't have to pick epic, but I just thought it worked with the theme of what I was trying to visualize as a story.",
+          "vi": "Nếu dùng Higgsfield, tôi khuyên đổi vài thiết lập. Ở đây tôi chọn thể loại \"sử thi\". Không bắt buộc, nhưng tôi thấy nó hợp với câu chuyện tôi hình dung."
+        },
+        {
+          "t": 1038.5,
+          "en": "But I definitely recommend changing the camera mode to single shot. This allows the characters to all feel like they're in one cohesive story, as opposed to there being random cuts in the video that's generated, and getting a little bit disjointed in terms of how the characters are interacting with each other.",
+          "vi": "Nhưng nhất định nên chuyển chế độ máy quay sang một cảnh liền. Như vậy các nhân vật như cùng ở trong một câu chuyện liền mạch, thay vì video bị cắt ngẫu nhiên khiến cách các nhân vật tương tác trở nên rời rạc."
+        },
+        {
+          "t": 1056.0,
+          "en": "And so you create the prompt, and you generate your story, and this is the video that ended up being created for me.",
+          "vi": "Bạn viết prompt, tạo câu chuyện, và đây là video tôi nhận được."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What problem appears when you have lots of characters?",
+          "options": [
+            "You forget which character represents which group of facts.",
+            "The images become too large.",
+            "The characters look too similar to real people.",
+            "The AI stops working."
+          ],
+          "answer": 0,
+          "explain": "\"You forget what character represents what group of facts or concepts.\" Giống như nhớ có câu thần chú nhưng quên nó dùng cho việc gì.",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "Which relationship between antibiotics is hard to show with single characters?",
+          "options": [
+            "Sulfonamides are often given with trimethoprim.",
+            "Carbapenems cause nausea.",
+            "Penicillin is the newest antibiotic.",
+            "Cephalosporins are not beta-lactams."
+          ],
+          "answer": 0,
+          "explain": "\"Sulfonamides are often given in combination with trimethoprim… that's really hard to represent in a single character for each.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why does he recommend the \"single shot\" camera mode?",
+          "options": [
+            "It makes the characters feel like they're in one cohesive story, without random cuts.",
+            "It makes the images clearer.",
+            "It makes the video shorter.",
+            "It is the only free option."
+          ],
+          "answer": 0,
+          "explain": "\"This allows the characters to kind of all feel like they're in one cohesive story as opposed to there being like random cuts.\"",
+          "clue": [
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Câu chuyện mẫu: mỗi tương tác là một dữ kiện",
+      "start": 1062.2,
+      "end": 1131.0,
+      "summary": "Trong câu chuyện, quái vật sulfonamide ngồi cạnh trimethoprim (một con khủng long ba sừng) để thể hiện hai thuốc thường dùng chung. Carbapenem trang bị đầy đủ vì là kháng sinh \"nặng đô\". Gia đình ba con bò là ba thế hệ cephalosporin. Bò penicillin lao tới trước tiên vì nó phổ rộng và thường được dùng đầu tiên. Tương tác giữa các nhân vật giúp nhân vật này gợi nhớ nhân vật kia, và nên mang ý nghĩa thể hiện điều một nhân vật đơn lẻ không thể hiện được.",
+      "lines": [
+        {
+          "t": 1062.24,
+          "en": "So we start with my sulfonamide monster, and then next to him you can see a sitting-down trimethoprim. I made trimethoprim a triceratops, and he pulls out his letters, which represents another thing.",
+          "vi": "Mở đầu là quái vật sulfonamide của tôi, cạnh nó là trimethoprim đang ngồi. Tôi biến trimethoprim thành một con khủng long ba sừng, nó rút ra mấy lá thư, tượng trưng cho một điều khác."
+        },
+        {
+          "t": 1073.0,
+          "en": "And so I've got that they are sitting together — they are often given together.",
+          "vi": "Hai nhân vật ngồi cạnh nhau, tức là chúng thường được dùng chung."
+        },
+        {
+          "t": 1078.5,
+          "en": "You have this guy, who's carbapenem. Carbapenem is like a serious antibiotic — you don't often give it for little infections — so this is why he's really kitted out.",
+          "vi": "Anh chàng này là carbapenem. Carbapenem là kháng sinh \"nặng đô\", hiếm khi dùng cho nhiễm trùng nhẹ, nên anh ta được trang bị tận răng."
+        },
+        {
+          "t": 1085.6,
+          "en": "You have this family of cows, which stands for the three generations of cephalosporins. And then suddenly here appears this cow — the penicillin cow — charging through.",
+          "vi": "Đây là gia đình bò, tượng trưng cho ba thế hệ cephalosporin. Rồi bất ngờ con bò penicillin lao tới."
+        },
+        {
+          "t": 1098.56,
+          "en": "And the reason I wanted this to happen is because penicillin is a very broad-spectrum antibiotic, often one of the first-line treatments. So before you even give any other antibiotic, when you're not even sure what to give, sometimes you just give penicillin first.",
+          "vi": "Tôi muốn vậy vì penicillin là kháng sinh phổ rộng, thường là lựa chọn điều trị đầu tay. Trước khi dùng thuốc khác, khi chưa chắc nên dùng gì, đôi khi cứ dùng penicillin trước."
+        },
+        {
+          "t": 1110.5,
+          "en": "So with the story, you're trying to create interactions between the characters, and by doing that, each character becomes a memory cue for the other characters, and that helps with your retention.",
+          "vi": "Với câu chuyện, bạn tạo tương tác giữa các nhân vật. Nhờ vậy nhân vật này trở thành gợi ý để nhớ nhân vật kia, giúp nhớ lâu hơn."
+        },
+        {
+          "t": 1120.36,
+          "en": "And if possible, you want those interactions to be meaningful. Stuff that you can't normally represent just within the character itself, you try to represent in the story.",
+          "vi": "Nếu được, hãy làm cho các tương tác có ý nghĩa. Những gì không thể hiện được trong một nhân vật, hãy đưa vào câu chuyện."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "What does the triceratops represent?",
+          "options": [
+            "Penicillin",
+            "Carbapenem",
+            "Cephalosporins",
+            "Trimethoprim"
+          ],
+          "answer": 3,
+          "explain": "\"I made trimethoprim a triceratops.\" Nó ngồi cạnh quái vật sulfonamide vì hai thuốc thường dùng chung.",
+          "clue": [
+            0,
+            1
+          ]
+        },
+        {
+          "type": "Suy luận",
+          "q": "Why is the carbapenem character \"really kitted out\"?",
+          "options": [
+            "Because it's a serious antibiotic, not often used for small infections",
+            "Because it's the cheapest antibiotic",
+            "Because it's a cow",
+            "Because it's used first"
+          ],
+          "answer": 0,
+          "explain": "\"Carbapenem was like a serious antibiotic. Like you don't often give it for little infections, so this is why he's really kitted out.\" \"Kitted out\" là trang bị đầy đủ.",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "Why does the penicillin cow charge through first?",
+          "options": [
+            "Because it's the rarest antibiotic",
+            "Because penicillin is broad-spectrum and often given first",
+            "Because it's the oldest character",
+            "Because it's angry"
+          ],
+          "answer": 1,
+          "explain": "\"Penicillin is a very broad spectrum antibiotic, often one of the first line treatments… sometimes you just give penicillin first.\"",
+          "clue": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Kết quả và lời nhắc: đây vẫn là phương án cuối",
+      "start": 1131.0,
+      "end": 1214.4,
+      "summary": "Video ngắn đó chứa 27 dữ kiện về 5 nhóm kháng sinh. Kiểm tra sau 6 giờ và 48 giờ, ông nhớ đúng 100%. Vẫn cần ôn lại, nhưng chỉ mỗi 3–5 tuần thay vì hằng tuần. Dù mạnh và nhanh hơn nhờ AI, đây vẫn là kỹ thuật cuối cùng: đừng dùng nó để học thuộc cả chương trình, vì như vậy bạn không vận dụng được kiến thức ở mức cao.",
+      "lines": [
+        {
+          "t": 1131.04,
+          "en": "And so this video, although it doesn't look like it, actually includes 27 facts across five classes of antibiotics.",
+          "vi": "Video này, dù không giống vậy, thực ra chứa 27 dữ kiện thuộc năm nhóm kháng sinh."
+        },
+        {
+          "t": 1137.5,
+          "en": "It is really easy to remember. I could definitely double or triple the amount of facts that I fit into this story. You probably remember the story as well — even if you don't know what each piece means, you can still visualize it.",
+          "vi": "Nó rất dễ nhớ. Tôi hoàn toàn có thể nhét gấp đôi, gấp ba số dữ kiện vào câu chuyện. Có lẽ bạn cũng nhớ câu chuyện, dù không biết từng chi tiết nghĩa là gì, bạn vẫn hình dung được."
+        },
+        {
+          "t": 1148.5,
+          "en": "I did this a few days ago, and I then tested my retention on all 27 facts at 6 hours and at 48 hours, and I got 100% for both tests.",
+          "vi": "Tôi làm việc này vài ngày trước, rồi kiểm tra trí nhớ cả 27 dữ kiện sau 6 giờ và sau 48 giờ, cả hai lần đều đúng 100%."
+        },
+        {
+          "t": 1158.0,
+          "en": "So if you use this method, you can expect that your retention is going to be really high.",
+          "vi": "Nên nếu dùng phương pháp này, bạn có thể kỳ vọng nhớ rất tốt."
+        },
+        {
+          "t": 1162.6,
+          "en": "You will still need to review it, just making sure that you remember all the elements and what they stand for. But instead of repeating it like every week, you can get away with just refreshing it maybe every 3 to 5 weeks.",
+          "vi": "Bạn vẫn cần ôn lại để chắc là nhớ hết các chi tiết và ý nghĩa của chúng. Nhưng thay vì ôn hằng tuần, chỉ cần làm mới khoảng 3 đến 5 tuần một lần."
+        },
+        {
+          "t": 1172.5,
+          "en": "But remember, please, that even though this is a very powerful technique — which is now much faster than it used to be, because you can just use AI to generate the images and videos — this is still a last-resort technique.",
+          "vi": "Nhưng hãy nhớ, dù đây là kỹ thuật rất mạnh và giờ nhanh hơn nhiều nhờ AI tạo ảnh và video, nó vẫn là phương án cuối cùng."
+        },
+        {
+          "t": 1184.04,
+          "en": "You don't want to be memorizing your entire curriculum using this method, because you will not be able to use and apply your knowledge at a higher level.",
+          "vi": "Đừng học thuộc cả chương trình bằng cách này, vì bạn sẽ không vận dụng được kiến thức ở mức cao."
+        },
+        {
+          "t": 1191.8,
+          "en": "Now, if you want to check out Higgsfield for yourself and play around with this method, then I'll leave a link for you in the description below.",
+          "vi": "Nếu muốn thử Higgsfield và phương pháp này, tôi để đường link ở phần mô tả."
+        },
+        {
+          "t": 1196.04,
+          "en": "And if you want to upskill on the parts outside of memorization — all the other things that have to come together to create an entire learning system — then I'd recommend checking out this video here, where I break down how I, as a learning coach, design learning systems. But otherwise, thank you so much for watching, and I'll see you in the next one.",
+          "vi": "Nếu muốn nâng cao các phần ngoài ghi nhớ, tức những yếu tố khác tạo nên cả một hệ thống học tập, hãy xem video này, nơi tôi phân tích cách tôi, một huấn luyện viên học tập, thiết kế hệ thống học. Cảm ơn đã xem, hẹn gặp lại."
+        }
+      ],
+      "questions": [
+        {
+          "type": "Chi tiết",
+          "q": "How many facts does the story video include?",
+          "options": [
+            "150",
+            "27",
+            "5",
+            "48"
+          ],
+          "answer": 1,
+          "explain": "\"This video… actually includes 27 facts across five classes of antibiotics.\" 5 là số nhóm kháng sinh, 150 là số dữ kiện trong ví dụ đầu video.",
+          "clue": [
+            0
+          ]
+        },
+        {
+          "type": "Chi tiết",
+          "q": "When did he test his retention, and what was the result?",
+          "options": [
+            "After 2 hours; 100%",
+            "After 6 days and 48 days; 90%",
+            "After 6 hours and 48 hours; 100% both times",
+            "After 5 weeks; 27%"
+          ],
+          "answer": 2,
+          "explain": "\"I then tested my retention on all 27 facts at 6 hours and at 48 hours and I got 100% for both tests.\"",
+          "clue": [
+            2
+          ]
+        },
+        {
+          "type": "Ý chính",
+          "q": "What is his final warning about this technique?",
+          "options": [
+            "It's still a last resort; don't memorize your whole curriculum this way or you won't apply knowledge at a higher level.",
+            "It only works with Higgsfield.",
+            "You should never review the story.",
+            "It doesn't work for medicine."
+          ],
+          "answer": 0,
+          "explain": "\"This is still a last resort technique. You don't want to be memorizing your entire curriculum using this method because you will not be able to use and apply your knowledge at a higher level.\"",
+          "clue": [
+            5,
+            6
+          ]
+        }
+      ]
+    }
+  ],
+  "shuffled": true,
+  "level": "C",
+  "levelStats": {
+    "wpm": 182,
+    "rarePct": 7.7,
+    "avgSent": 19.6
+  }
+}

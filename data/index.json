@@ -77,6 +77,21 @@
         "rarePct": 11.1,
         "avgSent": 14.1
       }
+    },
+    {
+      "id": "4-step-memorization-method",
+      "topic": "hoc-tap",
+      "youtubeId": "-gqYldhjZVk",
+      "title": "A 4-Step Memorization Method (from a Learning Coach)",
+      "duration": "20:14",
+      "level": "C",
+      "segments": 14,
+      "questions": 42,
+      "levelStats": {
+        "wpm": 182,
+        "rarePct": 7.7,
+        "avgSent": 19.6
+      }
     }
   ]
 }
